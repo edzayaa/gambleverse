@@ -1,0 +1,23 @@
+/*Media queries para trabajar Mobile*/
+@media  screen and (max-width: 479px){}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media  screen and (min-width: 480px) and (max-width: 767px){}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media  screen and (min-width: 768px) and (max-width: 1023px){}
+
+/*Media queries para trabajar en pantallas con viejas resoluciones*/
+@media  screen and (min-width: 1024px) and (max-width: 1279px){}
+
+/*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
+@media  screen and (min-width: 1280px) and (max-width: 1439px){}
+
+/*Media queries para trabajar en Pantallas de su mayoria laptops*/
+@media  screen and (min-width: 1440px) and (max-width: 1599px){}
+
+/*Media queries para trabajar en pantallas pre-FULLHD*/
+@media  screen and (min-width: 1600px) and (max-width: 1919px){}
+
+/*Media queries para trabajar en Pantallas FULLHD y superior*/
+@media  screen and (min-width: 1920px){}
