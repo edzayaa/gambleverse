@@ -1,5 +1,51 @@
 /*Media queries para trabajar Mobile*/
-@media  screen and (max-width: 479px){}
+@media  screen and (max-width: 479px){
+    .nav {
+        top: 1% !important;
+        height: 10rem !important;
+    }
+    .logo {
+        width: 100% !important;
+    }
+    .menu-desktop {
+        display: none !important;
+    }
+    .container-lg.nav-parent {
+        justify-content: none !important;
+    }
+    .hero-logo {
+        font-size: 50px !important;
+    }
+    .footer {
+        height: 100% !important;
+        background-size: cover !important;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer-column {
+        align-items: center !important;
+    }
+    .footer-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-streamers, .qlqwa {
+        background-size: cover !important;
+    }
+    .dasdas {
+        flex-direction: column !important; 
+    }
+    .parent {
+        padding-top: 2rem !important;
+    }
+    .heading-lg {
+        font-size: 40px !important;
+    }
+    .grid-parent {
+        flex-direction: column !important;
+    }
+}
 
 /*Media queries para trabajar Tablets como las Surfaces*/
 @media  screen and (min-width: 480px) and (max-width: 767px){}

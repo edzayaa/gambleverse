@@ -1,4 +1,10 @@
-@import url("responsive.css");
+/* ################################## */
+            /*Imports*/
+/* ################################## */
+@import url(responsive.css);
+/* ################################## */
+            /*Imports*/
+/* ################################## */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
@@ -2282,7 +2288,6 @@ p{
 }
 .text-width-one{
   z-index:2;
-  width:49rem;
   position:relative
 }
 .text-width-one.sm{
@@ -2374,9 +2379,6 @@ p{
   
   z-index:1;
   position:relative;
-}
-.indenet{
-  text-indent:2rem
 }
 .border-line-bottom{
   width:100%;
@@ -3205,9 +3207,6 @@ p{
   .grid-parent.height{
       height:100%
   }
-  .hero-logo{
-      width:280px
-  }
   .bg-whipe.fade-over{
       display:none
   }
@@ -3395,7 +3394,7 @@ p{
       height:28rem
   }
   .head-section.full{
-      height:80vh
+      height: 100%;
   }
   .head-section.height-lg{
       height:50rem
@@ -3407,7 +3406,7 @@ p{
       width:20rem
   }
   .text-width-one.align-centre{
-      width:90%
+      width: 100%;
   }
   .text-sm.caps.fade{
       position:relative
@@ -4243,4 +4242,9 @@ p{
 .social-footer {
   display: flex;
   gap: 20px;
+}
+.menu-desktop {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
 }
