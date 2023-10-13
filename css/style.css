@@ -1322,7 +1322,7 @@ textarea.w-input,textarea.w-select{
   top:0
 }
 .w-lightbox-left{
-  background-image:url(data:image/svg+xml;
+  background-image:url('data:image/svg+xml;
   base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yMCAwIDI0IDQwIiB3aWR0aD0iMjQiIGhlaWdodD0iNDAiPjxnIHRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHBhdGggZD0ibTAgMGg1djIzaDIzdjVoLTI4eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDN2MjNoMjN2M2gtMjZ6IiBmaWxsPSIjZmZmIi8+PC9nPjwvc3ZnPg==);
   display:none;
   bottom:0;
@@ -2269,8 +2269,10 @@ p{
   align-items:center;
   display:flex;
   position:relative;
-  overflow:hidden
+
+
 }
+
 .head-section.height{
   height:28rem;
   padding-top:1rem
@@ -2282,9 +2284,27 @@ p{
 .head-section.height-lg{
   height:37rem
 }
+
+.gradient-back{
+  position: absolute;
+  top: -65%;
+  object-fit: cover;
+z-index: 999;
+  width: 1150px;
+  height: 1150px;
+
+  left: -71%;
+}
+
 .spacer-large{
   width:100%;
-  height:6rem
+
+  height:1rem;
+  position: absolute;
+  border:none;
+  z-index: 1005;
+  background-color: #0c0c0c00;
+
 }
 .text-width-one{
   z-index:2;
@@ -2418,6 +2438,7 @@ p{
 }
 .parent.card{
   border: 2px dashed rgba(255,255,255,.1);
+  clip-path: polygon(24% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 24%);
   border-radius:20px;
   justify-content:center;
   align-items:center;
@@ -3508,9 +3529,9 @@ p{
 }
 
 .section-streamers {
-  background-image: url("../img/backgrounds/6.png");
+  background-image: url("../img/Group\ 132.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 
   height: 100vh;
   width: 100%;
