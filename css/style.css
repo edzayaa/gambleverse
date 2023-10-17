@@ -2517,16 +2517,25 @@ line-height: 150%; /* 24px */
   display:flex
 }
 .parent.card{
-  border: 2px dashed rgba(255,255,255,.1);
-  clip-path: polygon(24% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 24%);
-  border-radius:20px;
+
+
+ background-image: url('../img/Rectangle\ 34.png');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  
   justify-content:center;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 3rem;
   align-items:center;
   display:flex;
-  overflow:hidden;
-  padding: 25px;
+position: relative;
+  padding: 45px;
   flex-direction: column;
 }
+
+
+
 .parent.story{
   z-index:2;
   width:38em;
@@ -3624,6 +3633,62 @@ line-height: 150%; /* 24px */
   display: flex;
   align-items: center;
 }
+
+.absolute-back{
+  position: absolute;
+
+  object-fit: contain;
+}
+
+.top2{
+  left: -30%;
+  z-index: 1005;
+  top:-90%;
+
+
+  
+}
+
+.top5{
+  left: 70%;
+  width: 1050px;
+
+  z-index: 1005;
+  top:-90%;  
+}
+
+.top4{
+  left: 0%;
+  width: 1920px;
+  height: auto;
+  z-index: 1007;
+  top:0%;  
+}
+
+
+
+.top1{
+  right: -20%;
+  z-index: 1005;
+  top:-35%;
+
+}
+
+.top3{
+  left: 0%;
+  z-index: 1005;
+  top:-30%;
+
+}
+
+.redes-lis{
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 7%;
+}
+
 .vision-background {
   background-image: url("../img/gradients.png") !important;
   background-repeat: no-repeat;
