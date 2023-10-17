@@ -2410,6 +2410,11 @@ html{
   text-transform: uppercase;
 }
 
+.flex-start{
+  display: flex;
+  align-items:  start !important;
+}
+
 .px-left{
   padding-left: 4rem;
 }
