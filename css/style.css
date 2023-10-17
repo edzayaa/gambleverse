@@ -3719,6 +3719,14 @@ opacity:  1 !important;
   position: absolute;
 }
 
+.sombra3{
+  width: 100vw;
+  background: linear-gradient(180deg, rgba(2,0,10,1) 2%, rgba(1,0,18,0) 50%, rgba(0,0,10,1) 95%);
+  height: 2vh;
+  top: 0%;
+  z-index: 1001;
+  position: absolute;
+}
 
 .hero-logo{
   z-index: 1005;
