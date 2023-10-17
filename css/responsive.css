@@ -68,6 +68,12 @@
         width: 400px !important; 
       }
 
+      
+      .spacer-large{
+        height:8rem !important;
+      }
+
+
       .container-md{
         width: 90% !important;
       }
@@ -100,6 +106,10 @@
 @media only screen and (min-width: 1280px) and (max-width: 1281px){
     .img-visions{
         width: 400px !important; 
+      }
+
+      .spacer-large{
+        height:8rem !important;
       }
 
       .container-md{
@@ -188,6 +198,9 @@
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
 @media only screen and (min-width: 1442px) and (max-width: 1599px){
 
+    .spacer-large{
+        height:6rem !important;
+      }
     .slider-in{
         margin-left: 2rem !important;
       }
@@ -222,6 +235,14 @@
 @media  screen and (min-width: 1440px) and (max-width: 1441px){
     .slider-in{
         margin-left: 2rem !important;
+      }
+
+      .spacer-large{
+        height:6rem !important; 
+      }
+
+      .caps{
+        margin-left: 3rem;
       }
 
       .img-visions{
@@ -310,6 +331,10 @@
         margin-bottom: -.9rem !important;
         margin-left: -.3rem;
         }
+
+        .spacer-large{
+            height:5rem !important;
+          }
         
         .circle-2{
           z-index: 1007;
@@ -383,6 +408,9 @@
       }
 
 
+      .spacer-large{
+        height:5rem !important;
+      }
       .img-visions{
         width: 500px !important; 
       }
