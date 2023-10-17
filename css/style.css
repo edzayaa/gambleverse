@@ -2310,13 +2310,47 @@ p{
 
 .gradient-back{
   position: absolute;
-  top: -65%;
+  top: -60%;
   object-fit: cover;
 z-index: 999;
   width: 1150px;
   height: 1150px;
 
   left: -71%;
+}
+
+.gradient-back2{
+  position: absolute;
+  top: -65%;
+  object-fit: cover;
+z-index: 999;
+  width: 1750px;
+  height: 1250px;
+  -webkit-box-shadow: 10px 10px 42px -10px rgba(12,12,12,0.75);
+  -moz-box-shadow: 10px 10px 42px -10px rgba(12,12,12,0.75);
+  box-shadow: 10px 10px 42px -10px rgba(12,12,12,0.75);
+  right:  -40%;
+}
+
+.gradient-back3{
+  position: absolute;
+  top: -40%;
+  object-fit: cover;
+z-index: 999;
+  width: 1750px;
+  height: 1750px;
+
+  right:  -10%;
+}
+
+.gradients-store{
+  background-image: url('../img/Ellipse\ 21.svg');
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  bottom: -20%;
+  background-position: bottom;
+  position: absolute;
 }
 
 .spacer-large{
@@ -3575,18 +3609,15 @@ line-height: 150%; /* 24px */
 }
 
 .section-streamers {
-<<<<<<< Updated upstream
-  background-image: url("../img/Group\ 132.svg");
-=======
-<<<<<<< HEAD
-  background-image: url("../img/Group\ 132.png");
-=======
-  background-image: url("../img/Group\ 132.svg");
->>>>>>> 2abb9a08168e751ad3f558e9866c16e1d27dadff
->>>>>>> Stashed changes
-  background-repeat: no-repeat;
-  background-size: cover;
 
+  background-image: url("../img/backgrounds/Group\ 132\ \(2\).png");
+
+
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  
   height: 100vh;
   width: 100%;
 
