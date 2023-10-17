@@ -2413,7 +2413,7 @@ html{
 
 .flex-start{
   display: flex;
-  justify-content:  start !important;
+  justify-content:  center !important;
 }
 
 .px-left{
