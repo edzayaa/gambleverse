@@ -54,21 +54,172 @@
 @media  screen and (min-width: 768px) and (max-width: 1023px){}
 
 /*Media queries para trabajar en pantallas con viejas resoluciones*/
-@media  screen and (min-width: 1024px) and (max-width: 1279px){}
+@media  screen and (min-width: 1024px) and (max-width: 1279px){
+    
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+        display: none;
+        }
+}
 
 /*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
-@media  screen and (min-width: 1280px) and (max-width: 1439px){
+@media only screen and (min-width: 1282px) and (max-width: 1439px){
+
+    .img-visions{
+        width: 400px !important; 
+      }
+
+      .container-md{
+        width: 90% !important;
+      }
+
+      .gradient-back2{
+        z-index: auto !important;
+      }
+
+      .top1, .top2, .top3{
+        display: none !important;
+      }
 
     .slider-in{
 
         margin-left: 0rem !important;
       }
 
+      .spacer-large{
+        height: 3rem !important;
+        position: relative !important;
+      }
+
+
+      .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+        display: none;
+        }
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1281px){
+    .img-visions{
+        width: 400px !important; 
+      }
+
+      .container-md{
+        width: 90% !important;
+      }
+
+      .gradient-back2{
+        z-index: auto !important;
+      }
+
+      .top1, .top2, .top3{
+        display: none !important;
+      }
+
+    .slider-in{
+
+        margin-left: 0rem !important;
+      }
+
+      .spacer-large{
+        height: 3rem !important;
+        position: relative !important;
+      }
+
+
+      
+      
+.circle-1{
+    z-index: 1005;
+    margin-bottom: -.9rem !important;
+    margin-left: -.3rem;
+    }
+    
+    .circle-2{
+      z-index: 1007;
+      margin-top: -.5rem !important;
+      margin-left: -.6rem !important;
+      }
+      
+      .circle-3{
+        z-index: 1009;
+        margin-top: -.6rem !important;
+        margin-left: 2rem !important;
+        }
+        
+    .line1{
+      width: 1.3vw !important; 
+      background-color: #a89c9c9c; height: .2px !important; position: absolute; z-index: 1000; 
+      margin-left: -2.0rem !important; 
+      margin-top: 40%;
+    }
+    .line2{
+      width: .2px !important; background-color: #a89c9c9c; height: 58vh !important; position: absolute; z-index: 1007; margin-left: -.3rem !important;  margin-top: 75.2% !important;
+    }
+    
+    .line3{
+      width: 3.6vw !important; background-color: #a89c9c9c; height: .2px !important; position: absolute; z-index: 1000; margin-left: -2.65rem !important; margin-top: 111.5%;
+    }
+    
+    .line4{
+      width: .2px !important; background-color: #a89c9c9c; height: 36.7vh !important; position: absolute; z-index: 1000; margin-left: -6.9rem !important; margin-top: 133.5% !important;
+    }
+    
+    .line5{
+      width: 6vw !important; background-color: #a89c9c9c; height: .2px !important; position: absolute; z-index: 1000; margin-left: -2.2rem !important; margin-top: 155% !important;
+    }
+    
+    .line-8{
+      width:  .2px !important; background-color: #a89c9c9c; height: 15vh;
+    }
+    
+    .line-6{
+      width: .2px !important; background-color: #a89c9c9c; height: 15vh; display: flex; align-items: end;
+    }
+    
+    .line-7{
+      width: 45.6vw !important;  
+      background-color: #a89c9c9c; height:  .2px !important; position: relative; z-index: 1000;
+    }
+    
+    .m-negative{
+      margin-top:-3.8rem !important;
+    }
 }
 
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
-@media  screen and (min-width: 1440px) and (max-width: 1599px){
+@media only screen and (min-width: 1442px) and (max-width: 1599px){
 
+    .slider-in{
+        margin-left: 2rem !important;
+      }
+
+      .img-visions{
+        width: 450px !important; 
+      }
+
+      .spacer-large{
+        height: 3rem;
+        position: relative;
+      }
+
+      .top1, .top2, .top3{
+        display: none !important;
+      }
+
+      section{
+       overflow: visible !important;
+      }
+
+      .container-md{
+        width: 85% !important;
+      }
+
+      .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+        display: none;
+        }
+      
+}
+
+@media  screen and (min-width: 1440px) and (max-width: 1441px){
     .slider-in{
         margin-left: 2rem !important;
       }
@@ -151,15 +302,158 @@
     .m-negative{
       margin-top:-3.6rem !important;
     }
+}
 
+@media  screen and (min-width: 1600px) and (max-width: 1601px) {
+    .circle-1{
+        z-index: 1005;
+        margin-bottom: -.9rem !important;
+        margin-left: -.3rem;
+        }
+        
+        .circle-2{
+          z-index: 1007;
+          margin-top: -.4rem !important;
+          margin-left: -.5rem;
+          }
+          
+          .circle-3{
+            z-index: 1009;
+            margin-top: -.8rem !important;
+            margin-left: 3.7rem !important;
+            }
+            
+        .line1{
+          width: 3vw !important; 
+          background-color: #a89c9c9c; height: .2px !important; position: absolute; z-index: 1000; 
+          margin-left: -3.2rem !important; 
+          margin-top: 39% !important;
+        }
+        .line2{
+          width: .2px !important; background-color: #a89c9c9c; height: 53.4vh !important; position: absolute; z-index: 1007; margin-left: -.3rem !important;  margin-top: 74.7% !important;
+        }
+        
+        .line3{
+          width: 4.6vw; background-color: #a89c9c9c; height: .2px !important; position: absolute; z-index: 1000; margin-left: -4.65rem; margin-top: 111.5%;
+        }
+        
+        .line4{
+          width: .2px !important; background-color: #a89c9c9c; height: 32.1vh !important; position: absolute; z-index: 1000; margin-left: -9.55rem; margin-top: 133.1% !important;
+        }
+        
+        .line5{
+          width: 7.1vw !important; background-color: #a89c9c9c; height: .2px !important; position: absolute; z-index: 1000; margin-left: -3rem !important; margin-top: 154.5% !important;
+        }
+        
+        .line-8{
+          width: .2px !important; background-color: #a89c9c9c; height: 15vh;
+        }
+        
+        .line-6{
+          width: .2px !important; background-color: #a89c9c9c; height: 15vh; display: flex; align-items: end;
+        }
+        .line-y2{
+            top: -24.5% !important;
+        }
+        
+        .line-7{
+          width: 37.8vw !important;  
+          margin-left: .4rem !important;
+          background-color: #a89c9c9c; height: .2px !important; position: relative; z-index: 1000;
+        }
+        
+        .m-negative{
+          margin-top:-1.6rem !important;
+        }
+
+        .slider-in{
+            margin-left: 5rem !important;
+          }
+    
+    
+          .img-visions{
+            width: 500px !important; 
+          }
 }
 
 /*Media queries para trabajar en pantallas pre-FULLHD*/
-@media  screen and (min-width: 1600px) and (max-width: 1919px){
+@media  screen and (min-width: 1602px) and (max-width: 1919px){
     .slider-in{
         margin-left: 5rem !important;
       }
+
+
+      .img-visions{
+        width: 500px !important; 
+      }
+
+      .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+        display: none;
+        }
+      
+      
+
+}
+
+@media  screen and (min-width: 1920px) and (max-width: 1921px) {
+    
+.circle-1{
+    z-index: 1005;
+    margin-bottom: -.8rem;
+    margin-left: -.5rem;
+    }
+    
+    .circle-2{
+      z-index: 1007;
+      margin-top: -.4rem;
+      margin-left: -.5rem;
+      }
+      
+      .circle-3{
+        z-index: 1009;
+        margin-top: -.5rem;
+        margin-left: 4.1rem;
+        }
+        
+    .line1{
+      width: 4.6vw; background-color: #a89c9c9c; height: 1.6px; position: absolute; z-index: 1000; margin-left: -4.7rem; margin-top: 40%;
+    }
+    .line2{
+      width: 1.6px; background-color: #a89c9c9c; height: 53vh; position: absolute; z-index: 1007; margin-left: 0rem; margin-top: 75.7%;
+    }
+    
+    .line3{
+      width: 4.6vw; background-color: #a89c9c9c; height: 1.6px; position: absolute; z-index: 1000; margin-left: -4.65rem; margin-top: 111.5%;
+    }
+    
+    .line4{
+      width: 1.6px; background-color: #a89c9c9c; height: 33vh; position: absolute; z-index: 1000; margin-left: -9.55rem; margin-top: 133.7%;
+    }
+    
+    .line5{
+      width: 9.25vw; background-color: #a89c9c9c; height: 1.6px; position: absolute; z-index: 1000; margin-left: -0.0rem; margin-top: 156%;
+    }
+    
+    .line-8{
+      width: 2px; background-color: #a89c9c9c; height: 15vh;
+    }
+    
+    .line-6{
+      width: 2px; background-color: #a89c9c9c; height: 15vh; display: flex; align-items: end;
+    }
+    
+    .line-7{
+      width: 37.6vw; background-color: #a89c9c9c; height: 2px; position: relative; z-index: 1000;
+    }
+    
+    .m-negative{
+      margin-top:-5.8rem;
+    }
 }
 
 /*Media queries para trabajar en Pantallas FULLHD y superior*/
-@media  screen and (min-width: 1920px){}
+@media  screen and (min-width: 1922px){
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+        display: none;
+        }
+}
