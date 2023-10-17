@@ -2343,6 +2343,10 @@ z-index: 999;
   right:  -10%;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 .gradients-store{
   background-image: url('../img/Ellipse\ 21.svg');
   width: 100%;
