@@ -73,6 +73,27 @@
         margin-left: 2rem !important;
       }
 
+      .img-visions{
+        width: 450px !important; 
+      }
+
+      .spacer-large{
+        height: 3rem;
+        position: relative;
+      }
+
+      .top1, .top2, .top3{
+        display: none !important;
+      }
+
+      section{
+       overflow: visible !important;
+      }
+
+      .container-md{
+        width: 85% !important;
+      }
+
 }
 
 /*Media queries para trabajar en pantallas pre-FULLHD*/
