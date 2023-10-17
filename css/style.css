@@ -2403,11 +2403,15 @@ html{
   color: rgba(255, 255, 255, 0.80);
   font-family: Azonix;
   font-size: 26px;
-  margin-left: 2rem;
+
   font-style: normal;
   font-weight: 400;
   line-height: 100%; /* 26px */
   text-transform: uppercase;
+}
+
+.px-left{
+  padding-left: 4rem;
 }
 .text-sm{
   font-size:1rem
