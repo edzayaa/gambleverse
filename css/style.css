@@ -2322,6 +2322,7 @@ z-index: 999;
 .gradient-back2{
   position: absolute;
   top: -65%;
+  display: none;
   object-fit: cover;
 z-index: 999;
   width: 1750px;
@@ -3683,7 +3684,8 @@ position: relative;
   width: 100%;
 
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: start;
 }
 
 .absolute-back{
