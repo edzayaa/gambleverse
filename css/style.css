@@ -2225,17 +2225,23 @@ width: 90%;
   display:none
 }
 .button-txt{
-  font-family: Azonix;
+  font-family: Poppins;
   position:relative
 }
 .button-txt-ap{
   position:absolute;
   top:0%;
   bottom:auto;
-  font-family: Azonix;
+  font-family: Poppins;
   left:0%;
   right:auto
 }
+
+.font-dif{
+  font-family: Azonix !important;
+}
+
+
 .div-hide{
   justify-content:center;
   align-items:center;
@@ -3911,6 +3917,15 @@ opacity:  1 !important;
   position: absolute;
 }
 
+.sombra5{
+  width: 100vw;
+  background: radial-gradient(circle, rgba(0,0,0,0.5564600840336135) 0%, rgba(0,0,0,1)80%);
+  height: 100vh;
+  top: 0%;
+  z-index: 1001;
+  position: absolute;
+}
+
 .sombra3{
   width: 100vw;
   background: linear-gradient(180deg, rgba(2,0,10,1) 2%, rgba(1,0,18,0) 50%, rgba(0, 0, 10, 0) 100%);
@@ -3957,7 +3972,7 @@ opacity:  1 !important;
   width: 1020px;
   height: auto;
   z-index: 1007;
-  top:-60%;  
+  top:-25%;  
 }
 
 
