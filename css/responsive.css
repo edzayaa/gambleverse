@@ -2,7 +2,7 @@
 @media  screen and (max-width: 479px){
     .nav {
         top: 1% !important;
-        height: 10rem !important;
+        height: min-content !important;
     }
     .logo {
         width: 100% !important;
@@ -44,6 +44,18 @@
     }
     .grid-parent {
         flex-direction: column !important;
+    }
+
+    .marico{
+        flex-direction: column !important;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    .container-lg{
+        width: 100% !important;
     }
 }
 

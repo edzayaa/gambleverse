@@ -1901,7 +1901,7 @@ grid-template-columns: 70% 30%;
   display:none
 }
 .nav{
-  z-index:1007;
+  z-index:1009;
   width:100%;
   height:5rem;
   opacity:0;
@@ -1913,9 +1913,15 @@ grid-template-columns: 70% 30%;
   left:0%;
   right:auto
 }
+
+.w-100{
+  width: 450px !important;
+backdrop-filter: blur(10px);
+}
+
 .container-lg{
   width:96%;
-  z-index: 1002;
+  z-index: 1003;
   margin-left:auto;
   margin-right:auto;
   position:relative
@@ -2060,6 +2066,28 @@ grid-template-columns: 70% 30%;
   width: 100%;
   padding: 30px;
 }
+
+.nav-buttonbg4 {
+  background-image: url("../img/Rectangle\ 16.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  padding: 70px 30px ;
+}
+
+.lines{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url('../img/line\ shapes\ scroll\ ui.png');
+  background-position:top center;
+  justify-content: center;
+  z-index: 1004;
+  position: absolute;
+}
+
 .nav-buttonbg3 {
   background-image: url("../img/buttonav1.svg");
   background-repeat: no-repeat;
@@ -2197,12 +2225,14 @@ width: 90%;
   display:none
 }
 .button-txt{
+  font-family: Azonix;
   position:relative
 }
 .button-txt-ap{
   position:absolute;
   top:0%;
   bottom:auto;
+  font-family: Azonix;
   left:0%;
   right:auto
 }
@@ -2662,7 +2692,9 @@ position: relative;
   display: flex;
   align-items: center;
     justify-content: center;
+    position: relative;
   gap: 25px;
+  z-index: 1004;
 }
 .super-text{
   text-transform:uppercase;
@@ -2983,10 +3015,10 @@ position: relative;
 .gradiente-circular-visit2{
   position: absolute;
   width: 70%;
-  height: 200px;
-  z-index: 1002;
-  right: 0%;
-  bottom: 0%;
+  height: 300px;
+  z-index: 1001;
+  right: -10%;
+  bottom: 5%;
   border-radius: 572px;
   background: #C316A2;
 
@@ -2997,7 +3029,7 @@ position: relative;
   position: absolute;
   width: 70%;
   height: 200px;
-  z-index: 1002;
+  z-index: 1001;
   right: 0%;
   bottom: 30%;
   border-radius: 488px;
@@ -3009,7 +3041,7 @@ position: relative;
   position: absolute;
   width: 70%;
   height: 500px;
-  z-index: 1002;
+  z-index: 1001;
   left: 0%;
   top: -20%;
   border-radius: 752px;
@@ -3035,7 +3067,7 @@ position: relative;
   height: 300px;
   z-index: 1002;
   right: -20%;
-  top: -20%;
+  top: 0%;
   border-radius: 488px;
   background: var(--gradient4, linear-gradient(90deg, rgba(137, 95, 227, 0.81) -3.1%, rgba(117, 232, 252, 0.69) 100.31%));
   filter: blur(300px);
@@ -3855,6 +3887,10 @@ height: 50px;
 
 *{
 opacity:  1 !important;
+}
+
+.div-hide{
+
 }
 
 .sombra{
