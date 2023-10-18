@@ -4,6 +4,11 @@
         top: 1% !important;
         height: min-content !important;
     }
+
+    .sombra2 {
+        height: 100% !important;
+    }
+
     .logo {
         width: 100% !important;
     }
