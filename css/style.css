@@ -2607,7 +2607,16 @@ left: 55%;
   }
 
 .my-3{
-  margin-top: 9rem;
+  margin-top: 5rem;
+}
+
+.fs1{
+  font-size: 40px ;
+}
+
+
+.fs{
+  font-size: 80px ;
 }
 
 .img-visions{
@@ -2645,8 +2654,7 @@ left: 55%;
 
 
 .parent.card{
-
-
+z-index: 1007;
  background-image: url('../img/Rectangle\ 34.png');
  background-repeat: no-repeat;
  background-size: 100% 100%;
