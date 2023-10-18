@@ -104,6 +104,22 @@
         background-size: cover !important;
       }
 
+      .padding-moon{
+        padding-right: 18rem !important;
+      }
+      
+        .text-width-two{
+        margin-right: 2rem !important;
+        padding:30px 100px 30px 100px !important;
+
+        background-size:cover !important;
+      }
+
+      .text-width-two h2,p{
+        padding-left: 2rem !important;
+      }
+
+
       .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
         display: none;
         }
@@ -151,6 +167,9 @@
       }
 
 
+      .padding-moon{
+        padding-right: 18rem !important;
+      }
       
       
 .circle-1{
@@ -205,6 +224,18 @@
       width: 45.6vw !important;  
       background-color: #a89c9c9c; height:  .2px !important; position: relative; z-index: 1000;
     }
+
+    .text-width-two{
+        margin-right: 2rem !important;
+        padding:30px 100px 30px 100px !important;
+
+        background-size:cover !important;
+      }
+
+      .text-width-two h2,p{
+        padding-left: 2rem !important;
+      }
+
     
     .m-negative{
       margin-top:-3.8rem !important;
@@ -218,6 +249,21 @@
         height:6rem !important;
       }
 
+      .text-width-two{
+        margin-right: 2rem !important;
+        padding:30px 100px 30px 100px !important;
+
+        background-size:cover !important;
+      }
+
+      .text-width-two h2,p{
+        padding-left: 2rem !important;
+      }
+
+
+      .padding-moon{
+        padding-right: 16rem !important;
+      }
       
       .head-section.full{
         background-size: cover !important;
@@ -261,7 +307,20 @@
     .slider-in{
         margin-left: 2rem !important;
       }
+      .padding-moon{
+        padding-right: 16rem !important;
+      }
+      
+      .text-width-two{
+        margin-right: 2rem !important;
+        padding:30px 100px 30px 100px !important;
 
+        background-size:cover !important;
+      }
+
+      .text-width-two h2,p{
+        padding-left: 2rem !important;
+      }
 
       .head-section.full{
         background-size: cover !important;
@@ -436,12 +495,21 @@
           .img-visions{
             width: 500px !important; 
           }
+
+          .padding-moon{
+            padding-right: 15rem !important;
+          }
+    
 }
 
 /*Media queries para trabajar en pantallas pre-FULLHD*/
 @media  screen and (min-width: 1602px) and (max-width: 1919px){
     .slider-in{
         margin-left: 5rem !important;
+      }
+
+      .padding-moon{
+        padding-right: 15rem !important;
       }
 
       
