@@ -5,6 +5,78 @@
         height: min-content !important;
     }
 
+    .heading-lg{
+        padding-top: 3rem !important;
+
+    }
+
+    .span-text{
+        font-size: 30px !important;
+    }
+
+    .img-visions{
+        width: fit-content !important;
+        z-index: 1005;
+    }
+
+    .redes-lis{
+        z-index: 1005 !important;
+    }
+
+    .grid-parent3{
+        grid-template-columns: 100% !important;
+    }
+
+    .absolute-image{
+        z-index: -999;
+        margin-left: 0rem !important;
+        order: 1 !important;
+        justify-content: center !important;
+    }
+
+    .text-width-two{
+        width: 100% !important;
+        height: fit-content !important; 
+        background-image: none !important;
+    }
+
+    .abs-vertical{
+        display: none;
+    }
+
+    .px-left{
+        text-align: center !important;
+        padding-left: 0rem !important;
+    }
+
+    .no-pt{
+        padding-top: 0rem !important;
+    }
+
+    .w-100{
+        width: 250px !important;
+    }
+
+    .slider-in{
+        margin-left: 0rem !important;
+    }
+
+    .line-y3{
+        display: none;
+    }
+
+    .padding-moon{
+        padding-right: 0rem !important;
+    }
+
+    .z-ind{
+        margin: 0rem 1rem !important;
+    }
+
+.head-section{
+    background-size: cover !important;
+}
+
     .sombra2 {
         height: 100% !important;
     }
@@ -31,6 +103,23 @@
     .footer-column {
         align-items: center !important;
     }
+
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative, .line-y2{
+        display: none;
+        }
+
+        .fle{
+            display: flex !important;
+            width: fit-content;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center;
+        }
+
+        .fle-img{
+            width: 250px !important;
+        }
+
     .footer-parent {
         flex-direction: column;
         align-items: center;
@@ -44,6 +133,29 @@
     .parent {
         padding-top: 2rem !important;
     }
+
+    .footer-nojoda{
+        justify-content: center;
+    }
+
+    .social-footer{
+        justify-content: center;
+    }
+
+    .qlqwa{
+        width: 90% !important;
+        margin-bottom: 3rem;
+        background-size: 100% 100% !important;
+    }
+
+    .my-3{
+        margin-top: 0rem !important;
+    }
+
+    .parent.card{
+        padding: 20px !important;
+    }
+
     .heading-lg {
         font-size: 40px !important;
     }

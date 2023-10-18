@@ -1915,7 +1915,7 @@ grid-template-columns: 70% 30%;
 }
 
 .w-100{
-  width: 450px !important;
+  width: 450px ;
 backdrop-filter: blur(10px);
 }
 
@@ -2236,6 +2236,8 @@ width: 90%;
   left:0%;
   right:auto
 }
+
+
 
 .font-dif{
   font-family: Azonix !important;
@@ -3817,7 +3819,8 @@ height: 50px;
       width:100%
   }
   .text-size{
-      width:220px
+      width:80% !important;
+      padding:1rem ;
   }
   .container-sm{
       width:92%
