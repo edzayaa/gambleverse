@@ -172,22 +172,556 @@
     }
 
     .container-lg{
-        width: 100% !important;
+        width: 96% !important;
     }
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
-@media  screen and (min-width: 480px) and (max-width: 767px){}
+@media  screen and (min-width: 480px) and (max-width: 767px){
+    .nav {
+        top: 1% !important;
+        height: min-content !important;
+    }
+
+    .heading-lg{
+        padding-top: 3rem !important;
+
+    }
+
+    .qlqwa{
+        height: 50vh !important;
+    }
+
+    .span-text{
+        font-size: 25px !important;
+    }
+
+    .img-visions{
+        width: fit-content !important;
+        z-index: 1005;
+    }
+
+    .redes-lis{
+        z-index: 1005 !important;
+    }
+
+    .grid-parent3{
+        grid-template-columns: 100% !important;
+    }
+
+    .absolute-image{
+        z-index: -999;
+        margin-left: 0rem !important;
+        order: 1 !important;
+        justify-content: center !important;
+    }
+
+    .text-width-two{
+        width: 100% !important;
+        height: fit-content !important; 
+        background-image: none !important;
+    }
+
+    .abs-vertical{
+        display: none;
+    }
+
+    .px-left{
+        text-align: center !important;
+        padding-left: 0rem !important;
+    }
+
+    .no-pt{
+        padding-top: 0rem !important;
+    }
+
+    .w-100{
+        width: 250px !important;
+    }
+
+    .slider-in{
+        margin-left: 0rem !important;
+    }
+
+    .line-y3{
+        display: none;
+    }
+
+    .padding-moon{
+        padding-right: 0rem !important;
+    }
+
+    .z-ind{
+        margin: 0rem 1rem !important;
+    }
+
+.head-section{
+    background-size: cover !important;
+}
+
+    .sombra2 {
+        height: 100% !important;
+    }
+
+    .logo {
+        width: 100% !important;
+    }
+    .menu-desktop {
+        display: none !important;
+    }
+    .container-lg.nav-parent {
+        justify-content: none !important;
+    }
+    .hero-logo {
+        font-size: 50px !important;
+    }
+    .footer {
+        height: 100% !important;
+        background-size: cover !important;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer-column {
+        align-items: center !important;
+    }
+
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative, .line-y2{
+        display: none;
+        }
+
+        .fle{
+            display: flex !important;
+            width: fit-content;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center;
+        }
+
+        .fle-img{
+            width: 250px !important;
+        }
+
+    .footer-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-streamers, .qlqwa {
+        background-size: cover !important;
+    }
+    .dasdas {
+        flex-direction: column !important; 
+    }
+    .parent {
+        padding-top: 2rem !important;
+    }
+
+    .footer-nojoda{
+        justify-content: center;
+    }
+
+    .social-footer{
+        justify-content: center;
+    }
+
+    .qlqwa{
+        width: 90% !important;
+        margin-bottom: 3rem;
+        background-size: 100% 100% !important;
+    }
+
+    .my-3{
+        margin-top: 0rem !important;
+    }
+
+    .parent.card{
+        padding: 20px !important;
+    }
+
+    .heading-lg {
+        font-size: 40px !important;
+    }
+    .grid-parent {
+        flex-direction: column !important;
+    }
+
+    .marico{
+        flex-direction: column !important;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    .container-lg{
+        width: 96% !important;
+    }
+
+    .container-md{
+        width: 90% !important;
+      }
+}
 
 /*Media queries para trabajar en tablets com Ipads*/
-@media  screen and (min-width: 768px) and (max-width: 1023px){}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    .nav {
+        top: 1% !important;
+        height: min-content !important;
+    }
+
+    .heading-lg{
+        padding-top: 3rem !important;
+
+    }
+
+    .qlqwa{
+        height: 50vh !important;
+    }
+
+    .span-text{
+        font-size: 30px !important;
+    }
+
+    .img-visions{
+        width: fit-content !important;
+        z-index: 1005;
+    }
+
+    .redes-lis{
+        z-index: 1005 !important;
+    }
+
+    .grid-parent3{
+        grid-template-columns: 100% !important;
+    }
+
+    .absolute-image{
+        z-index: -999;
+        margin-left: 0rem !important;
+        order: 1 !important;
+        justify-content: center !important;
+    }
+
+    .text-width-two{
+        width: 100% !important;
+        height: fit-content !important; 
+        background-image: none !important;
+    }
+
+    .abs-vertical{
+        display: none;
+    }
+
+    .px-left{
+        text-align: center !important;
+        padding-left: 0rem !important;
+    }
+
+    .no-pt{
+        padding-top: 0rem !important;
+    }
+
+    .w-100{
+        width: 250px !important;
+    }
+
+    .slider-in{
+        margin-left: 0rem !important;
+    }
+
+    .line-y3{
+        display: none;
+    }
+
+    .padding-moon{
+        padding-right: 0rem !important;
+    }
+
+    .z-ind{
+        margin: 0rem 1rem !important;
+    }
+
+.head-section{
+    background-size: cover !important;
+}
+
+    .sombra2 {
+        height: 100% !important;
+    }
+
+    .logo {
+        width: 100% !important;
+    }
+    .menu-desktop {
+        display: none !important;
+    }
+    .container-lg.nav-parent {
+        justify-content: none !important;
+    }
+    .hero-logo {
+        font-size: 50px !important;
+    }
+    .footer {
+        height: 100% !important;
+        background-size: cover !important;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer-column {
+        align-items: center !important;
+    }
+
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative, .line-y2{
+        display: none;
+        }
+
+        .fle{
+            display: flex !important;
+            width: fit-content;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center;
+        }
+
+        .fle-img{
+            width: 250px !important;
+        }
+
+    .footer-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-streamers, .qlqwa {
+        background-size: cover !important;
+    }
+    .dasdas {
+        flex-direction: column !important; 
+    }
+    .parent {
+        padding-top: 2rem !important;
+    }
+
+
+    .qlqwa{
+        width: 90% !important;
+        margin-bottom: 3rem;
+        background-size: 100% 100% !important;
+    }
+
+    .my-3{
+        margin-top: 0rem !important;
+    }
+
+    .parent.card{
+        padding: 20px !important;
+    }
+
+    .heading-lg {
+        font-size: 40px !important;
+    }
+    .grid-parent {
+        flex-direction: column !important;
+    }
+
+    .marico{
+        flex-direction: row !important;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    .container-lg{
+        width: 96% !important;
+    }
+
+    .container-md{
+        width: 90% !important;
+      }
+}
 
 /*Media queries para trabajar en pantallas con viejas resoluciones*/
 @media  screen and (min-width: 1024px) and (max-width: 1279px){
     
-    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+    .nav {
+        top: 1% !important;
+        height: min-content !important;
+    }
+
+    .heading-lg{
+        padding-top: 3rem !important;
+
+    }
+
+    .span-text{
+        font-size: 36px !important;
+    }
+
+    .img-visions{
+        width: fit-content !important;
+        z-index: 1005;
+    }
+
+    .redes-lis{
+        z-index: 1005 !important;
+    }
+
+    .grid-parent3{
+        grid-template-columns: 100% !important;
+    }
+
+    .absolute-image{
+        z-index: -999;
+        margin-left: 0rem !important;
+        order: 1 !important;
+        justify-content: center !important;
+    }
+
+    .text-width-two{
+        width: 100% !important;
+        height: fit-content !important; 
+        background-image: none !important;
+    }
+
+    .abs-vertical{
+        display: none;
+    }
+
+    .px-left{
+        text-align: center !important;
+        padding-left: 0rem !important;
+    }
+
+    .no-pt{
+        padding-top: 0rem !important;
+    }
+
+    .w-100{
+        width: 250px !important;
+    }
+
+    .slider-in{
+        margin-left: 0rem !important;
+    }
+
+    .line-y3{
+        display: none;
+    }
+
+    .padding-moon{
+        padding-right: 0rem !important;
+    }
+
+    .z-ind{
+        margin: 0rem 1rem !important;
+    }
+
+.head-section{
+    background-size: cover !important;
+}
+
+    .sombra2 {
+        height: 100% !important;
+    }
+
+    .logo {
+        width: 100% !important;
+    }
+    .menu-desktop {
+        display: none !important;
+    }
+    .container-lg.nav-parent {
+        justify-content: none !important;
+    }
+    .hero-logo {
+        font-size: 50px !important;
+    }
+    .footer {
+        height: 100% !important;
+        background-size: cover !important;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer-column {
+        align-items: center !important;
+    }
+
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative, .line-y2{
         display: none;
         }
+
+        .fle{
+            display: flex !important;
+            width: fit-content;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center;
+        }
+
+        .fle-img{
+            width: 250px !important;
+        }
+
+        .container-md{
+            width: 90% !important;
+          }
+
+    .footer-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-streamers, .qlqwa {
+        background-size: cover !important;
+    }
+    .dasdas {
+        flex-direction: column !important; 
+    }
+    .parent {
+        padding-top: 2rem !important;
+    }
+
+    .footer-nojoda{
+        justify-content: center;
+    }
+
+    .social-footer{
+        justify-content: center;
+    }
+
+    .qlqwa{
+        width: 90% !important;
+        margin-bottom: 3rem;
+        background-size: 100% 100% !important;
+    }
+
+    .my-3{
+        margin-top: 0rem !important;
+    }
+
+    .parent.card{
+        padding: 20px !important;
+    }
+
+    .heading-lg {
+        font-size: 40px !important;
+    }
+    .grid-parent {
+        flex-direction: column !important;
+    }
+
+    .marico{
+        flex-direction: row !important;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    .container-lg{
+        width: 92% !important;
+    }
 }
 
 /*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/

@@ -3495,7 +3495,7 @@ height: 50px;
 
 .absolute-image{
  margin-left: -13rem;
-  justify-content: start !important;
+  justify-content: start ;
 }
 
 .utility-page-wrap{
