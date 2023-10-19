@@ -2689,6 +2689,36 @@ position: relative;
 
 }
 
+.render-float{
+  position: absolute;
+  top: 10%;
+  left: 14%;
+}
+
+.render-float1{
+  position: absolute;
+  bottom: 8%;
+  left: 28%;
+}
+
+.render-float2{
+  position: absolute;
+  bottom: 8%;
+  left: 10%;
+}
+
+.px-2{
+  padding: 0% 4%;
+}
+
+.render-float3{
+  position: absolute;
+  top: 2%;
+  right: 35%;
+  z-index: 1002;
+}
+
+
 .absolute-image-vision2{
   left: -20%;
   position: absolute;
@@ -2998,6 +3028,9 @@ position: relative;
   color:#fff;
   text-decoration:none
 }
+.footer::before{
+  background-color: linear-gradient(180deg, rgba(2,0,4,0) 1%, rgba(0,0,12,1) 99%);
+}
 .footer{
   width:100%;
   height: 500px;
@@ -3074,9 +3107,9 @@ position: relative;
 
   position: absolute;
   width: 100%;
-  height: 700px;
+  height: 400px;
   z-index: 1005;
-  left: 0%;
+  left: -20%;
   bottom:   20%;
   border-radius: 1159px;
   background: rgba(117, 232, 252, 0.10);
@@ -4010,7 +4043,25 @@ opacity:  1 !important;
 
 .sombra5{
   width: 100vw;
-  background: radial-gradient(circle, rgba(0,0,0,0.5564600840336135) 0%, rgba(0,0,0,1)80%);
+  background: radial-gradient(circle, rgba(0,0,0,0.5564600840336135) 0%, rgba(0,0,0,1)100%);
+  height: 100vh;
+  top: 0%;
+  z-index: 1001;
+  position: absolute;
+}
+
+.sombra7{
+  width: 100vw;
+  background: linear-gradient(180deg, rgb(2, 0, 10) 0%, rgba(1,0,18,0) 50%, rgba(2, 0, 10, 0.473) 100%);
+  height: 100%;
+  bottom:  0%;
+  z-index: 1000;
+  position: absolute;
+}
+
+.sombra8{
+  width: 100vw;
+  background: linear-gradient(180deg, rgba(2, 0, 10, 0.671) 2%, rgba(1,0,18,0) 50%, rgba(0, 0, 10, 0) 100%);
   height: 100vh;
   top: 0%;
   z-index: 1001;
@@ -4034,6 +4085,18 @@ opacity:  1 !important;
   z-index: 1001;
   position: absolute;
 }
+
+
+.sombra6{
+  width: 100vw;
+  background: linear-gradient(180deg, rgba(2, 0, 1, 0) 2%, rgba(0,0,0,0) 80%, #0c0c0c 100%);
+  height: 100vh;
+  bottom:  0%;
+  left: 0%;
+  z-index: 1001;
+  position: absolute;
+}
+
 
 .hero-logo{
   z-index: 1005;
@@ -4119,9 +4182,8 @@ opacity:  1 !important;
   height: 100% !important;
 }
 .parent.card.vision {
-  background-color: rgba(16 18 27 / 40%);
-  backdrop-filter: blur(20px);
- -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(16, 18, 27, 0);
+
 }
 .parrafo {
   color: #EBEBEB;

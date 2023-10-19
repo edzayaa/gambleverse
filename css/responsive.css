@@ -91,8 +91,22 @@
         justify-content: none !important;
     }
     .hero-logo {
-        font-size: 50px !important;
+        font-size: 45px !important;
     }
+
+    .px-2{
+      padding: 0% !important;
+    }
+
+    .parent.card4{
+      padding: 25px !important;
+      height: fit-content !important;
+    }
+
+    .parrafo{
+      font-size: 14px !important;
+    }
+
     .footer {
         height: 100% !important;
         background-size: cover !important;
@@ -916,6 +930,33 @@
         padding: 45px !important;
       }
 
+      .render-float{
+        position: absolute;
+        top: 10%;
+        left: 14%;
+        width: 600px !important;
+        height: auto !important;
+      }
+      
+      .render-float1{
+        position: absolute;
+        bottom: 8%;
+        left: 28%;
+      }
+      
+      .render-float2{
+        position: absolute;
+        bottom: 8%;
+        left: 10%;
+      }
+      
+      .render-float3{
+        position: absolute;
+        top: 2%;
+        right: 35%;
+      }
+      
+
       .grid{
         grid-template-columns: 50% 50% !important;
       }
@@ -979,6 +1020,39 @@
         margin-left: 2rem !important;
       }
 
+      .render-float{
+        position: absolute;
+        top: 10% !important;
+        left: 18% !important;
+        width: 500px !important;
+        height: auto !important;
+      }
+
+      
+      .render-float1{
+        position: absolute;
+        bottom: 15% !important;
+        left: 32% !important;
+        width: 200px !important;
+        height: auto !important;
+      }
+      
+      .render-float2{
+        position: absolute;
+        bottom: 8%;
+        left: 10%;
+        width:140px !important;
+        height: auto !important;
+      }
+      
+      .render-float3{
+        position: absolute;
+        top: 2%;
+        right: 35%;
+        width:180px !important;
+        height: auto !important;
+      }
+      
       .parent.card{
         padding: 45px !important;
       }
