@@ -6,7 +6,7 @@
     }
 
     .heading-lg{
-        padding-top: 3rem !important;
+        padding-top: 1.5rem !important;
 
     }
 
@@ -99,17 +99,40 @@
     }
 
     .parent.card4{
-      padding: 20px !important;
+      padding: 55px !important;
+      margin-top: 1.5rem !important;
+    }
+
+    .grid2{
+      grid-template-columns: 100% !important;
+    }
+
+    .mobile{
+      display: none !important;
     }
 
     .modelo-alto{
-      margin-top: 0rem !important;
+      margin-top: 3rem !important;
       width: 320px !important;
       height: auto !important;
     }
 
+    .left2{
+      margin-left: 5%;
+    }
+
     .parrafo{
       font-size: 14px !important;
+    }
+
+    .spacer-medium2{
+      height: 5vh;
+      width: 100vw;
+      background-color: aqua;
+    }
+
+    .spacer-small2{
+      height: 3rem !important;
     }
 
     .footer {
@@ -176,11 +199,19 @@
 
     }
 
+    .circle-gradient-vision-page, .circle-gradient-vision-page1 {
+      display: none;
+    }
+
     .heading-lg {
         font-size: 35px !important;
     }
     .grid-parent {
         flex-direction: column !important;
+    }
+
+    .grid{
+      grid-template-columns: 100% !important;
     }
 
     .marico{
@@ -192,8 +223,9 @@
     }
 
     .container-lg{
-        width: 75% !important;
+        width: 96% !important;
     }
+
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
