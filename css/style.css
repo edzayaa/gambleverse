@@ -1778,6 +1778,15 @@ textarea.w-input,textarea.w-select{
   grid-auto-columns:1fr;
   display:grid
 }
+
+.modelo-alto{
+  margin-top: -7rem;
+}
+
+.grid{
+  grid-template-columns: 35% 65%;
+  display:grid;
+}
 body{
   color:#fff;
   background-color:#0C0C0C;
@@ -2469,6 +2478,8 @@ html{
   text-transform: uppercase;
 }
 
+
+
 .flex-start{
   display: flex;
   justify-content:  center !important;
@@ -2669,6 +2680,48 @@ position: relative;
   padding: 75px;
   flex-direction: column;
 }
+
+.absolute-image-vision{
+  left: 0%;
+  position: absolute;
+  top: -30%;
+  z-index: 1002;
+
+}
+
+.absolute-image-vision2{
+  left: -20%;
+  position: absolute;
+  top: -40%;
+  z-index: 1001;
+
+}
+
+.absolute-image-vision3{
+  left: 20%;
+  position: absolute;
+  top: 0%;
+  z-index: 1003;
+  height: auto;
+}
+
+.parent.card4{
+  z-index: 1007;
+   background-image: url('../img/Group\ 153.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    
+    justify-content:center;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 0rem;
+    align-items:center;
+    display:flex;
+  position: relative;
+  padding: 75px;
+    flex-direction: column;
+  }
+  
 
 
 
@@ -3001,6 +3054,33 @@ position: relative;
   bottom: 0%;
   background: linear-gradient(223deg, rgba(117, 130, 252, 0.10) 29.81%, rgba(255, 0, 229, 0.10) 76.75%);
   filter: blur(75px);
+}
+
+.circle-gradient-vision-page{
+
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: 1004;
+  right: -10%;
+  bottom: -10%;
+  border-radius: 1159px;
+  background: rgba(137, 95, 227, 0.10);
+  
+  filter: blur(100px);
+}
+
+.circle-gradient-vision-page2{
+
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  z-index: 1005;
+  left: 0%;
+  bottom:   20%;
+  border-radius: 1159px;
+  background: rgba(117, 232, 252, 0.10);
+  filter: blur(100px);
 }
 
 .gradiente-circular-vision{

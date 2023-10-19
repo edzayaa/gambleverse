@@ -912,6 +912,14 @@
         height:6rem !important;
       }
 
+      .parent.card{
+        padding: 45px !important;
+      }
+
+      .grid{
+        grid-template-columns: 50% 50% !important;
+      }
+
       .text-width-two{
         margin-right: 2rem !important;
         padding:30px 100px 30px 100px !important;
@@ -970,6 +978,15 @@
     .slider-in{
         margin-left: 2rem !important;
       }
+
+      .parent.card{
+        padding: 45px !important;
+      }
+      .grid{
+        grid-template-columns: 40% 60% !important;
+      }
+
+
       .padding-moon{
         padding-right: 16rem !important;
       }
