@@ -107,9 +107,27 @@
       grid-template-columns: 100% !important;
     }
 
+    .no-pb{
+      padding-top: 0 !important;
+    }
+
+    .mobile2{
+      padding-top: .5rem;
+    }
+
     .mobile{
       display: none !important;
     }
+
+    .sombra6{
+      height: min-content !important;
+    }
+
+    .h-min{
+      height: fit-content !important;
+      padding-bottom: 6rem !important;
+    }
+
 
     .modelo-alto{
       margin-top: 3rem !important;
