@@ -1974,7 +1974,7 @@ backdrop-filter: blur(10px);
 }
 .container-lg.nav-parent{
   display:flex;
-  overflow:hidden;
+
   align-items: center;
   justify-content: space-between;
 }
@@ -4996,6 +4996,14 @@ line-height: 100%; /* 16px */
 .center-center{
   justify-content: space-between;
   align-items: center;
+}
+
+
+
+.bg-nav:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: .5s all;
 }
 
 .flex{

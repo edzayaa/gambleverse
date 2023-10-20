@@ -256,6 +256,211 @@
         width: 96% !important;
     }
 
+    
+
+    .grid-comunity{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .apply-section{
+      flex-direction: column !important;
+      display: flex !important;
+      justify-items: center !important;
+    }
+
+    .rectangle-40{
+      padding-top: .5rem !important;
+      height: 95% !important;
+      width: 100% !important;
+      margin-left: 0rem !important;
+    }
+
+    .details-card-streamer h1,p{
+      margin-bottom: .4rem !important;
+    }
+
+    .rows{
+      flex-direction: row !important;
+    }
+
+
+    .rwd-table th, .rwd-table td{
+      margin-left: .3rem !important;
+    }
+
+    .img-profile{
+      width: 25px !important;
+      height: 25px !important;
+    }
+
+    .title-threads{
+      text-align: center !important;
+    }
+
+    .popular-threads{
+      flex-direction: column !important;
+    }
+
+    .btn-threads{
+      width: 180px !important;
+    }
+
+    .details-card-streamer{
+      text-align: center !important;
+    }
+
+    .rows2{
+      flex-direction: column  !important;
+    }
+
+    .last-flex{
+      display: none !important;
+    }
+
+    .Genre p{
+      font-size: 13px !important;
+    }
+
+    tbody {
+      display: grid !important;
+    }
+
+    tr {
+      display: grid !important;
+      grid-template-columns: 10% 70% 20% !important;
+
+
+    }
+
+   .rwd-table td:before{
+    display: none !important;
+   }
+
+   .rwd-table th{
+    display: block !important;
+   }
+
+    .card-streamer img{
+      width: auto !important;
+      height: 300px !important;
+      margin-top: 1rem !important;
+    }
+
+    .card-discord img{
+      width: auto !important;
+      height: 300px !important;
+      margin-top: 3rem !important;
+    }
+ 
+    .top-2{
+      margin-top: 2rem !important;
+    }
+
+    .indenet{
+      padding: 0rem 1.5rem !important;
+    }
+
+    .card-streamer{
+      width: fit-content !important;
+      height: 550px !important;
+      flex-direction: column !important;
+padding: .8rem !important;
+margin: 0rem .5rem !important;
+background-image:none !important;
+    }
+
+    .last-flex2{
+      display: none !important;
+    }
+
+    .flex-center{
+      min-height: 3rem !important;
+      align-items: end !important;
+    }
+
+    .flex5-p{
+      font-size: 12px !important;
+      padding: 0rem .3rem !important;
+    }
+
+    .wincards{
+      height: 370px !important;
+      width: 330px !important;
+    }
+
+    .bg-nav-mt{
+      margin-top: 2rem !important;
+    }
+
+    .back-comu{
+      background-size: cover !important;
+      background-position: center !important;
+    }
+
+    .img-profile2, .img-profile3{
+      width: 30px !important;
+      height: 30px !important;
+    }
+
+    
+
+    .rectangle-view{
+      width: 95% !important;
+      margin-top:56% !important;
+      display: none !important;
+    }
+
+    .rectangle-view p{
+      font-size: .8rem !important;
+    }
+
+    .img-profile4{
+      width: 39px !important;
+      height: 39px !important;
+    }
+
+    .wincards h1{
+      font-size: 20px !important;
+    }
+
+    .rwd-table{
+      min-width: 270px !important;
+    }
+
+    .text-size{
+      margin-left: 0.01rem !important;
+    }
+
+    .imagen-div2, .imagen-div{
+      grid-template-columns: 40% 20% 20% 20% !important;
+    }
+
+    .flex2{
+
+    }
+
+    .comu-circle{
+      display: none !important;
+    }
+
+    .section-comunity{
+      display: none !important;
+      height: fit-content;
+      flex-direction: column !important;
+     column-gap: 0% !important;
+     padding: 0rem .8rem !important;
+    }
+
+.h-min{
+  height: fit-content !important;
+}
+
+    .flex5-p2{
+      font-size: 10px !important;
+      padding: 0rem .3rem !important;
+    }
+
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
@@ -263,6 +468,136 @@
     .nav {
         top: 1% !important;
         height: min-content !important;
+    }
+
+    
+
+    .grid-comunity{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .apply-section{
+      grid-template-columns: 100% !important;
+      justify-items: center !important;
+    }
+
+    .rectangle-40{
+      padding-top: .5rem !important;
+      height: 95% !important;
+      width: 100% !important;
+      margin-left: 0rem !important;
+    }
+
+    .details-card-streamer h1,p{
+      margin-bottom: .4rem !important;
+    }
+
+    .rows{
+      flex-direction: row !important;
+    }
+
+    .rows2{
+      flex-direction: column  !important;
+    }
+
+    .last-flex{
+      display: none !important;
+    }
+
+    .card-streamer img{
+      width: auto !important;
+      height: 250px !important;
+    }
+ 
+    .top-2{
+      margin-top: 2rem !important;
+    }
+
+    .card-streamer{
+      width: fit-content !important;
+      height: 550px !important;
+padding: .8rem !important;
+margin: 0rem .5rem !important;
+background-image:cover !important;
+    }
+
+    .last-flex2{
+      display: none !important;
+    }
+
+    .flex-center{
+      min-height: 3rem !important;
+      align-items: end !important;
+    }
+
+    .flex5-p{
+      font-size: 12px !important;
+      padding: 0rem .3rem !important;
+    }
+
+    .wincards{
+      height: 550px !important;
+      width: 430px !important;
+    }
+
+    .img-profile2, .img-profile3{
+      width: 30px !important;
+      height: 30px !important;
+    }
+
+
+
+    .rectangle-view{
+      width: 95% !important;
+      margin-top:56% !important;
+      display: none !important;
+    }
+
+    .rectangle-view p{
+      font-size: .8rem !important;
+    }
+
+    .img-profile4{
+      width: 39px !important;
+      height: 39px !important;
+    }
+
+    .wincards h1{
+      font-size: 20px !important;
+    }
+
+    .rwd-table{
+      min-width: 380px !important;
+    }
+
+    .text-size{
+      margin-left: 0.01rem !important;
+    }
+
+    .imagen-div2, .imagen-div{
+      grid-template-columns: 40% 20% 20% 20% !important;
+    }
+
+    .flex2{
+
+    }
+
+    .section-comunity{
+      display: flex !important;
+      height: fit-content;
+      flex-direction: column !important;
+     column-gap: 0% !important;
+     padding: 0rem .8rem !important;
+    }
+
+.h-min{
+  height: fit-content !important;
+}
+
+    .flex5-p2{
+      font-size: 10px !important;
+      padding: 0rem .3rem !important;
     }
 
     .left2{
@@ -747,12 +1082,125 @@
 
 
     .container-lg{
-        width: 96% !important;
+        width: 92% !important;
     }
 
     .container-md{
         width: 90% !important;
       }
+
+
+      .grid-comunity{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+
+      .apply-section{
+        grid-template-columns: 100% !important;
+        justify-items: center !important;
+      }
+  
+      .rectangle-40{
+        padding-top: .5rem !important;
+        height: 95% !important;
+        width: 100% !important;
+        margin-left: 2rem !important;
+      }
+  
+      .details-card-streamer h1,p{
+        margin-bottom: .4rem !important;
+      }
+
+      .rows{
+        flex-direction: row !important;
+      }
+
+      .rows2{
+        flex-direction: column  !important;
+      }
+  
+      .last-flex{
+        display: none !important;
+      }
+  
+      .card-streamer img{
+        width: 220px !important;
+      }
+   
+      .top-2{
+        margin-top: 2rem !important;
+      }
+
+      .card-streamer{
+        width: 650px !important;
+        height: 550px !important;
+      }
+  
+      .last-flex2{
+        display: none !important;
+      }
+  
+      .flex-center{
+        min-height: 3rem !important;
+        align-items: end !important;
+      }
+  
+      .flex5-p{
+        font-size: 12px !important;
+        padding: 0rem .3rem !important;
+      }
+  
+      .wincards{
+        height: 550px !important;
+        width: 550px !important;
+      }
+  
+      .img-profile2, .img-profile3{
+        width: 30px !important;
+        height: 30px !important;
+      }
+  
+
+
+      .rectangle-view{
+        width: 95% !important;
+        margin-top:16% !important;
+      }
+  
+      .rectangle-view p{
+        font-size: .8rem !important;
+      }
+  
+  
+  
+      .wincards h1{
+        font-size: 20px !important;
+      }
+  
+      .rwd-table{
+        min-width: 450px !important;
+      }
+  
+      .text-size{
+        margin-left: 0.01rem !important;
+      }
+  
+      .section-comunity{
+        display: flex !important;
+        height: fit-content;
+        flex-direction: column !important;
+        column-gap: 0% !important;
+      }
+  
+  .h-min{
+    height: fit-content !important;
+  }
+  
+      .flex5-p2{
+        font-size: 10px !important;
+        padding: 0rem .3rem !important;
+      }
+  
 }
 
 /*Media queries para trabajar en pantallas con viejas resoluciones*/
@@ -1032,6 +1480,101 @@
     .container-lg{
         width: 92% !important;
     }
+
+    .apply-section{
+      grid-template-columns: 70% 30% !important;
+      justify-items: start !important;
+    }
+
+    .rectangle-40{
+      padding-top: .5rem !important;
+      height: 95% !important;
+      width: 100% !important;
+      margin-left: 2rem !important;
+    }
+
+    .details-card-streamer h1,p{
+      margin-bottom: .4rem !important;
+    }
+
+    .last-flex{
+      display: none !important;
+    }
+
+    .card-streamer img{
+      width: 220px !important;
+    }
+ 
+
+    .card-streamer{
+      width: 650px !important;
+      height: 550px !important;
+    }
+
+    .last-flex2{
+      display: none !important;
+    }
+
+    .flex-center{
+      min-height: 3rem !important;
+      align-items: end !important;
+    }
+
+    .flex5-p{
+      font-size: 12px !important;
+      padding: 0rem .3rem !important;
+    }
+
+    .wincards{
+      height: 530px !important;
+      width: 300px !important;
+    }
+
+    .img-profile2, .img-profile3{
+      width: 30px !important;
+      height: 30px !important;
+    }
+
+    .rectangle-view{
+      width: 95% !important;
+      margin-top:11% !important;
+    }
+
+    .rectangle-view p{
+      font-size: 1rem !important;
+    }
+
+
+
+    .wincards h1{
+      font-size: 20px !important;
+    }
+
+    .rwd-table{
+      min-width: 200px !important;
+    }
+
+    .text-size{
+      margin-left: 0.01rem !important;
+    }
+
+    .section-comunity{
+      display: flex !important;
+      height: fit-content;
+      flex-direction: column !important;
+      column-gap: 0% !important;
+    }
+
+.h-min{
+  height: fit-content !important;
+}
+
+    .flex5-p2{
+      font-size: 10px !important;
+      padding: 0rem .3rem !important;
+    }
+
+
 }
 
 /*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
@@ -1040,6 +1583,56 @@
     .img-visions{
         width: 400px !important; 
       }
+
+      
+      .rectangle-40{
+        padding-top: .5rem !important;
+        height: 95% !important;
+        width: 100% !important;
+        margin-left: 2rem !important;
+      }
+
+      .last-flex{
+        display: none !important;
+      }
+
+  
+      .last-flex2{
+        display: none !important;
+      }
+
+      .flex-center{
+        min-height: 3rem !important;
+        align-items: end !important;
+      }
+
+      .flex5-p{
+        font-size: 12px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .section-comunity{
+        display: flex !important;
+        column-gap: 0% !important;
+      }
+
+      .flex5-p2{
+        font-size: 10px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+
+      .section-comunity{
+        padding: 0rem 2rem !important;
+      }
+
+      .top-2{
+        margin-top: 4rem !important;
+      }
+      
       .parent.card4{
         padding: 45px !important;
       }
@@ -1114,7 +1707,7 @@
         background-size:cover !important;
       }
 
-      .text-width-two h2,p{
+      .text-width-two h2, .text-width-two h2 p{
         padding-left: 2rem !important;
       }
 
@@ -1123,12 +1716,108 @@
         display: none;
         }
 
+        .rectangle-view{
+          padding-left: 3rem !important;
+          width: 90% !important;
+        }
+  
+  
+        .rwd-table{
+         min-width: 270px !important;
+        }
+  
+        .wincards{
+          width: 370px !important;
+        }
+  
+        .pt3{
+          padding-top: 5rem !important;
+        }
+
+        .wincards h1{
+          font-size: 22px !important;
+        }
+
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1281px){
     .img-visions{
         width: 400px !important; 
       }
+
+
+      .section-comunity{
+        display: flex !important;
+        column-gap: 0% !important;
+      }
+
+      .flex5-p2{
+        font-size: 10px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+
+      .section-comunity{
+        padding: 0rem 2rem !important;
+      }
+
+      .top-2{
+        margin-top: 4rem !important;
+      }
+
+      .wincards h1{
+        font-size: 22px !important;
+      }
+
+      .rectangle-view{
+        padding-left: 3rem !important;
+        width: 90% !important;
+      }
+
+      .rectangle-40{
+        padding-top: .5rem !important;
+        height: 95% !important;
+        width: 100% !important;
+        margin-left: 2rem !important;
+      }
+
+      .last-flex{
+        display: none !important;
+      }
+
+      .last-flex2{
+        display: none !important;
+      }
+
+      .flex-center{
+        min-height: 3rem !important;
+        align-items: end !important;
+      }
+
+      .flex5-p{
+        font-size: 12px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      
+
+      .flex5-p2{
+        font-size: 10px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+
+      .section-comunity{
+        padding: 0rem 2rem !important;
+      }
+
+      
 
       .render-float{
         width: 550px !important;
@@ -1259,10 +1948,34 @@
         background-size:cover !important;
       }
 
-      .text-width-two h2,p{
+      .text-width-two h2, .text-width-two h2 p{
         padding-left: 2rem !important;
       }
 
+      .pt3{
+        padding-top: 5rem !important;
+      }
+
+      .rwd-table{
+       min-width: 270px !important;
+      }
+
+      .wincards{
+        width: 350px !important;
+      }
+
+      .flex6{
+        margin-right: 1rem !important;
+      }
+
+      .top-2{
+        margin-top: 4rem !important;
+      }
+
+      .comu-circle{
+        width: 200px ;
+        right: 0%  !important;
+      }
     
     .m-negative{
       margin-top:-3.8rem !important;
@@ -1275,6 +1988,55 @@
     .spacer-large{
         height:6rem !important;
       }
+
+      .grid-comunity{
+        margin-top: -9rem;
+      }
+
+      .rectangle-40{
+        padding-top: .5rem !important;
+        height: 95% !important;
+        width: 80% !important;
+        margin-left: 2rem !important;
+      }
+
+      .last-flex{
+        display: none !important;
+      }
+
+      .last-flex2{
+        display: none !important;
+      }
+
+      .flex-center{
+        min-height: 3rem !important;
+        align-items: end !important;
+      }
+
+      .flex5-p{
+        font-size: 12px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      
+
+      .flex5-p2{
+        font-size: 10px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+
+      .section-comunity{
+        padding: 0rem 2rem !important;
+      }
+
+      .top-2{
+        margin-top: -9rem !important;
+      }
+      
 
       .parent.card{
         padding: 45px !important;
@@ -1318,7 +2080,7 @@
         background-size:cover !important;
       }
 
-      .text-width-two h2,p{
+      .text-width-two h2, .text-width-two h2 p{
         padding-left: 2rem !important;
       }
 
@@ -1359,6 +2121,28 @@
         width: 85% !important;
       }
 
+      .rwd-table{
+        min-width: 300px !important;
+       }
+ 
+       .wincards{
+         width: 400px !important;
+       }
+ 
+ 
+       .rectangle-view{
+        padding-left: 2rem !important;
+      }
+
+
+      .rwd-table{
+       min-width: 300px !important;
+      }
+
+      .wincards{
+        width: 400px !important;
+      }
+
       .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
         display: none;
         }
@@ -1369,6 +2153,20 @@
     .slider-in{
         margin-left: 2rem !important;
       }
+
+      .rectangle-view{
+        padding-left: 2rem !important;
+      }
+
+
+      .rwd-table{
+       min-width: 300px !important;
+      }
+
+      .wincards{
+        width: 400px !important;
+      }
+
 
       .render-float{
         position: absolute;
@@ -1422,7 +2220,7 @@
         background-size:cover !important;
       }
 
-      .text-width-two h2,p{
+      .text-width-two h2, .text-width-two h2 p{
         padding-left: 2rem !important;
       }
 
@@ -1470,6 +2268,52 @@
       z-index: 1007;
       margin-top: -.5rem !important;
       margin-left: -.5rem;
+      }
+
+      .grid-comunity{
+        margin-top: -9rem;
+      }
+
+      .rectangle-40{
+        padding-top: .5rem !important;
+        height: 95% !important;
+        width: 80% !important;
+        margin-left: 2rem !important;
+      }
+
+      .last-flex{
+        display: none !important;
+      }
+
+      .last-flex2{
+        display: none !important;
+      }
+
+      .flex-center{
+        min-height: 3rem !important;
+        align-items: end !important;
+      }
+
+      .flex5-p{
+        font-size: 12px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .flex5-p2{
+        font-size: 10px !important;
+        padding: 0rem .3rem !important;
+      }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+
+      .section-comunity{
+        padding: 0rem 2rem !important;
+      }
+
+      .top-2{
+        margin-top: -9rem !important;
       }
       
       .circle-3{
@@ -1525,12 +2369,44 @@
         margin-left: -.3rem;
         }
 
+        .grid-comunity{
+          margin-top: -9rem;
+        }
+
+        .rectangle-40{
+          padding-top: .5rem !important;
+          height: 95% !important;
+        }
+
+        
+      .rectangle-view{
+        padding-left: 3rem !important;
+      }
+
+
+      .rwd-table{
+       min-width: 300px !important;
+      }
+
+      .wincards{
+        width: 400px !important;
+      }
+
+        .last-flex{
+          display: none !important;
+        }
+
+        .flex-center{
+          min-height: 3rem !important;
+          align-items: end !important;
+        }
+
         .imagen-div2{
           padding: .6rem 0rem !important;
         }
 
         .top-2{
-          margin-top: 5rem !important;
+          margin-top: -5rem !important;
         }
 
         .flex-center{
@@ -1629,6 +2505,20 @@
 
       .top-2{
         margin-top: 5rem !important;
+      }
+
+      
+      .rectangle-view{
+        padding-left: 3rem !important;
+      }
+
+
+      .rwd-table{
+       min-width: 300px !important;
+      }
+
+      .wincards{
+        width: 400px !important;
       }
 
 
