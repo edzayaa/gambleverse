@@ -1525,6 +1525,17 @@
         margin-left: -.3rem;
         }
 
+        .imagen-div2{
+          padding: .6rem 0rem !important;
+        }
+
+        .top-2{
+          margin-top: 5rem !important;
+        }
+
+        .flex-center{
+          min-height: 0rem !important;
+        }
         
       .head-section.full{
         background-size: cover !important;
@@ -1611,6 +1622,15 @@
     .slider-in{
         margin-left: 5rem !important;
       }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+
+      .top-2{
+        margin-top: 5rem !important;
+      }
+
 
       .padding-moon{
         padding-right: 15rem !important;
