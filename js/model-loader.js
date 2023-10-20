@@ -37,6 +37,20 @@ BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene1, function (scene) {
 	// The default camera looks at the back of the asset.
 	// Rotate the camera by 180 degrees to the front of the asset.
 	scene.activeCamera.alpha += Math.PI*1.01;
+
+	//scaling
+	scene.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+	scene.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+	scene.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+	scene.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+	scene.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+
+	//rotation
+	scene.meshes[0].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+	scene.meshes[1].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+	scene.meshes[2].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+	scene.meshes[3].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+	scene.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
 	
 });
 
@@ -84,7 +98,30 @@ BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene2, function (scene) {
 
 	// The default camera looks at the back of the asset.
 	// Rotate the camera by 180 degrees to the front of the asset.
-	scene.activeCamera.alpha += Math.PI*.85;
+	scene.activeCamera.alpha += Math.PI*1.01;
+
+	//scaling
+	scene.meshes[0].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+	scene.meshes[1].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+	scene.meshes[2].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+	scene.meshes[3].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+	scene.meshes[4].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+
+	//rotation
+	scene.meshes[0].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+	scene.meshes[1].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+	scene.meshes[2].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+	scene.meshes[3].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+	scene.meshes[4].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+
+	//position
+	scene.meshes[0].position = new BABYLON.Vector3(40, -10, -0);
+	scene.meshes[1].position = new BABYLON.Vector3(40, -10, -0);
+	scene.meshes[2].position = new BABYLON.Vector3(40, -10, -0);
+	scene.meshes[3].position = new BABYLON.Vector3(40, -10, -0);
+	scene.meshes[4].position = new BABYLON.Vector3(40, -10, -0);
+
+	console.log(scene.meshes);
 	
 });
 
@@ -132,7 +169,7 @@ BABYLON.SceneLoader.Append("3D/", "model_3.glb", scene3, function (scene) {
 
 	// The default camera looks at the back of the asset.
 	// Rotate the camera by 180 degrees to the front of the asset.
-	scene.activeCamera.alpha += Math.PI*.85;
+	scene.activeCamera.alpha += Math.PI*1.01;
 	
 });
 
