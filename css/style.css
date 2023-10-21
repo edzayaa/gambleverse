@@ -4210,6 +4210,7 @@ height: 50px;
 .redes-lis{
   position: absolute;
   bottom: 5%;
+  z-index: 1004;
   display: flex;
   justify-content: center;
   gap: 7%;
