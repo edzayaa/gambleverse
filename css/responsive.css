@@ -587,6 +587,10 @@ background-image:none !important;
       margin-top: 2rem !important;
     }
 
+    .p2{
+      padding: 0rem .8rem;
+    }
+
     .merchandising-filters{
       flex-direction: column !important;
     }
