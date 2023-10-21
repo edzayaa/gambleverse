@@ -587,6 +587,10 @@ background-image:none !important;
       margin-top: 2rem !important;
     }
 
+body{
+  overflow: hidden !important;
+}
+
     .abs{
       width: 60px !important;
       bottom: 10% !important;
