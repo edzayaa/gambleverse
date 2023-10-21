@@ -587,6 +587,10 @@ background-image:none !important;
       margin-top: 2rem !important;
     }
 
+    .merchandising-filters{
+      flex-direction: column !important;
+    }
+
 body{
   overflow: hidden !important;
 }
