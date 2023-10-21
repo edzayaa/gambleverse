@@ -18,43 +18,39 @@ const createScene1 = function () {
 	 light.intensity = 0.7;
 	// Append glTF model to scene. */
 
-	// Creates a light, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 1, 0), scene);
-	// // Dim the light a small amount - 0 to 1
-	pointLight.intensity = 0.7;
-	// Append glTF model to scene.
 	
+	// Append glTF model to scene.
+	BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene, function (mesh) {
+		// Create a default arc rotate camera and light.
+		mesh.createDefaultCamera(true, true, true);
+	
+		// The default camera looks at the back of the asset.
+		// Rotate the camera by 180 degrees to the front of the asset.
+		mesh.activeCamera.alpha += Math.PI*1.01;
+	
+		//scaling
+		mesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		mesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		mesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		mesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		mesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+	
+		//rotation
+		mesh.meshes[0].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+		mesh.meshes[1].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+		mesh.meshes[2].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+		mesh.meshes[3].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+		mesh.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+		
+		// Creates a light, aiming 0,1,0 - to the sky
+		var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 1, 0), scene);
+		// // Dim the light a small amount - 0 to 1
+		pointLight.intensity = 0.7;
+	});
 	return scene;
 };
 const scene1 = createScene1(); //Call the createScene function
 scene1.clearColor = new BABYLON.Color4(0, 0, 0, 0);
-
-
-BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene1, function (scene) {
-	// Create a default arc rotate camera and light.
-	scene.createDefaultCameraOrLight(true, true, true);
-
-	// The default camera looks at the back of the asset.
-	// Rotate the camera by 180 degrees to the front of the asset.
-	scene.activeCamera.alpha += Math.PI*1.01;
-
-	//scaling
-	scene.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-	scene.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-	scene.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-	scene.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-	scene.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-
-	//rotation
-	scene.meshes[0].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-	scene.meshes[1].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-	scene.meshes[2].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-	scene.meshes[3].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-	scene.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-	
-});
-
-
 // Register a render loop to repeatedly render the scene
 engine1.runRenderLoop(function () {
 	scene1.render();
@@ -85,6 +81,40 @@ const createScene2 = function () {
 	// // Dim the light a small amount - 0 to 1
 	pointLight.intensity = 0.7;
 	// Append glTF model to scene.
+
+	BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene, function (sceneMesh) {
+		// Create a default arc rotate camera and light.
+		sceneMesh.createDefaultCamera(true, true, true);
+	
+		// The default camera looks at the back of the asset.
+		// Rotate the camera by 180 degrees to the front of the asset.
+		sceneMesh.activeCamera.alpha += Math.PI*1.01;
+	
+		//scaling
+		sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+		sceneMesh.meshes[1].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+		sceneMesh.meshes[2].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+		sceneMesh.meshes[3].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+		sceneMesh.meshes[4].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+	
+		//rotation
+		sceneMesh.meshes[0].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+		sceneMesh.meshes[1].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+		sceneMesh.meshes[2].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+		sceneMesh.meshes[3].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+		sceneMesh.meshes[4].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
+	
+		//position
+		sceneMesh.meshes[0].position = new BABYLON.Vector3(40, -10, -0);
+		sceneMesh.meshes[1].position = new BABYLON.Vector3(40, -10, -0);
+		sceneMesh.meshes[2].position = new BABYLON.Vector3(40, -10, -0);
+		sceneMesh.meshes[3].position = new BABYLON.Vector3(40, -10, -0);
+		sceneMesh.meshes[4].position = new BABYLON.Vector3(40, -10, -0);
+	
+		console.log(sceneMesh.meshes);
+		
+	});
+	
 	
 	return scene;
 };
@@ -92,38 +122,6 @@ const scene2 = createScene2(); //Call the createScene function
 scene2.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 
 
-BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene2, function (scene) {
-	// Create a default arc rotate camera and light.
-	scene.createDefaultCameraOrLight(true, true, true);
-
-	// The default camera looks at the back of the asset.
-	// Rotate the camera by 180 degrees to the front of the asset.
-	scene.activeCamera.alpha += Math.PI*1.01;
-
-	//scaling
-	scene.meshes[0].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-	scene.meshes[1].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-	scene.meshes[2].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-	scene.meshes[3].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-	scene.meshes[4].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-
-	//rotation
-	scene.meshes[0].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
-	scene.meshes[1].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
-	scene.meshes[2].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
-	scene.meshes[3].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
-	scene.meshes[4].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
-
-	//position
-	scene.meshes[0].position = new BABYLON.Vector3(40, -10, -0);
-	scene.meshes[1].position = new BABYLON.Vector3(40, -10, -0);
-	scene.meshes[2].position = new BABYLON.Vector3(40, -10, -0);
-	scene.meshes[3].position = new BABYLON.Vector3(40, -10, -0);
-	scene.meshes[4].position = new BABYLON.Vector3(40, -10, -0);
-
-	console.log(scene.meshes);
-	
-});
 
 
 // Register a render loop to repeatedly render the scene
@@ -156,22 +154,22 @@ const createScene3 = function () {
 	// // Dim the light a small amount - 0 to 1
 	pointLight.intensity = 0.7;
 	// Append glTF model to scene.
+	BABYLON.SceneLoader.Append("3D/", "model_3.glb", scene, function (sceneMesh) {
+		// Create a default arc rotate camera and light.
+		sceneMesh.createDefaultCamera(true, true, true);
 	
+		// The default camera looks at the back of the asset.
+		// Rotate the camera by 180 degrees to the front of the asset.
+		sceneMesh.activeCamera.alpha += Math.PI*1.01;
+		
+	});
 	return scene;
 };
 const scene3 = createScene3(); //Call the createScene function
 scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 
 
-BABYLON.SceneLoader.Append("3D/", "model_3.glb", scene3, function (scene) {
-	// Create a default arc rotate camera and light.
-	scene.createDefaultCameraOrLight(true, true, true);
 
-	// The default camera looks at the back of the asset.
-	// Rotate the camera by 180 degrees to the front of the asset.
-	scene.activeCamera.alpha += Math.PI*1.01;
-	
-});
 
 
 // Register a render loop to repeatedly render the scene
@@ -180,6 +178,7 @@ engine3.runRenderLoop(function () {
 });
 // Watch for browser/canvas resize events
 window.addEventListener("resize", function () {
+	engine1.resize();
 	engine2.resize();
 	engine3.resize();
 });
