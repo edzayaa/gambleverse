@@ -1,5 +1,120 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
+
+
+  .azonix{
+    font-size: 24px !important;
+  }
+
+  
+  .card-buy{
+    width: 320px  !important;
+    height: 400px !important;
+  }
+
+  .h-full{
+    height: 100vh !important;
+  }
+
+ 
+  .bg-store{
+    background-size: 100% 100% !important;
+    background-position: center !important;
+  }
+
+  .nojoda-slick{
+    margin-bottom: 4rem;
+  }
+
+  .bottom-slash{
+    margin-top: 15% !important;
+  }
+
+  .div-buy2{
+    width: 90% !important;
+  }
+
+  .div-buy-p{
+    font-size: 12px !important;
+  }
+
+  .div-buy2 p{
+    font-size: 13px !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .a61, .a62,.a63,.a64,.a65{
+    display: none !important;
+  }
+  .merchandising-filter{
+    padding: 2px 4px !important;
+  }
+
+  .filters-merchandising{
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr) !important;
+  }
+
+  .slider-responsive2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr) !important;
+  }
+
+
+  .btn-icon{
+    width: 5.5rem !important;
+  }
+
+  .section-skills-hearts{
+    height: fit-content !important;
+  }
+
+  .slick-heading{
+    text-align: center !important;
+  }
+
+.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13{
+    display: none !important;
+  }
+  
+.card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+  width: 235px !important;
+  height: 360px !important;
+}
+
+.skills-hearts{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+}
+
+.cards-btns{
+  display: grid !important;
+  justify-items: center !important;
+  grid-template-columns: repeat(2,1fr) !important;
+}
+
+.slider-responsive{
+  justify-items: center !important;
+  grid-template-columns: repeat(1,1fr) !important;
+}
+
+
+.card-btn{
+  flex-direction: column !important;
+width: 160px !important;
+height: 320px !important;
+}
+
+.container-skills-hearts{
+flex-direction: column !important;
+}
+
+
+
+
+
+
     .nav {
         top: 1% !important;
         height: min-content !important;
@@ -461,6 +576,38 @@ background-image:none !important;
       padding: 0rem .3rem !important;
     }
 
+    
+    .card-slider-games{
+      display: flex !important;
+      flex-direction: column !important;
+      grid-template-columns: repeat(1,1fr);
+    }
+
+    .mb-my{
+      margin-top: 2rem !important;
+    }
+
+    .abs{
+      width: 60px !important;
+      bottom: 10% !important;
+      right: 36.5% !important;
+    }
+
+    .card-games{
+      width: 200px !important;
+    }
+
+    .grid22{
+      display: flex !important;
+
+      flex-direction: column !important;
+
+    }
+
+        .gallery-game img:last-child{
+      display: none !important;
+    }
+
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
@@ -471,6 +618,43 @@ background-image:none !important;
     }
 
     
+    .abs{
+      width: 60px !important;
+      bottom: 10% !important;
+      right: 36.5% !important;
+    }
+
+    .card-games{
+      width: 120px !important;
+    }
+
+    .grid22{
+      display: grid !important;
+      justify-items: center !important;
+      grid-template-columns: 100% !important;
+    }
+
+    .bg-games{
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat;
+      background-position: center !important;
+    }
+    
+    
+    .card-buy{
+      width: 240px  !important;
+      height: 400px !important;
+    }
+
+    .a61, .a62,.a63,.a64{
+      display: none !important;
+    }
+
+    .slider-responsive2{
+      display: grid;
+      grid-template-columns: repeat(2,1fr) !important;
+    }
+
 
     .grid-comunity{
       display: flex !important;
@@ -813,6 +997,50 @@ background-image:cover !important;
     .container-md{
         width: 90% !important;
       }
+
+      .azonix{
+        font-size: 24px !important;
+      }
+
+      .btn-icon{
+        width: 5.5rem !important;
+      }
+
+      .section-skills-hearts{
+        height: fit-content !important;
+      }
+      
+    .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+      width: 235px !important;
+      height: 360px !important;
+    }
+
+    .skills-hearts{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-content: center;
+    }
+    
+    .cards-btns{
+      display: grid !important;
+      justify-items: center !important;
+      grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .slider-responsive{
+      
+      grid-template-columns: repeat(2,1fr) !important;
+    }
+
+
+.card-btn{
+  width: 250px !important;
+}
+
+.container-skills-hearts{
+  flex-direction: column !important;
+}
+
 }
 
 /*Media queries para trabajar en tablets com Ipads*/
@@ -822,11 +1050,77 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+    .gallery-game img:last-child{
+      display: none !important;
+    }
+
+    .abs{
+      width: 100px !important;
+      bottom: 10% !important;
+      right: 36.5% !important;
+    }
+
+    .grid22{
+      display: grid !important;
+      justify-items: center !important;
+      grid-template-columns: 100% !important;
+    }
+
+    .bg-games{
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat;
+      background-position: center !important;
+    }
+    
+    .card-buy{
+      width: 240px  !important;
+      height: 400px !important;
+    }
+
+    .a61, .a62,.a63{
+      display: none !important;
+    }
+
+    .slider-responsive2{
+      display: grid;
+      grid-template-columns: repeat(3,1fr) !important;
+    }
+
     .render-float1{
       width: 90px !important;
       top: 40% !important;
       left:  55% !important;
     }
+
+    .section-skills-hearts{
+      height: fit-content !important;
+    }
+
+    .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+      width: 225px !important;
+      height: 320px !important;
+    }
+    
+    .cards-btns{
+      display: grid !important;
+      justify-items: center !important;
+      grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .slider-responsive{
+      
+      grid-template-columns: repeat(3,1fr) !important;
+    }
+
+
+.card-btn{
+  width: 330px !important;
+}
+
+.container-skills-hearts{
+  flex-direction: column !important;
+}
+
 
     .render-float2{
       width: 120px !important;
@@ -1211,6 +1505,24 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+    .abs{
+      bottom: 9% !important;
+      right: 35% !important;
+    }
+
+    .card-buy{
+      width: 300px  !important;
+      height: 400px !important;
+    }
+
+    .a61, .a62,.a63{
+      display: none !important;
+    }
+
+    .slider-responsive2{
+      display: grid;
+      grid-template-columns: repeat(3,1fr) !important;
+    }
     
     .render-float1{
       width: 90px !important;
@@ -1564,6 +1876,26 @@ background-image:cover !important;
       flex-direction: column !important;
       column-gap: 0% !important;
     }
+    .cards-btns{
+      display: grid !important;
+      justify-items: center !important;
+      grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .slider-responsive{
+      
+      grid-template-columns: repeat(3,1fr) !important;
+    }
+
+
+.card-btn{
+  width: 330px !important;
+}
+
+.container-skills-hearts{
+  flex-direction: column !important;
+}
+
 
 .h-min{
   height: fit-content !important;
@@ -1575,6 +1907,7 @@ background-image:cover !important;
     }
 
 
+
 }
 
 /*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
@@ -1584,7 +1917,26 @@ background-image:cover !important;
         width: 400px !important; 
       }
 
-      
+      .abs{
+        bottom: 10% !important;
+        right: 37% !important;
+      }
+
+
+      .card-buy{
+        width: 240px  !important;
+        height: 400px !important;
+      }
+
+      .a61, .a62{
+        display: none !important;
+      }
+
+      .slider-responsive2{
+        display: grid;
+        grid-template-columns: repeat(4,1fr) !important;
+      }
+
       .rectangle-40{
         padding-top: .5rem !important;
         height: 95% !important;
@@ -1721,7 +2073,29 @@ background-image:cover !important;
           width: 90% !important;
         }
   
-  
+
+        
+.ss h2{
+
+font-size: 12px !important;
+
+}
+
+.ss-p1{
+
+font-size: 8px !important;
+opacity: 0 !important;
+}
+
+.ss-p2{
+  opacity: 0 !important;
+
+font-family: Azonix !important;
+font-size: 9px !important;
+
+}
+
+
         .rwd-table{
          min-width: 270px !important;
         }
@@ -1738,6 +2112,11 @@ background-image:cover !important;
           font-size: 22px !important;
         }
 
+        .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+          width: 180px !important;
+          height: 320px !important;
+        }
+
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1281px){
@@ -1745,6 +2124,24 @@ background-image:cover !important;
         width: 400px !important; 
       }
 
+      .abs{
+        bottom: 10% !important;
+        right: 37% !important;
+      }
+
+      .card-buy{
+        width: 240px  !important;
+        height: 400px !important;
+      }
+
+      .a61{
+        display: none !important;
+      }
+
+      .slider-responsive2{
+        display: grid;
+        grid-template-columns: repeat(5,1fr) !important;
+      }
 
       .section-comunity{
         display: flex !important;
@@ -1980,6 +2377,12 @@ background-image:cover !important;
     .m-negative{
       margin-top:-3.8rem !important;
     }
+
+    .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+      width: 180px !important;
+      height: 320px !important;
+    }
+
 }
 
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
@@ -1987,6 +2390,15 @@ background-image:cover !important;
 
     .spacer-large{
         height:6rem !important;
+      }
+
+      .a61{
+        display: none !important;
+      }
+
+      .slider-responsive2{
+        display: grid;
+        grid-template-columns: repeat(5,1fr) !important;
       }
 
       .grid-comunity{
@@ -2146,6 +2558,12 @@ background-image:cover !important;
       .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
         display: none;
         }
+
+        .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+          width: 230px !important;
+          height: 340px !important;
+        }
+    
       
 }
 
@@ -2154,8 +2572,17 @@ background-image:cover !important;
         margin-left: 2rem !important;
       }
 
+      .a61{
+        display: none !important;
+      }
+
       .rectangle-view{
         padding-left: 2rem !important;
+      }
+
+      .slider-responsive2{
+        display: grid;
+        grid-template-columns: repeat(5,1fr) !important;
       }
 
 
@@ -2360,6 +2787,14 @@ background-image:cover !important;
     .m-negative{
       margin-top:-3.6rem !important;
     }
+
+    .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+      width: 230px !important;
+      height: 340px !important;
+    }
+
+
+    
 }
 
 @media  screen and (min-width: 1600px) and (max-width: 1601px) {
@@ -2367,6 +2802,11 @@ background-image:cover !important;
         z-index: 1005;
         margin-bottom: -.9rem !important;
         margin-left: -.3rem;
+        }
+
+        .abs{
+          bottom: 10% !important;
+          right: 38% !important;
         }
 
         .grid-comunity{
@@ -2491,6 +2931,17 @@ background-image:cover !important;
             padding-right: 15rem !important;
           }
     
+          .card-btn{
+            width: 24rem  !important;
+            height: 250px !important;
+          }
+
+          .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+            width: 250px !important;
+            height: 320px !important;
+          }
+    
+
 }
 
 /*Media queries para trabajar en pantallas pre-FULLHD*/
@@ -2510,6 +2961,11 @@ background-image:cover !important;
       
       .rectangle-view{
         padding-left: 3rem !important;
+      }
+
+      .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+        width: 250px !important;
+        height: 320px !important;
       }
 
 
@@ -2546,6 +3002,16 @@ background-image:cover !important;
             padding-left: 6rem !important;
           }
 
+          .card-btn{
+            width: 24rem  !important;
+            height: 250px !important;
+          }
+
+          .abs{
+            bottom: 10% !important;
+            right: 38% !important;
+          }
+
 }
 
 @media  screen and (min-width: 1920px) and (max-width: 1921px) {
@@ -2556,6 +3022,10 @@ background-image:cover !important;
     margin-left: -.5rem;
     }
 
+    .abs{
+      bottom: 10% !important;
+      right: 38% !important;
+    }
     
     
     .circle-2{
@@ -2604,11 +3074,26 @@ background-image:cover !important;
     .m-negative{
       margin-top:-5.8rem;
     }
+
+    .card-btn{
+      width: 24rem  !important;
+      height: 250px !important;
+    }
 }
 
 /*Media queries para trabajar en Pantallas FULLHD y superior*/
 @media  screen and (min-width: 1922px){
     .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
         display: none;
+        }
+
+        .abs{
+          bottom: 10% !important;
+          right: 38% !important;
+        }
+
+        .card-btn{
+          width: 24rem  !important;
+          height: 250px !important;
         }
 }
