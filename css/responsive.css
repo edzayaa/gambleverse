@@ -580,7 +580,7 @@ background-image:none !important;
     .card-slider-games{
       display: flex !important;
       flex-direction: column !important;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(1,1fr);align-items: center !important;
     }
 
     .mb-my{
@@ -594,6 +594,7 @@ body{
     .abs{
       width: 60px !important;
       bottom: 10% !important;
+      display: none !important;
       right: 36.5% !important;
     }
 
