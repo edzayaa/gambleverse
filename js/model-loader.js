@@ -43,10 +43,10 @@ const createScene1 = function () {
 		mesh.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
 		
 		// Creates a light, aiming 0,1,0 - to the sky
-		var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 20, 0), scene);
+		var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 10, 0), scene);
 		// // Dim the light a small amount - 0 to 1
 		pointLight.intensity = 0.7;
-		pointLight.radius = 10
+		//pointLight.radius = 10
 
 		console.log(pointLight);
 	});
@@ -80,10 +80,10 @@ const createScene2 = function () {
 	// Append glTF model to scene. */
 
 	// Creates a light, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(40, -10, -0), scene);
+	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 20, 0), scene);
 	// // Dim the light a small amount - 0 to 1
 	pointLight.intensity = 0.7;
-	pointLight.radius = 10
+	//pointLight.radius = 10
 	// Append glTF model to scene.
 
 	BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene, function (sceneMesh) {
