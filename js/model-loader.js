@@ -11,12 +11,18 @@ const createScene1 = function () {
 	 camera.setTarget(BABYLON.Vector3.Zero());
 	// // This attaches the camera to the canvas
 	 camera.attachControl(canvas1, true);
-	/* // Creates a light, aiming 0,1,0 - to the sky
+	// Creates a light, aiming 0,1,0 - to the sky
 	 const light = new BABYLON.HemisphericLight("light", 
 	 	new BABYLON.Vector3(0, 1, 0), scene);
 	// // Dim the light a small amount - 0 to 1
 	 light.intensity = 0.7;
-	// Append glTF model to scene. */
+	// Append glTF model to scene.
+
+	// Creates a PointLight, aiming 0,1,0 - to the sky
+	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(10, 85, 45), scene);
+	// // Dim the light a small amount - 0 to 1
+	pointLight.intensity = 5000;
+	pointLight.radius = 10
 
 	
 	// Append glTF model to scene.
@@ -42,13 +48,7 @@ const createScene1 = function () {
 		mesh.meshes[3].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
 		mesh.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
 		
-		// Creates a light, aiming 0,1,0 - to the sky
-		var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 10, 0), scene);
-		// // Dim the light a small amount - 0 to 1
-		pointLight.intensity = 0.7;
-		//pointLight.radius = 10
-
-		console.log(pointLight);
+		
 	});
 	return scene;
 };
@@ -72,18 +72,19 @@ const createScene2 = function () {
 	// // This attaches the camera to the canvas
 	 camera.attachControl(canvas2, true);
 
-	/* // Creates a light, aiming 0,1,0 - to the sky
+	// Creates a light, aiming 0,1,0 - to the sky
 	 const light = new BABYLON.HemisphericLight("light", 
 	 	new BABYLON.Vector3(0, 1, 0), scene);
 	// // Dim the light a small amount - 0 to 1
-	 light.intensity = 0.7;
-	// Append glTF model to scene. */
+	 light.intensity = 0.3;
+	// Append glTF model to scene.
 
-	// Creates a light, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 20, 0), scene);
+	// Creates a PointLight, aiming 0,1,0 - to the sky
+	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(5, 70, 25), scene);
 	// // Dim the light a small amount - 0 to 1
-	pointLight.intensity = 0.7;
-	//pointLight.radius = 10
+	pointLight.intensity = 2500;
+	pointLight.radius = 10
+
 	// Append glTF model to scene.
 
 	BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene, function (sceneMesh) {
