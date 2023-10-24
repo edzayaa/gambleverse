@@ -47,6 +47,12 @@ const createScene1 = function () {
 		mesh.meshes[2].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
 		mesh.meshes[3].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
 		mesh.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+
+		//material metallic
+		mesh.materials[0]._metallic = 0.95;
+		mesh.materials[1]._metallic = 0.95;
+		mesh.materials[2]._metallic = 0.95;
+		mesh.materials[3]._metallic = 0.95;
 		
 		
 	});
@@ -115,8 +121,14 @@ const createScene2 = function () {
 		sceneMesh.meshes[2].position = new BABYLON.Vector3(40, -10, -0);
 		sceneMesh.meshes[3].position = new BABYLON.Vector3(40, -10, -0);
 		sceneMesh.meshes[4].position = new BABYLON.Vector3(40, -10, -0);
+
+		//material metallic
+		sceneMesh.materials[0]._metallic = 0.95;
+		sceneMesh.materials[1]._metallic = 0.95;
+		sceneMesh.materials[2]._metallic = 0.95;
+		sceneMesh.materials[3]._metallic = 0.95;
 	
-		console.log(sceneMesh.meshes);
+		console.log(sceneMesh.materials);
 		
 	});
 	
