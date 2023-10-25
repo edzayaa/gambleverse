@@ -21,8 +21,14 @@ const createScene1 = function () {
 	// Creates a PointLight, aiming 0,1,0 - to the sky
 	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(10, 85, 45), scene);
 	// // Dim the light a small amount - 0 to 1
-	pointLight.intensity = 5000;
+	pointLight.intensity = 240;
 	pointLight.radius = 10
+
+	// Change the color of the PointLight
+    pointLight.diffuse = new BABYLON.Color3(87, 35, 100);
+	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
+
+	console.log(pointLight);
 
 	
 	// Append glTF model to scene.
@@ -54,7 +60,106 @@ const createScene1 = function () {
 		mesh.materials[2]._metallic = 0.95;
 		mesh.materials[3]._metallic = 0.95;
 		
-		
+		/* -------------Animation---------- */
+
+		//Animate the Wheels
+		const animWheel = new BABYLON.Animation("wheelAnimation", "meshes[0].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
+		const wheelKeys = []; 
+		//At the animation key 0, the value of rotation.y is 0
+		wheelKeys.push({
+			frame: 0,
+			value: 0
+		});
+		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
+		wheelKeys.push({
+			frame: 30,
+			value: 2 * Math.PI
+		});
+		//set the keys
+		animWheel.setKeys(wheelKeys);
+		mesh.meshes[0].animations = [];
+		mesh.meshes[0].animations.push(animWheel);
+		scene.beginAnimation(mesh.meshes[0], 0, 30, true);
+
+		//Animate the Wheels
+		const animWheel1 = new BABYLON.Animation("wheelAnimation1", "meshes[1].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
+		const wheelKeys1 = []; 
+		//At the animation key 0, the value of rotation.y is 0
+		wheelKeys1.push({
+			frame: 0,
+			value: 0
+		});
+		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
+		wheelKeys1.push({
+			frame: 30,
+			value: 2 * Math.PI
+		});
+		//set the keys
+		animWheel1.setKeys(wheelKeys1);
+		mesh.meshes[1].animations = [];
+		mesh.meshes[1].animations.push(animWheel1);
+		scene.beginAnimation(mesh.meshes[1], 0, 30, true);
+
+		//Animate the Wheels
+		const animWheel2 = new BABYLON.Animation("wheelAnimation2", "meshes[2].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
+		const wheelKeys2 = []; 
+		//At the animation key 0, the value of rotation.y is 0
+		wheelKeys2.push({
+			frame: 0,
+			value: 0
+		});
+		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
+		wheelKeys2.push({
+			frame: 30,
+			value: 2 * Math.PI
+		});
+		//set the keys
+		animWheel2.setKeys(wheelKeys2);
+		mesh.meshes[2].animations = [];
+		mesh.meshes[2].animations.push(animWheel2);
+		scene.beginAnimation(mesh.meshes[2], 0, 30, true);
+
+		//Animate the Wheels
+		const animWheel3 = new BABYLON.Animation("wheelAnimation3", "meshes[3].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
+		const wheelKeys3 = []; 
+		//At the animation key 0, the value of rotation.y is 0
+		wheelKeys3.push({
+			frame: 0,
+			value: 0
+		});
+		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
+		wheelKeys3.push({
+			frame: 30,
+			value: 2 * Math.PI
+		});
+		//set the keys
+		animWheel3.setKeys(wheelKeys3);
+
+		mesh.meshes[3].animations = [];
+		mesh.meshes[3].animations.push(animWheel3);
+		scene.beginAnimation(mesh.meshes[3], 0, 30, true);
+
+		//Animate the Wheels
+		const animWheel4 = new BABYLON.Animation("wheelAnimation4", "meshes[4].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
+		const wheelKeys4 = []; 
+		//At the animation key 0, the value of rotation.y is 0
+		wheelKeys4.push({
+			frame: 0,
+			value: 0
+		});
+		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
+		wheelKeys4.push({
+			frame: 30,
+			value: 2 * Math.PI
+		});
+		//set the keys
+		animWheel4.setKeys(wheelKeys4);
+
+		//Link this animation to a wheel
+		mesh.meshes[4].animations = [];
+		mesh.meshes[4].animations.push(animWheel4);
+		scene.beginAnimation(mesh.meshes[4], 0, 30, true);
+
 	});
 	return scene;
 };
@@ -88,8 +193,12 @@ const createScene2 = function () {
 	// Creates a PointLight, aiming 0,1,0 - to the sky
 	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(5, 70, 25), scene);
 	// // Dim the light a small amount - 0 to 1
-	pointLight.intensity = 2500;
+	pointLight.intensity = 100;
 	pointLight.radius = 10
+
+	// Change the color of the PointLight
+    pointLight.diffuse = new BABYLON.Color3(87, 35, 100);
+	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
 
 	// Append glTF model to scene.
 
@@ -128,7 +237,7 @@ const createScene2 = function () {
 		sceneMesh.materials[2]._metallic = 0.95;
 		sceneMesh.materials[3]._metallic = 0.95;
 	
-		console.log(sceneMesh.materials);
+		console.log(sceneMesh);
 		
 	});
 	
