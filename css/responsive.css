@@ -520,6 +520,7 @@ flex-direction: column !important;
 
 
     .rwd-table th, .rwd-table td{
+      margin-top: .3rem !important;
       margin-left: .3rem !important;
     }
 
