@@ -132,12 +132,53 @@ svg:not(:root){
 figure{
   margin:1em 40px
 }
+
 hr{
   box-sizing:content-box;
   height:0;
   background: #3E3555 !important;
   border: .5px solid #3E3555 !important;
 }
+
+.flex-gianny2{
+  display:grid;
+  width: 100%;
+  background-color: #0082f3;
+  justify-items: center;
+}
+
+.order-3{
+  order: 1;
+}
+
+.flex-gianny{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 5%;
+  justify-items: start;
+ width: 100%;
+ margin-left: 3rem;
+}
+
+.flex-gianny4{
+  display: grid;
+  gap: 0%;
+  grid-template-columns: 50% 50%;
+  justify-items: start;
+ width: 100%;
+ margin-left: 14rem;
+}
+
+.container-gianny{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.container-sm-gianny{
+  width: 60%;
+}
+
 pre{
   overflow:auto
 }
@@ -4354,6 +4395,17 @@ height: 50px;
   font-weight: 400;
   line-height: 150%;
 }
+
+.parrafo3 {
+  color: rgba(235, 235, 235, 0.65);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
 .bg-store {
   background-image: url("../img/backgrounds/image\ 64.jpg") !important;
   background-size: 100% 100%;
@@ -5103,6 +5155,16 @@ img{
   font-weight: 400;
   line-height: 120.5%;
 }
+
+.title-parrafo2 {
+  color: #FFF;
+  font-family: Azonix;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.5%;
+}
+
 .gallery-game {
   display: flex;
 }

@@ -1154,6 +1154,57 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+    .discount{
+      padding: 5px !important;
+     right: 1rem !important;
+     top: 1rem !important;
+    }
+
+    .discount h1{
+      font-size: 11px !important;
+    }
+
+  .flex-gianny{
+    margin-left: 0rem !important;
+    gap: 6% !important;
+  }
+
+  .flex-gianny4{
+    margin-left: 0rem !important;
+
+  }
+
+  .parrafo3{
+    font-size: 18px !important;
+  }
+
+  .flex-gianny{
+    grid-template-columns: 100% !important;
+  }
+
+  
+  .flex-gianny4{
+    grid-template-columns: 100% !important;
+  }
+
+  .game-product{
+    width: 300px !important;
+  }
+
+  .nav-buttonbg3{
+    padding: 5px !important;
+  }
+
+  .class-mostgames{
+    width: 350px !important;
+  }
+
+
+  .card-games{
+    width: 120px !important;
+  }
+
+
     .gallery-game img:last-child{
       display: none !important;
     }
@@ -1617,6 +1668,47 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+    .discount{
+      padding: 5px !important;
+     right: 1rem !important;
+     top: 1rem !important;
+    }
+
+    .discount h1{
+      font-size: 11px !important;
+    }
+
+  .flex-gianny{
+    margin-left: 7rem !important;
+    gap: 6% !important;
+  }
+
+  .flex-gianny4{
+    margin-left: 13rem !important;
+
+  }
+
+  .game-product{
+    width: 300px !important;
+  }
+
+  .class-mostgames{
+    width: 250px !important;
+  }
+
+
+  .card-games{
+    width: 120px !important;
+  }
+
+  .nav-buttonbg3{
+    padding: 6px !important;
+  }
+
+  .parrafo3{
+    font-size: 14px !important;
+  }
+
     .abs{
       bottom: 9% !important;
       right: 35% !important;
@@ -2045,6 +2137,30 @@ background-image:cover !important;
 /*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
 @media only screen and (min-width: 1282px) and (max-width: 1439px){
 
+  
+  .parrafo3{
+    font-size: 17px !important;
+  }
+
+  .flex-gianny{
+    margin-left: 12rem !important;
+    gap: 3% !important;
+  }
+
+  .flex-gianny4{
+    margin-left: 18rem !important;
+
+  }
+
+
+  .card-games{
+    width: 230px !important;
+  }
+
+  .nav-buttonbg3{
+    padding: 6px !important;
+  }
+
   .font-38{
     color: #FFF;
   text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
@@ -2282,6 +2398,25 @@ font-size: 9px !important;
     .img-visions{
         width: 400px !important; 
       }
+
+      .card-games{
+        width: 230px !important;
+      }
+      .parrafo3{
+        font-size: 17px !important;
+      }
+    
+      .flex-gianny{
+        margin-left: 15rem !important;
+        gap: 3% !important;
+      }
+    
+      .flex-gianny4{
+        margin-left: 22rem !important;
+    
+      }
+
+
 
       .font-38{
         color: #FFF;
@@ -2590,6 +2725,20 @@ font-size: 9px !important;
         height:6rem !important;
       }
 
+      .parrafo3{
+        font-size: 18px !important;
+      }
+    
+      .flex-gianny{
+        margin-left: 12rem !important;
+        gap: 3% !important;
+      }
+    
+      .flex-gianny4{
+        margin-left: 20rem !important;
+    
+      }
+
       .font-38{
         color: #FFF;
       text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
@@ -2795,7 +2944,22 @@ font-size: 9px !important;
 }
 
 @media  screen and (min-width: 1440px) and (max-width: 1441px){
-    .slider-in{
+  
+  .parrafo3{
+    font-size: 18px !important;
+  }
+
+  .flex-gianny{
+    margin-left: 12rem !important;
+    gap: 3% !important;
+  }
+
+  .flex-gianny4{
+    margin-left: 20rem !important;
+
+  }
+  
+  .slider-in{
         margin-left: 2rem !important;
       }
 
@@ -3080,6 +3244,24 @@ font-size: 9px !important;
         margin-left: -.3rem;
         }
 
+        .spacer-large{
+          height:6rem !important;
+        }
+  
+        .parrafo3{
+          font-size: 21px !important;
+        }
+      
+        .flex-gianny{
+          margin-left: 12rem !important;
+          gap: 3% !important;
+        }
+      
+        .flex-gianny4{
+          margin-left: 20rem !important;
+      
+        }
+
         .font-38{
           color: #FFF;
         text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
@@ -3255,6 +3437,24 @@ font-size: 9px !important;
 @media  screen and (min-width: 1602px) and (max-width: 1919px){
     .slider-in{
         margin-left: 5rem !important;
+      }
+
+      .spacer-large{
+        height:6rem !important;
+      }
+
+      .parrafo3{
+        font-size: 21px !important;
+      }
+    
+      .flex-gianny{
+        margin-left: 12rem !important;
+        gap: 3% !important;
+      }
+    
+      .flex-gianny4{
+        margin-left: 20rem !important;
+    
       }
 
       .font-38{
