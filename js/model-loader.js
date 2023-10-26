@@ -1,4 +1,52 @@
 
+var active1=false,active2=false,active3=false;
+var scrollDir,scrollAct=window.scrollY;
+const observer = new IntersectionObserver(entries => {
+	entries.forEach(entry => {
+	  if (entry.isIntersecting) {
+		active1=true;
+		return; // if we added the class, exit the function
+	  }
+	  active1=false;
+	  // We're not intersecting, so remove the class!
+	  //bunny.classList.remove('bunny-animation');
+	});
+});
+  
+observer.observe(document.querySelector('.model-1-loader'));
+
+const observer2 = new IntersectionObserver(entries => {
+	entries.forEach(entry => {
+	  if (entry.isIntersecting) {
+		active2=true;
+		return; // if we added the class, exit the function
+	  }
+	  active2=false;
+	});
+});
+  
+observer2.observe(document.querySelector('.model-2-loader'));
+
+const observer3 = new IntersectionObserver(entries => {
+	entries.forEach(entry => {
+	  if (entry.isIntersecting) {
+		active3=true;
+		return; // if we added the class, exit the function
+	  }
+	  active3=false;
+	});
+});
+  
+observer3.observe(document.querySelector('.model-3-loader'));
+
+document.addEventListener('scroll',()=>{
+	if (scrollAct>window.scrollY) {
+		scrollDir=1;
+	}else{
+		scrollDir=-1
+	}
+	scrollAct=window.scrollY;
+});
 const canvas1 = document.getElementById("model_1"); // Get the canvas element
 const engine1 = new BABYLON.Engine(canvas1, true); // Generate the BABYLON 3D engine
 const createScene1 = function () {
@@ -25,7 +73,7 @@ const createScene1 = function () {
 	pointLight.radius = 10
 
 	// Change the color of the PointLight
-    pointLight.diffuse = new BABYLON.Color3(87, 35, 100);
+    pointLight.diffuse = new BABYLON.Color3(106, 94, 209);
 
 	// Creates a PointLight, aiming 0,1,0 - to the sky
 	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 75, 45), scene);
@@ -71,23 +119,39 @@ const createScene1 = function () {
 		
 		/* -------------Animation rotation---------- */
 
-		scene.registerBeforeRender(function () {
-			// Rotate the mesh by 0.01 radians around the y-axis.
-			mesh.meshes[0].rotation.y += 0.002
-			mesh.meshes[1].rotation.y += 0.002
-			mesh.meshes[2].rotation.y += 0.002
-			mesh.meshes[3].rotation.y += 0.002
-			mesh.meshes[4].rotation.y += 0.002
-		});
+		// scene.registerBeforeRender(function () {
+		// 	// Rotate the mesh by 0.01 radians around the y-axis.
+		// 	if (active1) {
+		// 		mesh.meshes[0].rotation.y += 0.002
+		// 		mesh.meshes[1].rotation.y += 0.002
+		// 		mesh.meshes[2].rotation.y += 0.002
+		// 		mesh.meshes[3].rotation.y += 0.002
+		// 		mesh.meshes[4].rotation.y += 0.002
+		// 	}
+			
+		// });
 
 	});
 	return scene;
 };
 const scene1 = createScene1(); //Call the createScene function
 scene1.clearColor = new BABYLON.Color4(0, 0, 0, 0);
+console.log(scene1);
 // Register a render loop to repeatedly render the scene
 engine1.runRenderLoop(function () {
-	scene1.render();
+	
+	if (active1) {
+		scene1.render();
+		if (scene1.meshes.length>0) {
+			scene1.meshes[0].rotation.y += 0.002 *scrollDir;
+			scene1.meshes[1].rotation.y += 0.002*scrollDir;
+			scene1.meshes[2].rotation.y += 0.002*scrollDir;
+			scene1.meshes[3].rotation.y += 0.002*scrollDir;
+			scene1.meshes[4].rotation.y += 0.002*scrollDir;
+		}
+		
+	}
+	
 });
 
 const canvas2 = document.getElementById("model_2"); // Get the canvas element
@@ -117,7 +181,7 @@ const createScene2 = function () {
 	pointLight.radius = 10
 
 	// Change the color of the PointLight
-    pointLight.diffuse = new BABYLON.Color3(87, 35, 100);
+    pointLight.diffuse = new BABYLON.Color3(106, 94, 209);
 	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
 	// Creates a PointLight, aiming 0,1,0 - to the sky
 	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 85, 45), scene);
@@ -129,13 +193,13 @@ const createScene2 = function () {
 	pointLight2.diffuse = new BABYLON.Color3(10, 10, 255);
 		// Append glTF model to scene.
 
-	BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene, function (sceneMesh) {
+	BABYLON.SceneLoader.Append("3D/", "model_1.glb", scene, function (sceneMesh) {
 		// Create a default arc rotate camera and light.
 		sceneMesh.createDefaultCamera(true, true, true);
 	
 		// The default camera looks at the back of the asset.
 		// Rotate the camera by 180 degrees to the front of the asset.
-		sceneMesh.activeCamera.alpha += Math.PI*1.01;
+		sceneMesh.activeCamera.alpha += Math.PI;
 	
 		//scaling
 		sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
@@ -168,14 +232,14 @@ const createScene2 = function () {
 
 		/* -------------Animation rotation---------- */
 
-		scene.registerBeforeRender(function () {
-			// Rotate the mesh by 0.01 radians around the y-axis.
-			sceneMesh.meshes[0].rotation.y += 0.002 
-			sceneMesh.meshes[1].rotation.y += 0.002 
-			sceneMesh.meshes[2].rotation.y += 0.002 
-			sceneMesh.meshes[3].rotation.y += 0.002 
-			sceneMesh.meshes[4].rotation.y += 0.002 
-		});
+		// scene.registerBeforeRender(function () {
+		// 	// Rotate the mesh by 0.01 radians around the y-axis.
+		// 	sceneMesh.meshes[0].rotation.y += 0.002 
+		// 	sceneMesh.meshes[1].rotation.y += 0.002 
+		// 	sceneMesh.meshes[2].rotation.y += 0.002 
+		// 	sceneMesh.meshes[3].rotation.y += 0.002 
+		// 	sceneMesh.meshes[4].rotation.y += 0.002 
+		// });
 		
 	});
 	
@@ -190,7 +254,18 @@ scene2.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 
 // Register a render loop to repeatedly render the scene
 engine2.runRenderLoop(function () {
-	scene2.render();
+	
+	if (active2) {
+		scene2.render();
+		if (scene2.meshes.length>0) {
+			scene2.meshes[0].rotation.y += 0.002 *scrollDir;
+			scene2.meshes[1].rotation.y += 0.002*scrollDir;
+			scene2.meshes[2].rotation.y += 0.002*scrollDir;
+			scene2.meshes[3].rotation.y += 0.002*scrollDir;
+			scene2.meshes[4].rotation.y += 0.002*scrollDir;
+		}
+		
+	}
 });
 
 
@@ -238,7 +313,10 @@ scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 
 // Register a render loop to repeatedly render the scene
 engine3.runRenderLoop(function () {
-	scene3.render();
+	if (active3) {
+		scene3.render();
+	}
+	
 });
 // Watch for browser/canvas resize events
 window.addEventListener("resize", function () {
