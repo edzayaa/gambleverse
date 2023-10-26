@@ -72,7 +72,7 @@ const createScene1 = function () {
 		/* -------------Animation rotation---------- */
 
 		scene.registerBeforeRender(function () {
-			// Rotate the sphere by 0.01 radians around the y-axis.
+			// Rotate the mesh by 0.01 radians around the y-axis.
 			mesh.meshes[0].rotation.y += 0.002
 			mesh.meshes[1].rotation.y += 0.002
 			mesh.meshes[2].rotation.y += 0.002
@@ -169,7 +169,7 @@ const createScene2 = function () {
 		/* -------------Animation rotation---------- */
 
 		scene.registerBeforeRender(function () {
-			// Rotate the sphere by 0.01 radians around the y-axis.
+			// Rotate the mesh by 0.01 radians around the y-axis.
 			sceneMesh.meshes[0].rotation.y += 0.002 
 			sceneMesh.meshes[1].rotation.y += 0.002 
 			sceneMesh.meshes[2].rotation.y += 0.002 
