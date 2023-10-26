@@ -6,6 +6,15 @@
     font-size: 24px !important;
   }
 
+  .card-img-streamer{
+    justify-content: center !important;
+  }
+
+  .card-img-streamer img{
+    min-width: 200px !important;
+    height: auto !important;
+    max-width: 250px !important;
+  }
   
   .card-buy{
     width: 320px  !important;
