@@ -57,11 +57,11 @@ const createScene1 = function () {
 		mesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
 	
 		//rotation
-		mesh.meshes[0].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-		mesh.meshes[1].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-		mesh.meshes[2].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-		mesh.meshes[3].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
-		mesh.meshes[4].rotation = new BABYLON.Vector3(0, 0.2, 0.2);
+		mesh.meshes[0].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
+		mesh.meshes[1].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
+		mesh.meshes[2].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
+		mesh.meshes[3].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
+		mesh.meshes[4].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
 
 		//material metallic
 		mesh.materials[0]._metallic = 0.95;
@@ -69,105 +69,16 @@ const createScene1 = function () {
 		mesh.materials[2]._metallic = 0.95;
 		mesh.materials[3]._metallic = 0.95;
 		
-		/* -------------Animation---------- */
+		/* -------------Animation rotation---------- */
 
-		//Animate the Wheels
-		const animWheel = new BABYLON.Animation("wheelAnimation", "meshes[0].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
-		const wheelKeys = []; 
-		//At the animation key 0, the value of rotation.y is 0
-		wheelKeys.push({
-			frame: 0,
-			value: 0
+		scene.registerBeforeRender(function () {
+			// Rotate the mesh by 0.01 radians around the y-axis.
+			mesh.meshes[0].rotation.y += 0.002
+			mesh.meshes[1].rotation.y += 0.002
+			mesh.meshes[2].rotation.y += 0.002
+			mesh.meshes[3].rotation.y += 0.002
+			mesh.meshes[4].rotation.y += 0.002
 		});
-		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
-		wheelKeys.push({
-			frame: 30,
-			value: 2 * Math.PI
-		});
-		//set the keys
-		animWheel.setKeys(wheelKeys);
-		mesh.meshes[0].animations = [];
-		mesh.meshes[0].animations.push(animWheel);
-		scene.beginAnimation(mesh.meshes[0], 0, 30, true);
-
-		//Animate the Wheels
-		const animWheel1 = new BABYLON.Animation("wheelAnimation1", "meshes[1].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
-		const wheelKeys1 = []; 
-		//At the animation key 0, the value of rotation.y is 0
-		wheelKeys1.push({
-			frame: 0,
-			value: 0
-		});
-		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
-		wheelKeys1.push({
-			frame: 30,
-			value: 2 * Math.PI
-		});
-		//set the keys
-		animWheel1.setKeys(wheelKeys1);
-		mesh.meshes[1].animations = [];
-		mesh.meshes[1].animations.push(animWheel1);
-		scene.beginAnimation(mesh.meshes[1], 0, 30, true);
-
-		//Animate the Wheels
-		const animWheel2 = new BABYLON.Animation("wheelAnimation2", "meshes[2].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
-		const wheelKeys2 = []; 
-		//At the animation key 0, the value of rotation.y is 0
-		wheelKeys2.push({
-			frame: 0,
-			value: 0
-		});
-		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
-		wheelKeys2.push({
-			frame: 30,
-			value: 2 * Math.PI
-		});
-		//set the keys
-		animWheel2.setKeys(wheelKeys2);
-		mesh.meshes[2].animations = [];
-		mesh.meshes[2].animations.push(animWheel2);
-		scene.beginAnimation(mesh.meshes[2], 0, 30, true);
-
-		//Animate the Wheels
-		const animWheel3 = new BABYLON.Animation("wheelAnimation3", "meshes[3].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
-		const wheelKeys3 = []; 
-		//At the animation key 0, the value of rotation.y is 0
-		wheelKeys3.push({
-			frame: 0,
-			value: 0
-		});
-		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
-		wheelKeys3.push({
-			frame: 30,
-			value: 2 * Math.PI
-		});
-		//set the keys
-		animWheel3.setKeys(wheelKeys3);
-
-		mesh.meshes[3].animations = [];
-		mesh.meshes[3].animations.push(animWheel3);
-		scene.beginAnimation(mesh.meshes[3], 0, 30, true);
-
-		//Animate the Wheels
-		const animWheel4 = new BABYLON.Animation("wheelAnimation4", "meshes[4].rotation.y", 30, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
-		const wheelKeys4 = []; 
-		//At the animation key 0, the value of rotation.y is 0
-		wheelKeys4.push({
-			frame: 0,
-			value: 0
-		});
-		//At the animation key 30, (after 1 sec since animation fps = 30) the value of rotation.y is 2PI for a complete rotation
-		wheelKeys4.push({
-			frame: 30,
-			value: 2 * Math.PI
-		});
-		//set the keys
-		animWheel4.setKeys(wheelKeys4);
-
-		//Link this animation to a wheel
-		mesh.meshes[4].animations = [];
-		mesh.meshes[4].animations.push(animWheel4);
-		scene.beginAnimation(mesh.meshes[4], 0, 30, true);
 
 	});
 	return scene;
@@ -241,11 +152,11 @@ const createScene2 = function () {
 		sceneMesh.meshes[4].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
 	
 		//position
-		sceneMesh.meshes[0].position = new BABYLON.Vector3(40, -10, -0);
-		sceneMesh.meshes[1].position = new BABYLON.Vector3(40, -10, -0);
-		sceneMesh.meshes[2].position = new BABYLON.Vector3(40, -10, -0);
-		sceneMesh.meshes[3].position = new BABYLON.Vector3(40, -10, -0);
-		sceneMesh.meshes[4].position = new BABYLON.Vector3(40, -10, -0);
+		sceneMesh.meshes[0].position = new BABYLON.Vector3(10, -10, -0);
+		sceneMesh.meshes[1].position = new BABYLON.Vector3(10, -10, -0);
+		sceneMesh.meshes[2].position = new BABYLON.Vector3(10, -10, -0);
+		sceneMesh.meshes[3].position = new BABYLON.Vector3(10, -10, -0);
+		sceneMesh.meshes[4].position = new BABYLON.Vector3(10, -10, -0);
 
 		//material metallic
 		sceneMesh.materials[0]._metallic = 0.95;
@@ -254,6 +165,17 @@ const createScene2 = function () {
 		sceneMesh.materials[3]._metallic = 0.95;
 	
 		console.log(sceneMesh);
+
+		/* -------------Animation rotation---------- */
+
+		scene.registerBeforeRender(function () {
+			// Rotate the mesh by 0.01 radians around the y-axis.
+			sceneMesh.meshes[0].rotation.y += 0.002 
+			sceneMesh.meshes[1].rotation.y += 0.002 
+			sceneMesh.meshes[2].rotation.y += 0.002 
+			sceneMesh.meshes[3].rotation.y += 0.002 
+			sceneMesh.meshes[4].rotation.y += 0.002 
+		});
 		
 	});
 	
