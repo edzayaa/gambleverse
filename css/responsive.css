@@ -3363,6 +3363,10 @@ font-size: 9px !important;
         margin-left: -.3rem;
         }
 
+        .container-lg{
+          width: 90% !important;
+        }
+
         .gallery-game img{
           height: 120px !important;
         }
@@ -3581,6 +3585,9 @@ font-size: 9px !important;
 @media  screen and (min-width: 1602px) and (max-width: 1919px){
     .slider-in{
         margin-left: 5rem !important;
+      }
+      .container-lg{
+        width: 90% !important;
       }
 
       .gallery-game img{
