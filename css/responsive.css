@@ -5,6 +5,11 @@
     font-size: 10vw !important;
   }
 
+  .bg-games{
+    background-size: cover !important;
+  
+  }
+
   .details-card-streamer p{
     font-size: 6vw !important;
   }
@@ -28,6 +33,7 @@
   }
 
   .btn-parent{
+    margin-top: .4rem;
     height: 75px !important;
   }
 
@@ -650,14 +656,29 @@ body{
     }
 
     .card-games{
-      width: 200px !important;
+      width: 279px !important;
+    }
+
+
+    
+    .class-mostgames{
+      width: 90% !important;
     }
 
     .grid22{
       display: flex !important;
-
+      align-items: center !important;
       flex-direction: column !important;
 
+    }
+
+    .discount{
+      right: 3rem !important;
+      top: 3rem !important;
+    }
+
+    .card-slider-games svg{
+      display: none ;
     }
 
         .gallery-game img:last-child{
