@@ -456,11 +456,6 @@ flex-direction: column !important;
     display: block !important;
    }
 
-    .card-streamer img{
-      width: auto !important;
-      height: 300px !important;
-      margin-top: 1rem !important;
-    }
 
     .card-discord img{
       width: auto !important;
@@ -476,10 +471,20 @@ flex-direction: column !important;
       padding: 0rem 1.5rem !important;
     }
 
+    .gradiente-circular-community4{
+      top: 0 !important;
+    }
+
+    .card-img-streamer {
+      margin-top: 1rem !important;
+    }
+
     .card-streamer{
       width: fit-content !important;
-      height: 550px !important;
+      height: fit-content !important;
+      display: flex !important;
       flex-direction: column !important;
+      align-items: center !important;
 padding: .8rem !important;
 margin: 0rem .5rem !important;
 background-image:none !important;
@@ -686,6 +691,17 @@ body{
       margin-left: 0rem !important;
     }
 
+    .details-card-streamer h1{
+
+      font-size: 25px !important;
+    }
+
+    .details-card-streamer p{
+
+      font-size: 15px !important;
+    }
+
+
     .details-card-streamer h1,p{
       margin-bottom: .4rem !important;
     }
@@ -702,19 +718,26 @@ body{
       display: none !important;
     }
 
-    .card-streamer img{
-      width: auto !important;
-      height: 250px !important;
-    }
- 
     .top-2{
       margin-top: 2rem !important;
+    }
+
+    .gradiente-circular-community4{
+      top: 15% !important;
+    }
+
+.last-flex4{
+  border: none !important;
+}
+
+    .details-card-streamer a{
+      width: 200px !important;
     }
 
     .card-streamer{
       width: fit-content !important;
       height: 550px !important;
-padding: .8rem !important;
+padding: 1.2rem !important;
 margin: 0rem .5rem !important;
 background-image:cover !important;
     }
@@ -802,7 +825,7 @@ background-image:cover !important;
     }
 
     .heading-lg{
-        padding-top: 3rem !important;
+        padding-top: 0rem !important;
 
     }
 
@@ -1413,6 +1436,15 @@ background-image:cover !important;
         width: 100% !important;
         margin-left: 2rem !important;
       }
+
+      .details-card-streamer h1{
+        font-size: 30px !important;
+      }
+
+      .details-card-streamer p{
+        font-size: 22px !important;
+      }
+  
   
       .details-card-streamer h1,p{
         margin-bottom: .4rem !important;
@@ -1429,10 +1461,7 @@ background-image:cover !important;
       .last-flex{
         display: none !important;
       }
-  
-      .card-streamer img{
-        width: 220px !important;
-      }
+
    
       .top-2{
         margin-top: 2rem !important;
@@ -1442,6 +1471,8 @@ background-image:cover !important;
         width: 650px !important;
         height: 550px !important;
       }
+
+      
   
       .last-flex2{
         display: none !important;
@@ -1679,7 +1710,7 @@ background-image:cover !important;
     }
 
     .w-100{
-        width: 250px !important;
+        width: 450px !important;
     }
 
     .slider-in{
@@ -1818,6 +1849,7 @@ background-image:cover !important;
       margin-left: 2rem !important;
     }
 
+
     .details-card-streamer h1,p{
       margin-bottom: .4rem !important;
     }
@@ -1826,10 +1858,10 @@ background-image:cover !important;
       display: none !important;
     }
 
-    .card-streamer img{
-      width: 220px !important;
+    .details-card-streamer p{
+      font-size: 18px !important;
+      padding-bottom: 1rem !important;
     }
- 
 
     .card-streamer{
       width: 650px !important;
@@ -1851,7 +1883,7 @@ background-image:cover !important;
     }
 
     .wincards{
-      height: 530px !important;
+      height: 550px !important;
       width: 300px !important;
     }
 
@@ -1875,8 +1907,23 @@ background-image:cover !important;
       font-size: 20px !important;
     }
 
+    .redireccion{
+      bottom: 6% !important;
+      font-size: 12px !important;
+    }
+
+    .last-flex4{
+      border: none !important;
+    }
+
+    .details-card-streamer h1{
+      font-size: 35px !important;
+      padding-bottom: 1rem !important;
+    }
+
     .rwd-table{
-      min-width: 200px !important;
+      min-width: 150px !important;
+      max-width: 200px !important;
     }
 
     .text-size{
@@ -1919,7 +1966,9 @@ background-image:cover !important;
       padding: 0rem .3rem !important;
     }
 
-
+    .popular-threads{
+      gap: 30px !important;
+    }
 
 }
 
@@ -2130,12 +2179,43 @@ font-size: 9px !important;
           height: 320px !important;
         }
 
+        .card-discord{
+          justify-content: end !important;
+        }
+
+        .apply-section{
+          padding: 0rem 1rem 0rem 0rem !important;
+        }
+
+        .card-discord img{
+          width: 300px !important;
+        }
+
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1281px){
     .img-visions{
         width: 400px !important; 
       }
+
+      .apply-section{
+        padding: 0rem 1rem 0rem 0rem !important;
+        grid-template-columns: 72% 28% !important;
+      }
+
+      .imagen-div2{
+        padding: .6rem 0rem !important;
+      }
+      .card-discord{
+        display: flex !important;
+        justify-content: end !important;
+      }
+
+      .card-discord img{
+        width: 300px !important;
+      }
+
+      
 
       .abs{
         bottom: 10% !important;
@@ -2351,6 +2431,11 @@ font-size: 9px !important;
       background-color: #a89c9c9c; height:  .2px !important; position: relative; z-index: 1000;
     }
 
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+      display: none !important;
+      }
+
+
     .text-width-two{
         margin-right: 2rem !important;
         padding:30px 100px 30px 100px !important;
@@ -2404,7 +2489,22 @@ font-size: 9px !important;
     .spacer-large{
         height:6rem !important;
       }
+      
+      .rows2{
+        justify-content: space-between !important;
+      }
 
+      .container-lg{
+        width: 90% !important;
+      }
+
+      .card-games{
+        width: 230px !important;
+      }
+      .gallery-game img{
+        width: 140px !important;
+        height: auto !important;
+      }
       .a61{
         display: none !important;
       }
@@ -2585,6 +2685,23 @@ font-size: 9px !important;
         margin-left: 2rem !important;
       }
 
+      .rows2{
+        justify-content: space-between !important;
+      }
+
+      .gallery-game img{
+        width: 140px !important;
+        height: auto !important;
+      }
+
+      .container-lg{
+        width: 90% !important;
+      }
+
+      .card-games{
+        width: 230px !important;
+      }
+
       .a61{
         display: none !important;
       }
@@ -2744,12 +2861,26 @@ font-size: 9px !important;
         padding: 0rem .3rem !important;
       }
 
+      .apply-section{
+        padding: 0rem 1rem 0rem 0rem !important;
+        grid-template-columns: 72% 28% !important;
+      }
+
       .imagen-div2{
         padding: .6rem 0rem !important;
       }
+      .card-discord{
+        display: flex !important;
+        justify-content: end !important;
+      }
+
+      .card-discord img{
+        width: 350px !important;
+      }
 
       .section-comunity{
-        padding: 0rem 2rem !important;
+        padding: 0rem 2rem 0rem 0rem !important;
+        column-gap: 7% !important;
       }
 
       .top-2{
@@ -2796,6 +2927,11 @@ font-size: 9px !important;
       width: 42.6vw !important;  
       background-color: #a89c9c9c; height: 2px; position: relative; z-index: 1000;
     }
+
+          .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+        display: none;
+        }
+
     
     .m-negative{
       margin-top:-3.6rem !important;
@@ -2815,6 +2951,14 @@ font-size: 9px !important;
         z-index: 1005;
         margin-bottom: -.9rem !important;
         margin-left: -.3rem;
+        }
+
+        .margin-top{
+          margin-top: 5rem ;
+        }
+
+        .rows2{
+          justify-content: center !important;
         }
 
         .abs{
@@ -2926,6 +3070,11 @@ font-size: 9px !important;
           margin-left: .4rem !important;
           background-color: #a89c9c9c; height: .2px !important; position: relative; z-index: 1000;
         }
+
+        .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+          display: none;
+          }
+  
         
         .m-negative{
           margin-top:-1.6rem !important;
@@ -2961,6 +3110,13 @@ font-size: 9px !important;
 @media  screen and (min-width: 1602px) and (max-width: 1919px){
     .slider-in{
         margin-left: 5rem !important;
+      }
+      .margin-top{
+        margin-top: 5rem ;
+      }
+      
+      .rows2{
+        justify-content: center !important;
       }
 
       .imagen-div2{
@@ -3028,7 +3184,34 @@ font-size: 9px !important;
 }
 
 @media  screen and (min-width: 1920px) and (max-width: 1921px) {
-    
+   
+  .top-2{
+    margin-top: 2rem !important;
+  }
+
+
+  .estilos-1920{
+    display: flex !important;
+    justify-content: center !important;
+    column-gap: 3% !important;
+  }
+
+  .ap1920{
+    margin-left: 0.01px !important;
+  }
+
+  .game-product{
+    width: 650px !important;
+  }
+
+  .container-lg{
+    width: 90% !important;
+  }
+
+  .gallery-game img{
+    height: 160px !important;
+  }
+
 .circle-1{
     z-index: 1005;
     margin-bottom: -.8rem;
@@ -3084,6 +3267,11 @@ font-size: 9px !important;
       width: 37.6vw; background-color: #a89c9c9c; height: 2px; position: relative; z-index: 1000;
     }
     
+    .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
+      display: none;
+      }
+
+
     .m-negative{
       margin-top:-5.8rem;
     }
@@ -3099,6 +3287,22 @@ font-size: 9px !important;
     .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
         display: none;
         }
+
+        .top-2{
+          margin-top: 2rem !important;
+        }
+      
+
+        .paintball-img{
+          width: 450px ;
+          height: auto;
+        }
+        
+
+        .gallery-game img{
+          height: 160px !important;
+        }
+      
 
         .abs{
           bottom: 10% !important;
