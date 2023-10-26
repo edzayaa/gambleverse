@@ -22,6 +22,19 @@
     height: auto !important;
     max-width: 250px !important;
   }
+
+  .btn-parent{
+    height: 75px !important;
+  }
+
+  .no-mobile{
+    display: none !important;
+  }
+
+  .margin-top{
+    height: fit-content !important;
+    padding-bottom: 0rem !important;
+  }
   
   .card-discord img{
     min-width: 200px !important;
