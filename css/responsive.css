@@ -10,6 +10,66 @@
     height: auto;
   }
 
+  
+
+
+
+  .flex-G{
+    justify-items: center !important;
+  }
+
+  .flex-G2{
+    justify-items: center !important;
+  }
+
+  .discount{
+    padding: 5px !important;
+   right: 1rem !important;
+   top: 1rem !important;
+  }
+
+  .discount h1{
+    font-size: 11px !important;
+  }
+
+.flex-G{
+  margin-left: 0rem !important;
+  gap: 6% !important;
+  width: 90% !important;
+}
+
+.flex-G2{
+  margin-left: 0rem !important;
+  width: 90% !important;
+
+}
+
+.title-parrafo2{
+  font-size: 30px !important;
+}
+
+.parrafo3{
+  font-size: 18px !important;
+}
+
+.flex-G{
+  grid-template-columns: 100% !important;
+}
+
+
+.flex-G2{
+  grid-template-columns: 100% !important;
+}
+
+.game-product{
+  width: 300px !important;
+}
+
+.nav-buttonbg3{
+  padding: 5px !important;
+}
+
+
   .mobilepx{
     padding: 0rem .2rem 0rem .5rem;
   }
@@ -1154,6 +1214,18 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+    .order-3{
+      order: 0 !important;
+    }
+
+    .flex-G{
+      justify-items: center !important;
+    }
+
+    .flex-G2{
+      justify-items: center !important;
+    }
+
     .discount{
       padding: 5px !important;
      right: 1rem !important;
@@ -1164,12 +1236,12 @@ background-image:cover !important;
       font-size: 11px !important;
     }
 
-  .flex-gianny{
+  .flex-G{
     margin-left: 0rem !important;
     gap: 6% !important;
   }
 
-  .flex-gianny4{
+  .flex-G2{
     margin-left: 0rem !important;
 
   }
@@ -1178,12 +1250,12 @@ background-image:cover !important;
     font-size: 18px !important;
   }
 
-  .flex-gianny{
+  .flex-G{
     grid-template-columns: 100% !important;
   }
 
   
-  .flex-gianny4{
+  .flex-G2{
     grid-template-columns: 100% !important;
   }
 
@@ -1201,7 +1273,7 @@ background-image:cover !important;
 
 
   .card-games{
-    width: 120px !important;
+    width: 180px !important;
   }
 
 
@@ -1678,12 +1750,12 @@ background-image:cover !important;
       font-size: 11px !important;
     }
 
-  .flex-gianny{
+  .flex-G{
     margin-left: 7rem !important;
     gap: 6% !important;
   }
 
-  .flex-gianny4{
+  .flex-G2{
     margin-left: 13rem !important;
 
   }
@@ -2142,12 +2214,12 @@ background-image:cover !important;
     font-size: 17px !important;
   }
 
-  .flex-gianny{
+  .flex-G{
     margin-left: 12rem !important;
     gap: 3% !important;
   }
 
-  .flex-gianny4{
+  .flex-G2{
     margin-left: 18rem !important;
 
   }
@@ -2406,12 +2478,12 @@ font-size: 9px !important;
         font-size: 17px !important;
       }
     
-      .flex-gianny{
+      .flex-G{
         margin-left: 15rem !important;
         gap: 3% !important;
       }
     
-      .flex-gianny4{
+      .flex-G2{
         margin-left: 22rem !important;
     
       }
@@ -2729,12 +2801,12 @@ font-size: 9px !important;
         font-size: 18px !important;
       }
     
-      .flex-gianny{
+      .flex-G{
         margin-left: 12rem !important;
         gap: 3% !important;
       }
     
-      .flex-gianny4{
+      .flex-G2{
         margin-left: 20rem !important;
     
       }
@@ -2949,12 +3021,12 @@ font-size: 9px !important;
     font-size: 18px !important;
   }
 
-  .flex-gianny{
+  .flex-G{
     margin-left: 12rem !important;
     gap: 3% !important;
   }
 
-  .flex-gianny4{
+  .flex-G2{
     margin-left: 20rem !important;
 
   }
@@ -3244,6 +3316,11 @@ font-size: 9px !important;
         margin-left: -.3rem;
         }
 
+        .mrtop{
+          margin-top: 4rem;
+        }
+  
+
         .spacer-large{
           height:6rem !important;
         }
@@ -3252,12 +3329,12 @@ font-size: 9px !important;
           font-size: 21px !important;
         }
       
-        .flex-gianny{
+        .flex-G{
           margin-left: 12rem !important;
           gap: 3% !important;
         }
       
-        .flex-gianny4{
+        .flex-G2{
           margin-left: 20rem !important;
       
         }
@@ -3439,6 +3516,10 @@ font-size: 9px !important;
         margin-left: 5rem !important;
       }
 
+      .mrtop{
+        margin-top: 4rem;
+      }
+
       .spacer-large{
         height:6rem !important;
       }
@@ -3447,12 +3528,12 @@ font-size: 9px !important;
         font-size: 21px !important;
       }
     
-      .flex-gianny{
+      .flex-G{
         margin-left: 12rem !important;
         gap: 3% !important;
       }
     
-      .flex-gianny4{
+      .flex-G2{
         margin-left: 20rem !important;
     
       }
@@ -3549,6 +3630,10 @@ font-size: 9px !important;
   .top-2{
     margin-top: 2rem !important;
   }
+
+.mrtop{
+  margin-top: 3rem;
+}
 
   .font-38{
     color: #FFF;
@@ -3661,6 +3746,10 @@ font-size: 9px !important;
 @media  screen and (min-width: 1922px){
     .circle-1,.circle-2,.circle-3,.line1,.line2,.line3,.line4,.line5,.line-8,.line-6,.line-7,.m-negative{
         display: none;
+        }
+
+        .mrtop{
+          margin-top: 3rem;
         }
 
         .font-38{

@@ -140,7 +140,7 @@ hr{
   border: .5px solid #3E3555 !important;
 }
 
-.flex-gianny2{
+.flex-G3{
   display:grid;
   width: 100%;
   background-color: #0082f3;
@@ -151,7 +151,7 @@ hr{
   order: 1;
 }
 
-.flex-gianny{
+.flex-G{
   display: grid;
   grid-template-columns: 25% 75%;
   gap: 5%;
@@ -160,7 +160,7 @@ hr{
  margin-left: 3rem;
 }
 
-.flex-gianny4{
+.flex-G2{
   display: grid;
   gap: 0%;
   grid-template-columns: 50% 50%;
