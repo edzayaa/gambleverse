@@ -1,6 +1,13 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
 
+  .details-card-streamer h1{
+    font-size: 10vw !important;
+  }
+
+  .details-card-streamer p{
+    font-size: 6vw !important;
+  }
 
   .azonix{
     font-size: 24px !important;
@@ -390,6 +397,7 @@ flex-direction: column !important;
     .apply-section{
       flex-direction: column !important;
       display: flex !important;
+      align-items: center !important;
       justify-items: center !important;
     }
 
