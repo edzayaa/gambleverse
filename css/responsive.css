@@ -2467,6 +2467,11 @@ font-size: 9px !important;
           padding: 2.1rem 0rem 2rem 0rem !important;
         }
 
+        .container-title{
+          margin-left: 13rem !important; 
+        }
+        
+
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1281px){
@@ -2791,6 +2796,11 @@ font-size: 9px !important;
       padding: 2.1rem 0rem 2rem 0rem !important;
     }
 
+    .container-title{
+      margin-left: 13rem !important; 
+    }
+    
+
 }
 
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
@@ -2956,9 +2966,9 @@ font-size: 9px !important;
       }
 
       .px-left{
-        padding-left: 8rem !important;
+        padding-left: 7rem !important;
+        padding-bottom: 1rem !important;
       }
-
       .img-visions{
         width: 450px !important; 
       }
@@ -3016,12 +3026,34 @@ font-size: 9px !important;
           padding: 2.1rem 0rem 2rem 0rem !important;
         }
       
+        .slider-responsive{
+          margin-left: -1.5rem !important;
+        }
+        .container-title{
+          margin-left: 13rem !important; 
+        }
+        
+
 }
 
 @media  screen and (min-width: 1440px) and (max-width: 1441px){
   
   .parrafo3{
     font-size: 18px !important;
+  }
+
+  .pt-32{
+    margin-top: 1.3rem !important;
+  }
+  
+
+  .container-title{
+    margin-left: 13rem !important; 
+  }
+  
+
+  .slider-responsive{
+    margin-left: -1.5rem !important;
   }
 
   .flex-G{
@@ -3153,7 +3185,8 @@ font-size: 9px !important;
       }
 
       .px-left{
-        padding-left: 8rem !important;
+        padding-left: 7rem !important;
+        padding-bottom: 1rem !important;
       }
 
       .img-visions{
@@ -3511,6 +3544,12 @@ font-size: 9px !important;
             justify-content: start !important;
             padding: 2.1rem 0rem 2rem 0rem !important;
           }
+
+          
+          .container-title{
+            margin-left: 15rem !important; 
+          }
+          
 }
 
 /*Media queries para trabajar en pantallas pre-FULLHD*/
@@ -3625,6 +3664,11 @@ font-size: 9px !important;
             justify-content: start !important;
             padding: 2.1rem 0rem 2rem 0rem !important;
           }
+
+          .container-title{
+            margin-left: 15rem !important; 
+          }
+          
 
 }
 
