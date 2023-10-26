@@ -247,6 +247,7 @@ flex-direction: column !important;
 
     .span-text{
         font-size: 35px !important;
+        padding-top: .3rem !important;
         line-height: 100% !important;
     }
 
