@@ -167,7 +167,7 @@ flex-direction: column !important;
 }
 
     .span-text{
-        font-size: 30px !important;
+        font-size: 40px !important;
     }
 
     .img-visions{
@@ -247,8 +247,10 @@ flex-direction: column !important;
         justify-content: none !important;
     }
     .hero-logo {
-        font-size: 45px !important;
+        font-size: 40px !important;
     }
+
+    
 
     .px-2{
       padding: 0% !important;
