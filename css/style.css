@@ -134,7 +134,9 @@ figure{
 }
 hr{
   box-sizing:content-box;
-  height:0
+  height:0;
+  background: #3E3555 !important;
+  border: .5px solid #3E3555 !important;
 }
 pre{
   overflow:auto
