@@ -23,6 +23,12 @@
     max-width: 250px !important;
   }
   
+  .card-discord img{
+    min-width: 200px !important;
+    height: auto !important;
+    max-width: 250px !important;
+  }
+
   .card-buy{
     width: 320px  !important;
     height: 400px !important;
@@ -474,11 +480,7 @@ flex-direction: column !important;
    }
 
 
-    .card-discord img{
-      width: auto !important;
-      height: 300px !important;
-      margin-top: 3rem !important;
-    }
+
  
     .top-2{
       margin-top: 2rem !important;
