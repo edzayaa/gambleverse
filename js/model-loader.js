@@ -26,6 +26,15 @@ const createScene1 = function () {
 
 	// Change the color of the PointLight
     pointLight.diffuse = new BABYLON.Color3(87, 35, 100);
+
+	// Creates a PointLight, aiming 0,1,0 - to the sky
+	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 75, 45), scene);
+	// // Dim the light a small amount - 0 to 1
+	pointLight2.intensity = 240;
+	pointLight2.radius = 10
+
+	// Change the color of the PointLight
+    pointLight2.diffuse = new BABYLON.Color3(10, 10, 255);
 	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
 
 	console.log(pointLight);
@@ -199,8 +208,15 @@ const createScene2 = function () {
 	// Change the color of the PointLight
     pointLight.diffuse = new BABYLON.Color3(87, 35, 100);
 	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
+	// Creates a PointLight, aiming 0,1,0 - to the sky
+	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 85, 45), scene);
+	// // Dim the light a small amount - 0 to 1
+	pointLight2.intensity = 240;
+	pointLight2.radius = 10
 
-	// Append glTF model to scene.
+	// Change the color of the PointLight
+	pointLight2.diffuse = new BABYLON.Color3(10, 10, 255);
+		// Append glTF model to scene.
 
 	BABYLON.SceneLoader.Append("3D/", "model_2.glb", scene, function (sceneMesh) {
 		// Create a default arc rotate camera and light.
