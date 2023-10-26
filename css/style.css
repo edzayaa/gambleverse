@@ -1969,8 +1969,38 @@ grid-template-columns: 70% 30%;
 }
 
 .w-100{
-  width: 450px ;
-backdrop-filter: blur(10px);
+  width: 450px !important ;
+
+}
+
+.gradiente-circular-store2{
+    border-radius: 1186px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    z-index: 1001;
+    left: 0%;
+    bottom: 0%;
+
+    opacity: 0.2;
+    background: rgba(137, 95, 227, 0.58);
+    filter: blur(200px);
+}
+
+
+.gradiente-circular-store1{
+
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: 1008;
+  right: 0%;
+  bottom: 0%;
+
+  border-radius: 859px;
+  opacity: 0.2;
+  background: linear-gradient(90deg, rgba(137, 95, 227, 0.81) -3.1%, rgba(117, 232, 252, 0.69) 100.31%);
+  filter: blur(200px);
 }
 
 .paintball-img{
