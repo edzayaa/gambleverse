@@ -166,7 +166,7 @@ hr{
   grid-template-columns: 50% 50%;
   justify-items: start;
  width: 100%;
- margin-left: 14rem;
+ margin-left: 22rem;
 }
 
 .container-gianny{
@@ -4479,6 +4479,14 @@ height: 50px;
   display: flex;
   justify-content: center;
   gap:0;
+}
+
+.left4{
+  margin-left: .8rem !important;
+}
+
+.mt-nega{
+  margin-top: -4rem;
 }
 
 .card-btn:nth-child(1){
