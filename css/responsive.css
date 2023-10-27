@@ -10,7 +10,14 @@
     height: auto;
   }
 
-  
+  .slider-responsive{
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .card-heart{
+    margin-left: 0rem !important;
+  }
 
 
 
