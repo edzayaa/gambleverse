@@ -194,6 +194,7 @@
 .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
   width: 235px !important;
   height: 360px !important;
+  background-size: 100% 100% !important;
 }
 
 .skills-hearts{
@@ -1180,6 +1181,7 @@ background-image:cover !important;
     .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
       width: 235px !important;
       height: 360px !important;
+      background-size: 100% 100% !important;
     }
 
     .skills-hearts{
@@ -1329,6 +1331,7 @@ background-image:cover !important;
     .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
       width: 225px !important;
       height: 320px !important;
+      background-size: 100% 100% !important;
     }
     
     .cards-btns{
@@ -1743,6 +1746,33 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+      
+  .card-btn:hover{
+    background-image: url(../img/cards-btn.png) !important;
+    transition: .5s all ease;
+  }
+  
+ 
+  .card-btn{
+    background-image: url('../img/Rectangle\ 37.png') !important;
+
+  }
+
+  .ss-p1{
+    font-size: 8px !important;
+  }
+
+    .section-skills-hearts{
+      height: fit-content !important;
+    }
+
+    
+    .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
+      width: 225px !important;
+      height: 320px !important;
+      background-size: 100% 100% !important;
+    }
+
     .discount{
       padding: 5px !important;
      right: 1rem !important;
@@ -1790,11 +1820,11 @@ background-image:cover !important;
     }
 
     .card-buy{
-      width: 300px  !important;
-      height: 400px !important;
+      width: 260px  !important;
+      height: 440px !important;
     }
 
-    .a61, .a62,.a63{
+    .a61, .a62{
       display: none !important;
     }
 
@@ -2257,11 +2287,11 @@ background-image:cover !important;
 
 
       .card-buy{
-        width: 240px  !important;
+        width: 230px  !important;
         height: 400px !important;
       }
 
-      .a61, .a62{
+      .a61{
         display: none !important;
       }
 
@@ -2445,9 +2475,14 @@ font-size: 9px !important;
           font-size: 22px !important;
         }
 
+        .container-lg{
+          width: 90% !important;
+        }
+
         .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
-          width: 180px !important;
-          height: 320px !important;
+          width: 187px !important;
+          height: 289px !important;
+          background-size: 100% 100% !important;
         }
 
         .card-discord{
@@ -2470,13 +2505,64 @@ font-size: 9px !important;
         .container-title{
           margin-left: 13rem !important; 
         }
+
+        .slider-responsive{
+          margin-left: 0rem !important;
+        }
         
 
+        .azonix{
+          font-size: 25px !important;
+        }
+
+        .card-btn:hover{
+          background-image: url(../img/cards-btn.png) !important;
+          transition: .5s all ease;
+        }
+        
+
+      
+        .card-btn:nth-child(1){
+          margin-left: -1rem !important;
+        }
+        .card-btn:nth-child(2){
+          margin-left: .6rem !important;
+        }
+      
+        .card-btn:nth-child(3){
+          margin-left: .6rem !important;
+        }
+      
+        .card-heart, .card-heart8{
+          margin-left:-1.6rem !important;
+        }
+  
+      
+    .card-heart7, .card-heart13{
+      margin-right: -1.4rem !important;
+    }
+        .card-btn:nth-child(4){
+          margin-left: .6rem !important;
+          margin-right: -1.2rem !important;
+        }
+      
+        .card-btn{
+          background-image: url('../img/Rectangle\ 37.png') !important;
+          width: 24rem  !important;
+          height: 180px !important;
+        }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1281px){
     .img-visions{
         width: 400px !important; 
+      }
+      .container-lg{
+        width: 90% !important;
+      }
+
+      .azonix{
+        font-size: 25px !important;
       }
 
       .card-games{
@@ -2495,7 +2581,6 @@ font-size: 9px !important;
         margin-left: 22rem !important;
     
       }
-
 
 
       .font-38{
@@ -2533,7 +2618,7 @@ font-size: 9px !important;
       }
 
       .card-buy{
-        width: 240px  !important;
+        width: 230px  !important;
         height: 400px !important;
       }
 
@@ -2664,6 +2749,7 @@ font-size: 9px !important;
         width: 90% !important;
       }
 
+
       .gradient-back2{
         z-index: auto !important;
       }
@@ -2787,8 +2873,8 @@ font-size: 9px !important;
     }
 
     .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
-      width: 180px !important;
-      height: 320px !important;
+      width: 187px !important;
+      height: 289px !important;
     }
 
     .pd23{
@@ -2804,6 +2890,45 @@ font-size: 9px !important;
       margin-left: 2.5rem !important;
     }
     
+    .slider-responsive{
+      margin-left: 0rem !important;
+    }
+
+    .card-btn:hover{
+      background-image: url(../img/cards-btn.png) !important;
+      transition: .5s all ease;
+    }
+    
+    .card-heart, .card-heart8{
+      margin-left:-1.6rem !important;
+    }
+
+    .card-heart7, .card-heart13{
+      margin-right: -1.4rem !important;
+    }
+  
+    .card-btn:nth-child(1){
+      margin-left: -1rem !important;
+    }
+    .card-btn:nth-child(2){
+      margin-left: .6rem !important;
+    }
+  
+    .card-btn:nth-child(3){
+      margin-left: .6rem !important;
+    }
+  
+  
+    .card-btn:nth-child(4){
+      margin-left: .6rem !important;
+      margin-right: -1.2rem !important;
+    }
+  
+    .card-btn{
+      background-image: url('../img/Rectangle\ 37.png') !important;
+      width: 24rem  !important;
+      height: 180px !important;
+    }
 
 }
 
@@ -2812,6 +2937,44 @@ font-size: 9px !important;
 
     .spacer-large{
         height:6rem !important;
+      }
+
+      .card-btn:hover{
+        background-image: url(../img/cards-btn.png) !important;
+        transition: .5s all ease;
+      }
+      
+      .card-heart, .card-heart8{
+        margin-left: 0rem !important;
+      }
+    
+      .card-btn:nth-child(1){
+        margin-left: -1rem !important;
+      }
+      .card-btn:nth-child(2){
+        margin-left: .6rem !important;
+      }
+    
+      .card-btn:nth-child(3){
+        margin-left: .6rem !important;
+      }
+    
+    
+      .card-btn:nth-child(4){
+        margin-left: .6rem !important;
+        margin-right: -1.2rem !important;
+      }
+    
+      .card-btn{
+        background-image: url('../img/Rectangle\ 37.png') !important;
+        width: 24rem  !important;
+        height: 180px !important;
+      }
+
+    
+
+      .img-vision{
+        margin-left: 10rem !important;
       }
 
       .parrafo3{
@@ -2991,8 +3154,9 @@ font-size: 9px !important;
       }
 
       .container-md{
-        width: 85% !important;
+        width: 75% !important;
       }
+
 
       .rwd-table{
         min-width: 300px !important;
@@ -3041,13 +3205,65 @@ font-size: 9px !important;
           margin-left: 2rem !important;
         }
 
-}
+
+        .card-buy{
+          width: 255px !important;
+        }
+
+        .card-heart7, .card-heart13{
+          margin-right: -1.90rem !important;
+        }
+        
+
+      }
 
 @media  screen and (min-width: 1440px) and (max-width: 1441px){
   
+    
+  .card-btn:hover{
+    background-image: url(../img/cards-btn.png) !important;
+    transition: .5s all ease;
+  }
+  
+  .card-heart7, .card-heart13{
+    margin-right: -1.90rem !important;
+  }
+  
+  .card-heart, .card-heart8{
+    margin-left: 0rem !important;
+  }
+
+  .card-btn:nth-child(1){
+    margin-left: -1rem !important;
+  }
+  .card-btn:nth-child(2){
+    margin-left: .6rem !important;
+  }
+
+  .card-btn:nth-child(3){
+    margin-left: .6rem !important;
+  }
+
+
+  .card-btn:nth-child(4){
+    margin-left: .6rem !important;
+    margin-right: -1.2rem !important;
+  }
+
+  .card-btn{
+    background-image: url('../img/Rectangle\ 37.png') !important;
+    width: 24rem  !important;
+    height: 180px !important;
+  }
+
   .parrafo3{
     font-size: 18px !important;
   }
+
+  .img-vision{
+    margin-left: 10rem !important;
+  }
+
 
   .pt-323{
     margin-left: 2rem !important;
@@ -3218,9 +3434,10 @@ font-size: 9px !important;
       }
 
       .container-md{
-        width: 85% !important;
+        width: 75% !important;
       }
 
+      
       
 .circle-1{
     z-index: 1005;
@@ -3347,11 +3564,16 @@ font-size: 9px !important;
     .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
       width: 230px !important;
       height: 340px !important;
+      background-size: 100% 100% !important;
     }
 
     .pd23{
       justify-content: start !important;
       padding: 2.1rem 0rem 2rem 0rem !important;
+    }
+
+    .card-buy{
+      width: 255px !important;
     }
     
 }
@@ -3361,6 +3583,16 @@ font-size: 9px !important;
         z-index: 1005;
         margin-bottom: -.9rem !important;
         margin-left: -.3rem;
+        }
+
+        
+
+        .card-discord img{
+          width: 490px !important;
+        }
+
+        .card-buy {
+          width: 255px !important;
         }
 
         .container-lg{
@@ -3555,18 +3787,24 @@ font-size: 9px !important;
             width: 500px !important; 
           }
 
+          .img-vision{
+            width: 1250px !important;
+            margin-left: 15rem !important;
+          }
+
           .padding-moon{
             padding-right: 15rem !important;
           }
     
           .card-btn{
-            width: 24rem  !important;
-            height: 250px !important;
+            width: 22rem  !important;
+            height: 200px !important;
           }
 
           .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
             width: 250px !important;
             height: 320px !important;
+            background-size: 100% 100% !important;
           }
     
           .pd23{
@@ -3579,6 +3817,10 @@ font-size: 9px !important;
             margin-left: 15rem !important; 
           }
           
+          .card-heart7, .card-heart13{
+            margin-right: -2.0rem !important;
+          }
+
 }
 
 /*Media queries para trabajar en pantallas pre-FULLHD*/
@@ -3586,6 +3828,21 @@ font-size: 9px !important;
     .slider-in{
         margin-left: 5rem !important;
       }
+
+      
+      .img-vision{
+        width: 1250px !important;
+        margin-left: 15rem !important;
+      }
+
+      .card-discord img{
+        width: 490px !important;
+      }
+
+      .card-buy {
+        width: 255px !important;
+      }
+
       .container-lg{
         width: 90% !important;
       }
@@ -3659,8 +3916,9 @@ font-size: 9px !important;
       }
 
       .card-heart,.card-heart2,.card-heart3,.card-heart4,.card-heart5,.card-heart6,.card-heart7,.card-heart8,.card-heart9,.card-heart10,.card-heart11,.card-heart12,.card-heart13,.card-heart22{
-        width: 250px !important;
-        height: 320px !important;
+        width: 220px !important;
+        height: 330px !important;
+        background-size: 100% 100% !important;
       }
 
 
@@ -3698,8 +3956,8 @@ font-size: 9px !important;
           }
 
           .card-btn{
-            width: 24rem  !important;
-            height: 250px !important;
+            width: 22rem  !important;
+            height: 200px !important;
           }
 
           .abs{
@@ -3716,13 +3974,25 @@ font-size: 9px !important;
             margin-left: 15rem !important; 
           }
           
+          .card-heart7, .card-heart13{
+            margin-right: -2.0rem !important;
+          }
+          
+          
 
 }
 
 @media  screen and (min-width: 1920px) and (max-width: 1921px) {
    
-  .top-2{
-    margin-top: 2rem !important;
+  .card-heart7, .card-heart13{
+    margin-right: -2.6rem !important;
+  }
+  
+  
+  .img-vision{
+    width: 1250px !important;
+    margin-left: 23rem;
+    height: 1050px !important;
   }
 
 .mrtop{
@@ -3831,8 +4101,8 @@ font-size: 9px !important;
     }
 
     .card-btn{
-      width: 24rem  !important;
-      height: 250px !important;
+      width: 20rem  !important;
+      height: 220px !important;
     }
 }
 
@@ -3842,6 +4112,22 @@ font-size: 9px !important;
         display: none;
         }
 
+        .card-heart7, .card-heart13{
+          margin-right: -2.6rem !important;
+        }
+        
+        
+
+        .img-vision{
+          width: 1250px !important;
+          margin-left: 23rem;
+          height: 1050px !important;
+        }
+
+        .container-lg{
+          width: 90% !important;
+        }
+        
         .mrtop{
           margin-top: 3rem;
         }
@@ -3860,10 +4146,7 @@ font-size: 9px !important;
           justify-content: start !important;
           padding: 2.1rem 0rem 2rem 0rem !important;
         }
-        .top-2{
-          margin-top: 2rem !important;
-        }
-      
+
 
         .paintball-img{
           width: 450px ;
@@ -3882,7 +4165,7 @@ font-size: 9px !important;
         }
 
         .card-btn{
-          width: 24rem  !important;
-          height: 250px !important;
+          width: 20rem  !important;
+          height: 220px !important;
         }
 }
