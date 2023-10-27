@@ -262,11 +262,11 @@ engine2.runRenderLoop(function () {
 	if (active2) {
 		scene2.render();
 		if (scene2.meshes.length>0 && scrollActive) {
-			scene2.meshes[0].rotation.y += 0.002 *scrollDir;
-			scene2.meshes[1].rotation.y += 0.002*scrollDir;
-			scene2.meshes[2].rotation.y += 0.002*scrollDir;
-			scene2.meshes[3].rotation.y += 0.002*scrollDir;
-			scene2.meshes[4].rotation.y += 0.002*scrollDir;
+			scene2.meshes[0].rotation.y -= 0.002 *scrollDir;
+			scene2.meshes[1].rotation.y -= 0.002*scrollDir;
+			scene2.meshes[2].rotation.y -= 0.002*scrollDir;
+			scene2.meshes[3].rotation.y -= 0.002*scrollDir;
+			scene2.meshes[4].rotation.y -= 0.002*scrollDir;
 		}
 		
 	}
