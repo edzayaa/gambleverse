@@ -1,4 +1,3 @@
-
 var active1=false,active2=false,active3=false;
 var scrollDir,scrollAct=window.scrollY;
 var scrollActive=false;
@@ -329,7 +328,7 @@ const createScene3 = function () {
 		// The default camera looks at the back of the asset.
 		// Rotate the camera by 180 degrees to the front of the asset.
 		sceneMesh.activeCamera.alpha += Math.PI*1.1;
-		
+		sceneMesh.activeCamera.position = new BABYLON.Vector3(-0.1, 20, -25);
 		console.log(sceneMesh.activeCamera);
 		
 	});
@@ -341,6 +340,9 @@ scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 engine3.runRenderLoop(function () {
 	if (active3) {
 		scene3.render();
+		if (scene3.meshes.length>0 && scrollActive) {
+			scene3.activeCamera.alpha +=0.002*scrollDir;
+		}
 	}
 	
 });
