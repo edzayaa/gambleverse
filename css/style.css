@@ -5803,6 +5803,10 @@ line-height: normal;
   width: 100% !important;
 }
 
+.r-1{
+  margin-right: .4rem !important;
+}
+
 .card-discord img{
   width: 530px ;
   margin-right: 1rem;
