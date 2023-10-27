@@ -169,6 +169,12 @@ hr{
  margin-left: 22rem;
 }
 
+.d-flex3{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .container-gianny{
   display: flex;
   align-items: start;
