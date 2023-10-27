@@ -340,9 +340,7 @@ scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 engine3.runRenderLoop(function () {
 	if (active3) {
 		scene3.render();
-		if (scene3.meshes.length>0 && scrollActive) {
-			scene3.activeCamera.alpha +=0.002*scrollDir;
-		}
+		scene3.activeCamera.alpha +=0.002*scrollDir;
 	}
 	
 });
