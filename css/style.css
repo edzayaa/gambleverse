@@ -166,7 +166,13 @@ hr{
   grid-template-columns: 50% 50%;
   justify-items: start;
  width: 100%;
- margin-left: 14rem;
+ margin-left: 22rem;
+}
+
+.d-flex3{
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .container-gianny{
@@ -1889,6 +1895,7 @@ h2{
   line-height:1
 }
 p{
+  font-family: 'Poppins';
   color:rgba(235, 235, 235, 0.65);
   margin-bottom:0;
   font-size:1.2rem;
@@ -2265,6 +2272,11 @@ grid-template-columns: 70% 30%;
   width: 100%;
   padding: 15px;
 }
+
+.pt-32{
+  margin-top: 1.2rem;
+}
+
 .nav-button.size{
   width:33.3333%;
   flex:0 auto;
@@ -2838,7 +2850,7 @@ z-index: 1007;
   align-items:center;
   display:flex;
 position: relative;
-  padding: 75px;
+  padding: 65px;
   flex-direction: column;
 }
 
@@ -3399,7 +3411,7 @@ position: relative;
   font-weight: 400;
   line-height: normal;
 height: 50px;
-  width: 250px;
+  width: 300px;
   justify-content: center;
 }
 .btn-parent.bg1 {
@@ -3429,14 +3441,14 @@ height: 50px;
 }
 
 .slider-responsive{
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  margin-left: -2rem;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .slider-responsive2{
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
+  display: flex;
+  justify-content: space-between;
 }
 
 .px-5{
@@ -3650,11 +3662,7 @@ height: 50px;
 }
 
 .skills-hearts{
-  margin-left: 1rem;
-}
-
-*{
-  opacity: 1 !important;
+  margin-right: -1rem;
 }
 
 
@@ -3665,7 +3673,7 @@ height: 50px;
   position:relative
 }
 .container-md{
-  width:75%;
+  width:77%;
   margin-left:auto;
   margin-right:auto;
   position:relative;
@@ -4366,6 +4374,7 @@ height: 50px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-bottom: 4rem ;
 }
 
 .parent.card.streamers-card {
@@ -4428,9 +4437,14 @@ height: 50px;
 .container-skills-hearts {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 3rem;
+
   align-items: center;
 }
+
+.container-title{
+  width: 100%; justify-content: start; margin-left: 17rem; padding-bottom: 2rem;
+}
+
 .cards-btns {
   display: flex;
   justify-content: space-between;
@@ -4467,6 +4481,22 @@ height: 50px;
   display: flex;
   justify-content: center;
   gap:0;
+}
+
+.left4{
+  margin-left: .8rem !important;
+}
+
+.mt-nega{
+  margin-top: -4rem;
+}
+
+.card-btn:nth-child(1){
+  margin-left: -1rem;
+}
+
+.card-btn:nth-child(4){
+  margin-right: -1.2rem;
 }
 
 .m-left-nega{
@@ -4642,6 +4672,7 @@ height: 50px;
 .slick-heading {
   color: #FFF;
   font-family: Poppins;
+
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -4764,10 +4795,11 @@ align-items: center;
 .card-heart {
   background-image: url("../img/card121.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  margin-left: -2.2rem;
 }
 
 .div-buy{
@@ -4812,7 +4844,7 @@ line-height: 128.5%; /* 17.99px */
   background-image: url("../img/Group\ 156\ \(1\).svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 280px ;
+  width: 285px ;
   height: 400px ;
   padding: 30px;
 
@@ -4830,9 +4862,10 @@ line-height: 128.5%; /* 17.99px */
 .card-heart22 {
   background-image: url("../img/card22.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
+  margin-left: .6rem;
   padding: 30px;
 }
 
@@ -4840,44 +4873,49 @@ line-height: 128.5%; /* 17.99px */
 .card-heart8 {
   background-image: url("../img/cards___0001_Capa-2\ 1.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
+  margin-left: -2.2rem;;
   padding: 30px;
 }
 
 .card-heart9 {
   background-image: url("../img/cards___0001_Capa-2\ 1-1.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  margin-left: .6rem;
 }
 
 .card-heart10 {
   background-image: url("../img/cards___0001_Capa-2\ 1-2.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
+  margin-left: .6rem;
   padding: 30px;
 }
 
 .card-heart11 {
   background-image: url("../img/cards___0001_Capa-2\ 1-3.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  margin-left: .6rem;
 }
 
 .card-heart12 {
   background-image: url("../img/cards___0001_Capa-2\ 1-4.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
+  margin-left: .6rem;
   height: 400px ;
   padding: 30px;
 }
@@ -4885,27 +4923,30 @@ line-height: 128.5%; /* 17.99px */
 .card-heart13 {
   background-image: url("../img/cards___0001_Capa-2\ 1-5.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  margin-left: .6rem;
 }
 
 
 .card-heart2 {
   background-image: url("../img/card.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  
 }
 
 .card-heart4 {
   background-image: url("../img/card.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
+  margin-left: .6rem;
   height: 400px ;
   padding: 30px;
 }
@@ -4913,28 +4954,31 @@ line-height: 128.5%; /* 17.99px */
 .card-heart5 {
   background-image: url("../img/card-1.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  margin-left: .6rem;
 }
 
 .card-heart6 {
   background-image: url("../img/card-2.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
+  margin-left: .6rem;
   padding: 30px;
 }
 
 .card-heart7 {
   background-image: url("../img/card-3.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 300px ;
   height: 400px ;
   padding: 30px;
+  margin-left: .6rem;
 }
 
 
@@ -5034,7 +5078,13 @@ line-height: 128.5%; /* 17.99px */
   flex-direction: row;
     gap: 30px;
     align-items: center;
+
 }
+
+.pt-323{
+  margin-left: 3rem;
+}
+
 .title-games {
   color: #FFF;
   font-family: Poppins;
@@ -5291,7 +5341,7 @@ line-height: normal;
 }
 
 .section-comunity{
-  padding: 0rem 3rem;
+  padding: 0rem;
   display: grid;
   grid-template-columns: 65% 35%;
   column-gap: 5%;
@@ -5691,7 +5741,7 @@ line-height: normal;
   background-image: url('../img/Rectangle\ 99.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 90%;
+  width: 85%;
   margin-top: 2rem;
   padding-top: 2rem;
   height: 90%;
@@ -5731,6 +5781,10 @@ line-height: normal;
   background-size: 100% 100%;
 }
 
+.rows2{
+  justify-content: space-between !important;
+}
+
 .apply-section {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -5745,12 +5799,19 @@ line-height: normal;
 
 .card-discord{
   display: flex;
-  justify-content: center;
+  justify-content: end;
   width: 100% !important;
 }
 
+.r-1{
+  margin-right: .4rem !important;
+}
+
+
+
 .card-discord img{
-  width: 500px ;
+  width: 530px ;
+  margin-right: 1rem;
 }
 
 .card-streamer {
