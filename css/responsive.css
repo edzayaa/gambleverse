@@ -10,6 +10,10 @@
     height: auto;
   }
 
+  .card-discord{
+    justify-content: center !important;
+  }
+
   .slider-responsive{
     flex-direction: column !important;
     align-items: center !important;
