@@ -5924,10 +5924,10 @@ line-height: 150%; /* 28.5px */
 /* clases para cargar el modelo en threejs */
 .model-1-loader{
 	z-index: -1;
-	transform: translate(-22rem, -18rem);
+    transform: translate(-21vw, -28vh);
     position: absolute;
-    width: 40vw;
-    height: 90vh;
+    width: 50vw;
+    height: 108vh;
 
 }
 .model-2-loader{

@@ -328,18 +328,15 @@ const createScene3 = function () {
 	
 		// The default camera looks at the back of the asset.
 		// Rotate the camera by 180 degrees to the front of the asset.
-		sceneMesh.activeCamera.alpha += Math.PI*1.01;
+		sceneMesh.activeCamera.alpha += Math.PI*1.1;
+		
+		console.log(sceneMesh.activeCamera);
 		
 	});
 	return scene;
 };
 const scene3 = createScene3(); //Call the createScene function
 scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
-
-
-
-
-
 // Register a render loop to repeatedly render the scene
 engine3.runRenderLoop(function () {
 	if (active3) {
