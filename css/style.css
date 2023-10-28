@@ -2842,7 +2842,6 @@ z-index: 1007;
   width: fit-content;
   height: fit-content;
   margin-bottom: 0rem;
-  align-items:center;
   display:flex;
 position: relative;
   padding: 65px;
@@ -2913,7 +2912,6 @@ position: relative;
     width: fit-content;
     height: fit-content;
     margin-bottom: 0rem;
-    align-items:center;
     display:flex;
   position: relative;
   padding: 75px;
@@ -3081,7 +3079,6 @@ position: relative;
 }
 .heading-medium {
   color: #FFF;
-  text-align: center;
   font-family: Azonix;
   font-size: 60px;
   font-style: normal;
@@ -5020,10 +5017,9 @@ line-height: 128.5%; /* 17.99px */
   background-image: url("../img/merchandisingbg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-left: 0rem;
-  padding-bottom: 0rem;
+  padding: 20px;
   width: 100%;
-  height: fit-content;
+  height: 93vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -5038,7 +5034,7 @@ line-height: 128.5%; /* 17.99px */
 }
 .merchandising-filter {
   border-radius: 3px;
-  border: 1px solid #895FE3;
+  
   background: #292929;
 
   display: flex;
@@ -5047,6 +5043,12 @@ line-height: 128.5%; /* 17.99px */
   align-items: center;
 
   text-decoration: none !important;
+}
+.merchandising-filter.active {
+  border: 1px solid #895FE3 !important;
+}
+.merchandising-filter:hover {
+  border: 1px solid #895FE3 !important;
 }
 .merchandising-filter p {
   color: rgba(255, 255, 255, 0.35);
