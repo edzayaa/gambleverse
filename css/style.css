@@ -156,6 +156,7 @@ hr{
   align-items: center;
   justify-content: center;
   width: 100%;
+  z-index: 9999;
 }
 
 .flex-G2{
@@ -163,6 +164,7 @@ hr{
   align-items: center;
   justify-content: center;
   width: 100%;
+  z-index: 9999;
 }
 
 .d-flex3{
@@ -5335,8 +5337,31 @@ line-height: normal;
   background-image: url('../img/backgrounds/Rectangle\ 82.png');
   background-size: 100% 100%;
   justify-content: start !important;
-
-
+}
+.bggame1 {
+  background-image: url('../img/backgrounds/bggame1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame2 {
+  background-image: url('../img/backgrounds/bggame2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame3 {
+  background-image: url('../img/backgrounds/bggame3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame4 {
+  background-image: url('../img/backgrounds/bggame4.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame5 {
+  background-image: url('../img/backgrounds/bggame5.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .title-threads {
