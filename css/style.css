@@ -5965,6 +5965,8 @@ line-height: 150%; /* 28.5px */
     position: absolute;
     width: 50vw;
     height: 108vh;
+    left: 20%;
+    top: -70%;
 
 }
 .model-2-loader{
@@ -5983,4 +5985,25 @@ line-height: 150%; /* 28.5px */
 	width: 100%;
 	height: 100%;
 	touch-action: none;
+}
+
+/* Clases para hacer flotar el modelo */
+
+.avatar {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-20px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
 }

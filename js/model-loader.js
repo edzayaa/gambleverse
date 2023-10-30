@@ -71,7 +71,7 @@ const createScene1 = function () {
 	// Append glTF model to scene.
 
 	// Creates a PointLight, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(10, 85, 45), scene);
+	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(10, 180, 45), scene);
 	// // Dim the light a small amount - 0 to 1
 	pointLight.intensity = 240;
 	pointLight.radius = 10
@@ -80,7 +80,7 @@ const createScene1 = function () {
     pointLight.diffuse = new BABYLON.Color3(106, 94, 209);
 
 	// Creates a PointLight, aiming 0,1,0 - to the sky
-	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 75, 45), scene);
+	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 180, 45), scene);
 	// // Dim the light a small amount - 0 to 1
 	pointLight2.intensity = 240;
 	pointLight2.radius = 10
@@ -179,7 +179,7 @@ const createScene2 = function () {
 	// Append glTF model to scene.
 
 	// Creates a PointLight, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(5, 70, 25), scene);
+	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(5, 150, 25), scene);
 	// // Dim the light a small amount - 0 to 1
 	pointLight.intensity = 100;
 	pointLight.radius = 10
@@ -188,7 +188,7 @@ const createScene2 = function () {
     pointLight.diffuse = new BABYLON.Color3(106, 94, 209);
 	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
 	// Creates a PointLight, aiming 0,1,0 - to the sky
-	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 85, 45), scene);
+	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 150, 45), scene);
 	// // Dim the light a small amount - 0 to 1
 	pointLight2.intensity = 240;
 	pointLight2.radius = 10
