@@ -1868,7 +1868,7 @@ textarea.w-input,textarea.w-select{
 }
 
 .grid{
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 40% 60%;
   display:grid;
 }
 body{
@@ -2975,7 +2975,7 @@ position: relative;
   grid-template-rows:auto
 }
 ._2-col-grid.frontier{
-  grid-column-gap:30px;
+  grid-column-gap:0px;
   grid-row-gap:0px
 }
 ._2-col-grid.frontier2{
