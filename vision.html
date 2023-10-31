@@ -46,6 +46,9 @@
 			height: 100%;
 		}
 	</style>
+	<!-- Babylon.js -->
+	<script src="https://cdn.babylonjs.com/babylon.js"></script>
+	<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
 </head>
 <body>
 	<div class="w-embed">
@@ -261,10 +264,12 @@
 									</p>
 								</div>
 							</div>
-
 							<div id="w-node-_7dcbe0e2-d3dd-39a7-b986-40ba2afd0e99-d1ac47f4" class="parent modelo-alto" style="display: flex;justify-content: center;">
 							<img class="img-vision" src="img/Group 138.png"/>
-									
+							<!-- model -->
+							<canvas id="modelVision" class="modelVision avatar"></canvas>
+							<canvas class="modelVision avatar"></canvas>
+							<div class="modelVision avatar"></div><!-- disable camera -->
 							</div>
 						</div>
 						<div class="spacer-large"></div>
@@ -576,5 +581,7 @@
 		</script>
 		<script src="https://player.vimeo.com/api/player.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes-umd.min.js"></script>
+		
+		<script src="js/modelVision.js"></script>
 	</body>
 </html>
