@@ -154,15 +154,17 @@ hr{
 .flex-G{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
+  z-index: 9999;
 }
 
 .flex-G2{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
+  z-index: 9999;
 }
 
 .d-flex3{
@@ -2718,14 +2720,14 @@ line-height: 150%; /* 24px */
   backdrop-filter: blur(10px);
   justify-content: center;
   /* align-content: center; */
-  padding:70px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
   z-index:1;
   position:relative;
 }
 
 .slider-in{
   width: 100%;
-  padding: 3rem 0rem;
+  padding: 1rem 0rem;
   margin-left: 8rem;
 }
 
@@ -2779,7 +2781,7 @@ left: 55%;
   top: 1%;
   z-index: -999;
   left: 55%;
-  }
+}
 
 .my-3{
   margin-top: 5rem;
@@ -2804,14 +2806,12 @@ left: 55%;
   padding-left: 3rem;
 }
 
-
 .line-y2{
   position: absolute;
-  top: -29%;
-  z-index: 1002;
+  top: -32%;
+  z-index: -999;
   left: 50%;
-  display: none !important;
-  }
+}
 
 .abs-vertical{
   position: absolute;
@@ -3322,12 +3322,11 @@ position: relative;
   position: absolute;
   width: 70%;
   height: 300px;
-  z-index: 1001;
+  z-index: 1006;
   right: -10%;
-  bottom: 5%;
+  bottom: -5%;
   border-radius: 572px;
   background: #C316A2;
-
   filter: blur(300px);
 }
 
@@ -5308,8 +5307,7 @@ filter: blur(300px);
 
 .gallery-game img{
   width: auto;
-  height: 80px ;
-
+  height: 110px;
 }
 
 .abs{
@@ -5335,8 +5333,31 @@ line-height: normal;
   background-image: url('../img/backgrounds/Rectangle\ 82.png');
   background-size: 100% 100%;
   justify-content: start !important;
-
-
+}
+.bggame1 {
+  background-image: url('../img/backgrounds/bggame1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame2 {
+  background-image: url('../img/backgrounds/bggame2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame3 {
+  background-image: url('../img/backgrounds/bggame3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame4 {
+  background-image: url('../img/backgrounds/bggame4.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bggame5 {
+  background-image: url('../img/backgrounds/bggame5.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .title-threads {
@@ -5357,6 +5378,11 @@ line-height: normal;
   display: grid;
   grid-template-columns: 65% 35%;
   column-gap: 5%;
+  align-items: center;
+}
+
+.top-2 {
+  margin-top: 21%;
 }
 
 .title-threads:active,.title-threads:hover{
@@ -5615,7 +5641,6 @@ line-height: 100%; /* 16px */
 
 .flex-center{
   display: flex;
-  min-height: 4.5rem;
   align-items: center;
   column-gap: 40px;
 }
@@ -5940,6 +5965,8 @@ line-height: 150%; /* 28.5px */
     position: absolute;
     width: 50vw;
     height: 108vh;
+    left: 20%;
+    top: -70%;
 
 }
 .model-2-loader{
@@ -5958,4 +5985,25 @@ line-height: 150%; /* 28.5px */
 	width: 100%;
 	height: 100%;
 	touch-action: none;
+}
+
+/* Clases para hacer flotar el modelo */
+
+.avatar {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-20px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
 }
