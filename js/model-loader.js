@@ -51,6 +51,7 @@ document.addEventListener('scroll',()=>{
 document.addEventListener('scrollend',()=>{
 	scrollActive=false;
 })
+
 const canvas1 = document.getElementById("model_1"); // Get the canvas element
 const engine1 = new BABYLON.Engine(canvas1, true); // Generate the BABYLON 3D engine
 const createScene1 = function () {
