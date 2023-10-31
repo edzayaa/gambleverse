@@ -5987,7 +5987,16 @@ line-height: 150%; /* 28.5px */
     
     transform: scaleX(-1);
 }
-
+.modelVision2{
+	z-index: 0;
+    transform: translate(-21vw, -28vh);
+    position: absolute;
+    width: 60vw;
+    height: 105vh;
+    left: 5%;
+    top: 6%;
+    transform: scaleX(-1);
+}
 .model-3-loader{
 	position: absolute;
     width: 27vw;
