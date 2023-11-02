@@ -28,6 +28,8 @@ document.addEventListener('scrollend',()=>{
 	scrollActive=false;
 })
 
+
+/* Loading Screen */
 BABYLON.DefaultLoadingScreen.prototype.displayLoadingUI = function () {
     if (document.getElementById("customLoadingScreenDiv")) {
         // Do not add a loading screen if there is already one
