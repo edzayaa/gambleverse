@@ -1868,7 +1868,7 @@ textarea.w-input,textarea.w-select{
 }
 
 .grid{
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 45% 55%;
   display:grid;
 }
 body{
@@ -2903,14 +2903,13 @@ position: relative;
    background-image: url('../img/Group\ 153.png');
    background-repeat: no-repeat;
    background-size: 100% 100%;
-    
     justify-content:center;
     width: fit-content;
     height: fit-content;
-    margin-bottom: 0rem;
+    margin-left: 10%;
     display:flex;
-  position: relative;
-  padding: 75px;
+    position: relative;
+    padding: 75px;
     flex-direction: column;
   }
   
@@ -5087,7 +5086,7 @@ line-height: 128.5%; /* 17.99px */
 .card-slider-games {
   display: flex;
   flex-direction: row;
-    gap: 30px;
+    gap: 7%;
     align-items: center;
 
 }
@@ -5932,22 +5931,13 @@ line-height: 150%; /* 28.5px */
   align-items: center;
 }
 .link-footer p {
-  color: #FFF;
-  font-family: 'IBM';
-  font-size: 7px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%; 
+  display: none !important;
 }
 .point-first {
-  background-color: #895FE3;
-  width: 6px;
-  height: 6px;
+  display: none !important;
 }
 .point-second {
-  background-color: #895FE3;
-  width: 6px;
-  height: 6px;
+  display: none !important;
 }
 .social-footer {
   display: flex;
@@ -5982,7 +5972,7 @@ line-height: 150%; /* 28.5px */
     position: absolute;
     width: 50vw;
     height: 108vh;
-    left: 20%;
+    left: 10%;
     top: 10%;
     
     transform: scaleX(-1);
@@ -6028,4 +6018,58 @@ line-height: 150%; /* 28.5px */
     /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
     transform: translatey(0px);
   }
+}
+
+/* Gradients */
+
+.gradiente-circular-gameup{
+  position: absolute;
+  width: 70%;
+  height: 500px;
+  z-index: 1006;
+  left: 0%;
+  top: -20%;
+  border-radius: 752px;
+  filter: blur(300px);
+}
+.gradiente-circular-gamedown{
+  position: absolute;
+  width: 70%;
+  height: 300px;
+  z-index: 1006;
+  right: -10%;
+  bottom: -5%;
+  border-radius: 572px;
+
+  filter: blur(300px);
+}
+.gradiente-circular-gameup.section1 {
+  background: linear-gradient(90deg, rgba(137, 95, 227, 0.81) -3.1%, rgba(117, 232, 252, 0.69) 100.31%);
+}
+.gradiente-circular-gamedown.section1-2 {
+  background: rgba(137, 95, 227, 0.48);
+}
+.gradiente-circular-gameup.section2 {
+  background: linear-gradient(218deg, #485688 15.9%, #221921 83.55%);
+}
+.gradiente-circular-gamedown.section2-2 {
+  background: #C9984C;
+}
+.gradiente-circular-gameup.section3 {
+  background: #FF9DDA;
+}
+.gradiente-circular-gamedown.section3-1 {
+  background: #927499;
+}
+.gradiente-circular-gameup.section4 {
+  background: linear-gradient(218deg, #485688 15.9%, #221921 83.55%);
+}
+.gradiente-circular-gamedown.section4-1 {
+  background: #C94C4C;
+}
+.gradiente-circular-gameup.section5 {
+  background: #032E62;
+}
+.gradiente-circular-gamedown.section5-1 {
+  background: rgba(131, 4, 245, 0.53);
 }

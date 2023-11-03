@@ -3799,7 +3799,7 @@ font-size: 9px !important;
           }
 
           .img-vision{
-            width: 1250px !important;
+            width: 100% !important;
             margin-left: 15rem !important;
           }
 
@@ -3843,7 +3843,7 @@ font-size: 9px !important;
 
       
       .img-vision{
-        width: 1250px !important;
+        width: 100% !important;
         margin-left: 15rem !important;
       }
 
@@ -4047,9 +4047,9 @@ font-size: 9px !important;
   
   
   .img-vision{
-    width: 1250px !important;
-    margin-left: 23rem;
-    height: 1050px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 5%;
   }
 
 .mrtop{
@@ -4245,7 +4245,7 @@ font-size: 9px !important;
           position: absolute;
           width: 0.2px !important;
           background-color: #a89c9c9c;
-          height: 62vh;
+          height: 61.5vh;
           z-index: 9;
         }
         .line-12{
@@ -4325,9 +4325,8 @@ font-size: 9px !important;
         
 
         .img-vision{
-          width: 1250px !important;
-          margin-left: 23rem;
-          height: 1050px !important;
+          width: 100% !important;
+          height: 100% !important;
         }
 
         .container-lg{
