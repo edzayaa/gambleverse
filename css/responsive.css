@@ -4040,6 +4040,36 @@ font-size: 9px !important;
 }
 
 @media  screen and (min-width: 1920px) and (max-width: 1921px) {
+
+  .line-19{
+    position: absolute;
+    top: 22%;
+    right: 30%;
+
+    width: 25vh !important;
+    background-color: #a89c9c9c;
+    height: 2px;
+    z-index: 9;
+  }
+  .line-20{
+    position: absolute;
+    top: 22%;
+    right: 30%;
+
+    width: 0.2px !important;
+    background-color: #a89c9c9c;
+    height: 23vh;
+    z-index: 9;
+
+    display: flex;
+    justify-content: center;
+  }
+  .circle-new20 {
+    z-index: 1007;
+    margin-top: -0.4rem;
+    top: 0;
+    position: absolute;
+  }
    
   .card-heart7, .card-heart13{
     margin-right: -2.6rem !important;
