@@ -1,13 +1,12 @@
 var active1=false,active2=false,active3=false;
 var scrollDir,scrollAct=window.scrollY;
-var scrollActive=false;
+var scrollActive=0;
 const observer = new IntersectionObserver(entries => {
 	entries.forEach(entry => {
 	  if (entry.isIntersecting) {
 		active1=true;
 		return; // if we added the class, exit the function
 	  }
-	  active1=false;
 	  // We're not intersecting, so remove the class!
 	  //bunny.classList.remove('bunny-animation');
 	});
@@ -21,12 +20,9 @@ document.addEventListener('scroll',()=>{
 	}else{
 		scrollDir=-1
 	}
-	scrollActive=true;
+	scrollActive=1;
 	scrollAct=window.scrollY;
 });
-document.addEventListener('scrollend',()=>{
-	scrollActive=false;
-})
 
 
 /* Loading Screen */
@@ -149,20 +145,31 @@ const createScene1 = function () {
 	});
 	return scene;
 };
+
 const scene1 = createScene1(); //Call the createScene function
 scene1.clearColor = new BABYLON.Color4(0, 0, 0, 0);
+var sceneInstrumentation = new BABYLON.SceneInstrumentation(scene1);
+sceneInstrumentation.captureFrameTime = true;
 console.log(scene1);
+
 // Register a render loop to repeatedly render the scene
 engine1.runRenderLoop(function () {
 	
 	if (active1) {
+		
 		scene1.render();
-		if (scene1.meshes.length>0 && scrollActive) {
-			scene1.meshes[0].rotation.z -= 0.002 *scrollDir;
-			scene1.meshes[1].rotation.z -= 0.002*scrollDir;
-			scene1.meshes[2].rotation.z -= 0.002*scrollDir;
-			scene1.meshes[3].rotation.z -= 0.002*scrollDir;
-			scene1.meshes[4].rotation.z -= 0.002*scrollDir;
+		if (scene1.meshes.length>0) {
+			if (scrollActive>0) {
+				scrollActive-=(1/60/ sceneInstrumentation.frameTimeCounter.lastSecAverage);
+			}else{
+				
+				scrollActive=0;
+			}
+			scene1.meshes[0].rotation.y += 0.002*(scrollActive) *scrollDir;
+			scene1.meshes[1].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[2].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[3].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[4].rotation.y += 0.002*(scrollActive)*scrollDir;
 		}
 		
 	}
@@ -181,19 +188,6 @@ const observer2 = new IntersectionObserver(entries => {
 });
   
 observer2.observe(document.querySelector('.modelVision2'));
-
-document.addEventListener('scroll',()=>{
-	if (scrollAct>window.scrollY) {
-		scrollDir=1;
-	}else{
-		scrollDir=-1
-	}
-	scrollActive=true;
-	scrollAct=window.scrollY;
-});
-document.addEventListener('scrollend',()=>{
-	scrollActive=false;
-})
 
 const canvas2 = document.getElementById("modelVision2"); // Get the canvas element
 const engine2 = new BABYLON.Engine(canvas2, true); // Generate the BABYLON 3D engine
@@ -285,17 +279,25 @@ const createScene2 = function () {
 const scene2 = createScene2(); //Call the createScene function
 scene2.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 console.log(scene2);
+
 // Register a render loop to repeatedly render the scene
 engine2.runRenderLoop(function () {
 	
 	if (active2) {
 		scene2.render();
-		if (scene2.meshes.length>0 && scrollActive) {
-			scene2.meshes[0].rotation.z -= 0.002 *scrollDir;
-			scene2.meshes[1].rotation.z -= 0.002*scrollDir;
-			scene2.meshes[2].rotation.z -= 0.002*scrollDir;
-			scene2.meshes[3].rotation.z -= 0.002*scrollDir;
-			scene2.meshes[4].rotation.z -= 0.002*scrollDir;
+		if (scene2.meshes.length>0) {
+			if (scrollActive>0) {
+				scrollActive-=(1/60/ sceneInstrumentation.frameTimeCounter.lastSecAverage);
+			}else{
+				scrollActive=0;
+			}
+			if (scene2.meshes.length>0) {
+				scene2.meshes[0].rotation.y -= 0.002*(scrollActive) *scrollDir;
+				scene2.meshes[1].rotation.y -= 0.002*(scrollActive)*scrollDir;
+				scene2.meshes[2].rotation.y -= 0.002*(scrollActive)*scrollDir;
+				scene2.meshes[3].rotation.y -= 0.002*(scrollActive)*scrollDir;
+				scene2.meshes[4].rotation.y -= 0.002*(scrollActive)*scrollDir;
+			}
 		}
 		
 	}

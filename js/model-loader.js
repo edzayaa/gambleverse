@@ -45,12 +45,9 @@ document.addEventListener('scroll',()=>{
 	}else{
 		scrollDir=-1
 	}
-	scrollActive=true;
+	scrollActive=1;
 	scrollAct=window.scrollY;
 });
-document.addEventListener('scrollend',()=>{
-	scrollActive=false;
-})
 
 /* Loading Screen */
 BABYLON.DefaultLoadingScreen.prototype.displayLoadingUI = function () {
@@ -180,17 +177,25 @@ const createScene1 = function () {
 const scene1 = createScene1(); //Call the createScene function
 scene1.clearColor = new BABYLON.Color4(0, 0, 0, 0);
 console.log(scene1);
+var sceneInstrumentation = new BABYLON.SceneInstrumentation(scene1);
+sceneInstrumentation.captureFrameTime = true;
 // Register a render loop to repeatedly render the scene
 engine1.runRenderLoop(function () {
 	
 	if (active1) {
 		scene1.render();
-		if (scene1.meshes.length>0 && scrollActive) {
-			scene1.meshes[0].rotation.y += 0.002 *scrollDir;
-			scene1.meshes[1].rotation.y += 0.002*scrollDir;
-			scene1.meshes[2].rotation.y += 0.002*scrollDir;
-			scene1.meshes[3].rotation.y += 0.002*scrollDir;
-			scene1.meshes[4].rotation.y += 0.002*scrollDir;
+		if (scene1.meshes.length>0 ) {
+			if (scrollActive>0) {
+				scrollActive-=(1/60/ sceneInstrumentation.frameTimeCounter.lastSecAverage);
+				
+			}else{
+				scrollActive=0;
+			}
+			scene1.meshes[0].rotation.y += 0.002*(scrollActive) *scrollDir;
+			scene1.meshes[1].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[2].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[3].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[4].rotation.y += 0.002*(scrollActive)*scrollDir;
 		}
 		
 	}
@@ -300,12 +305,17 @@ engine2.runRenderLoop(function () {
 	
 	if (active2) {
 		scene2.render();
-		if (scene2.meshes.length>0 && scrollActive) {
-			scene2.meshes[0].rotation.y -= 0.002 *scrollDir;
-			scene2.meshes[1].rotation.y -= 0.002*scrollDir;
-			scene2.meshes[2].rotation.y -= 0.002*scrollDir;
-			scene2.meshes[3].rotation.y -= 0.002*scrollDir;
-			scene2.meshes[4].rotation.y -= 0.002*scrollDir;
+		if (scrollActive>0) {
+			scrollActive-=(1/60/ sceneInstrumentation.frameTimeCounter.lastSecAverage);
+		}else{
+			scrollActive=0;
+		}
+		if (scene2.meshes.length>0) {
+			scene2.meshes[0].rotation.y -= 0.002*(scrollActive) *scrollDir;
+			scene2.meshes[1].rotation.y -= 0.002*(scrollActive)*scrollDir;
+			scene2.meshes[2].rotation.y -= 0.002*(scrollActive)*scrollDir;
+			scene2.meshes[3].rotation.y -= 0.002*(scrollActive)*scrollDir;
+			scene2.meshes[4].rotation.y -= 0.002*(scrollActive)*scrollDir;
 		}
 		
 	}
