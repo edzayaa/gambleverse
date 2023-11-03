@@ -1,114 +1,105 @@
-// import * as THREE from 'three';
+import * as THREE from 'three';
 
-// import Stats from 'three/addons/libs/stats.module.js';
 
-// import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-// import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-// let camera, scene, renderer, stats;
+let camera, scene, renderer;
 
-// const clock = new THREE.Clock();
+const clock = new THREE.Clock();
+const cards=[new THREE.Mesh()];
+init();
+animate();
 
-// let mixer;
+function init() {
 
-// init();
-// animate();
+	const container = document.getElementById("model_1");
 
-// function init() {
+	camera = new THREE.PerspectiveCamera( 45, container.offsetWidth / container.offsetHeight, 1, 2000 );
+	camera.position.set( 0, -35, 0 );
 
-// 	const container = document.getElementById("model_1");
+	scene = new THREE.Scene();
 
-// 	camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-// 	camera.position.set( 100, 200, 300 );
+	const ambient=new THREE.AmbientLight( 0xffffff, 3 );
+	scene.add(ambient);
+	const directionalLight = new THREE.DirectionalLight( 0xffffff, 5 );
+	directionalLight.position.set( - 1, 0, 1 ).normalize();
+	scene.add( directionalLight );
+	const directionalLight1 = new THREE.DirectionalLight( 0xffffff, 5 );
+	directionalLight1.position.set( - 0, -1, 0 ).normalize();
+	scene.add( directionalLight1 );
+	// scene.add( new THREE.CameraHelper( dirLight.shadow.camera ) );
 
-// 	scene = new THREE.Scene();
-// 	scene.background = new THREE.Color( 0xa0a0a0 );
-// 	scene.fog = new THREE.Fog( 0xa0a0a0, 200, 1000 );
+	// ground
+	// const mesh = new THREE.Mesh( new THREE.PlaneGeometry( 2000, 2000 ), new THREE.MeshPhongMaterial( { color: 0x999999, depthWrite: false } ) );
+	// mesh.rotation.x = - Math.PI / 2;
+	// mesh.receiveShadow = true;
+	// scene.add( mesh );
 
-// 	const hemiLight = new THREE.HemisphereLight( 0xffffff, 0x444444, 5 );
-// 	hemiLight.position.set( 0, 200, 0 );
-// 	scene.add( hemiLight );
+	// const grid = new THREE.GridHelper( 2000, 20, 0x000000, 0x000000 );
+	// grid.material.opacity = 0.2;
+	// grid.material.transparent = true;
+	// scene.add( grid );
 
-// 	const dirLight = new THREE.DirectionalLight( 0xffffff, 5 );
-// 	dirLight.position.set( 0, 200, 100 );
-// 	dirLight.castShadow = true;
-// 	dirLight.shadow.camera.top = 180;
-// 	dirLight.shadow.camera.bottom = - 100;
-// 	dirLight.shadow.camera.left = - 120;
-// 	dirLight.shadow.camera.right = 120;
-// 	scene.add( dirLight );
+	// model
+	const loader = new GLTFLoader();
+	loader.load( '3D/model_5.glb', function ( object ) {
+cards[0].traverse((res)=>{
+	res.is
+})
+		const model = object.scene;
+		console.log(model);
+		model.traverse(res=>{
+			if (res.isMesh) {
+				cards.push(res);
+				res.castShadow=true;
+				res.receiveShadow=true;
+			}
+		})
+		//model.scale.set(new THREE.Vector3(1,1,1));
+		scene.add( model );
 
-// 	// scene.add( new THREE.CameraHelper( dirLight.shadow.camera ) );
+	} );
 
-// 	// ground
-// 	const mesh = new THREE.Mesh( new THREE.PlaneGeometry( 2000, 2000 ), new THREE.MeshPhongMaterial( { color: 0x999999, depthWrite: false } ) );
-// 	mesh.rotation.x = - Math.PI / 2;
-// 	mesh.receiveShadow = true;
-// 	scene.add( mesh );
+	renderer = new THREE.WebGLRenderer( { antialias: true } );
+	renderer.setPixelRatio( window.devicePixelRatio );
+	renderer.setSize( container.offsetWidth, container.offsetHeight );
+	container.appendChild( renderer.domElement );
+	renderer.shadowMap.enabled = true;
+	renderer.shadowMap.type = THREE.BasicShadowMap;
+	renderer.toneMapping = THREE.ACESFilmicToneMapping;
+	renderer.setClearColor( 0x000000, 0 ); // the default
 
-// 	const grid = new THREE.GridHelper( 2000, 20, 0x000000, 0x000000 );
-// 	grid.material.opacity = 0.2;
-// 	grid.material.transparent = true;
-// 	scene.add( grid );
+	const controls = new OrbitControls( camera, renderer.domElement );
+	controls.target.set( 0, 0, 0 );
+	controls.update();
 
-// 	// model
-// 	const loader = new FBXLoader();
-// 	loader.load( '3D/model_5.fbx', function ( object ) {
+	window.addEventListener( 'resize', onWindowResize );
 
-// 		object.traverse( function ( child ) {
 
-// 			if ( child.isMesh ) {
-// 				console.log(child);
-// 				child.castShadow = true;
-// 				child.receiveShadow = true;
+}
 
-// 			}
+function onWindowResize() {
 
-// 		} );
+	camera.aspect = window.innerWidth / window.innerHeight;
+	camera.updateProjectionMatrix();
 
-// 		scene.add( object );
+	renderer.setSize( window.innerWidth, window.innerHeight );
 
-// 	} );
+}
 
-// 	renderer = new THREE.WebGLRenderer( { antialias: true } );
-// 	renderer.setPixelRatio( window.devicePixelRatio );
-// 	renderer.setSize( container.offsetWidth, container.offsetHeight );
-// 	renderer.shadowMap.enabled = true;
-// 	container.appendChild( renderer.domElement );
+//
 
-// 	const controls = new OrbitControls( camera, renderer.domElement );
-// 	controls.target.set( 0, 100, 0 );
-// 	controls.update();
+function animate() {
 
-// 	window.addEventListener( 'resize', onWindowResize );
+	requestAnimationFrame( animate );
 
-// 	// stats
-// 	stats = new Stats();
-// 	container.appendChild( stats.dom );
+	const delta = clock.getDelta();
+	cards.forEach(e=>{
+		e.rotateY(delta);
+	})
 
-// }
+	renderer.render( scene, camera );
 
-// function onWindowResize() {
 
-// 	camera.aspect = window.innerWidth / window.innerHeight;
-// 	camera.updateProjectionMatrix();
-
-// 	renderer.setSize( window.innerWidth, window.innerHeight );
-
-// }
-
-// //
-
-// function animate() {
-
-// 	requestAnimationFrame( animate );
-
-// 	const delta = clock.getDelta();
-
-// 	if ( mixer ) mixer.update( delta );
-
-// 	renderer.render( scene, camera );
-
-// 	stats.update();
-
-// }
+}
