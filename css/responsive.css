@@ -453,10 +453,13 @@ flex-direction: column !important;
         justify-content: center;
     }
 
+    .container-lg.none {
+      width: 100% !important;
+    }
     .qlqwa{
-        width: 90% !important;
+        width: 100% !important;
         margin-bottom: 3rem;
-        background-size: 100% 100% !important;
+        background-size: cover !important;
     }
 
     .my-3{
