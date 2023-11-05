@@ -1,5 +1,9 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
+  .img-mobile {
+    height: 80%;
+    margin-top: 20%;
+  }
 
   .details-card-streamer h1{
     font-size: 10vw !important;
@@ -187,7 +191,7 @@
 
 
   .btn-icon{
-    width: 5.5rem !important;
+    width: 2.5rem !important;
   }
 
   .section-skills-hearts{
@@ -303,7 +307,7 @@ flex-direction: column !important;
     }
 
     .w-100{
-        width: 250px !important;
+        width: 100% !important;
     }
 
     .slider-in{
@@ -460,6 +464,9 @@ flex-direction: column !important;
         width: 100% !important;
         margin-bottom: 3rem;
         background-size: cover !important;
+    }
+    .line-11,.line-14,.line-12,.line-13,.line-15 {
+      display: none;
     }
 
     .my-3{
