@@ -1,8 +1,18 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
+  .head-section.full {
+    height: 100% !important;
+  }
+
   .img-mobile {
     height: 80%;
     margin-top: 20%;
+  }
+  
+  .mobil-adap {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column !important;
   }
 
   .details-card-streamer h1{
@@ -50,13 +60,19 @@
 .flex-G{
   margin-left: 0rem !important;
   gap: 6% !important;
-  width: 90% !important;
 }
 
 .flex-G2{
   margin-left: 0rem !important;
-  width: 90% !important;
-
+}
+.gallery-game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-title {
+  margin-left: 0px !important;
 }
 
 .title-parrafo2{
@@ -69,11 +85,13 @@
 
 .flex-G{
   grid-template-columns: 100% !important;
+  flex-direction: column !important;
 }
 
 
 .flex-G2{
   grid-template-columns: 100% !important;
+  flex-direction: column !important;
 }
 
 .game-product{
