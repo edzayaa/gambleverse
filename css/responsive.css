@@ -280,9 +280,9 @@ flex-direction: column !important;
 }
 
     .span-text{
-        font-size: 35px !important;
-        padding-top: .3rem !important;
-        line-height: 100% !important;
+      font-size: 20px !important;
+      line-height: 100% !important;
+      width: 79%;
     }
 
     .img-visions{
@@ -483,7 +483,7 @@ flex-direction: column !important;
         margin-bottom: 3rem;
         background-size: cover !important;
     }
-    .line-11,.line-14,.line-12,.line-13,.line-15 {
+    .line-11,.line-14,.line-12,.line-13,.line-15,.line-19,.line-20,.line-21,.line-22,.line-23 {
       display: none;
     }
 
