@@ -138,12 +138,20 @@ const createScene1 = function () {
 		mesh.activeCamera.alpha += Math.PI*1.1;
 	
 		//scaling
-		mesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		mesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		mesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		mesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		mesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-	
+		
+		if(window.innerWidth<500){
+			mesh.meshes[0].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+			mesh.meshes[1].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+			mesh.meshes[2].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+			mesh.meshes[3].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+			mesh.meshes[4].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+		}else{
+			mesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			mesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			mesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			mesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			mesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		}
 		//rotation
 		mesh.meshes[0].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
 		mesh.meshes[1].rotation = new BABYLON.Vector3(-0.1, 0.1, 0.2);
@@ -191,11 +199,20 @@ engine1.runRenderLoop(function () {
 			}else{
 				scrollActive=0;
 			}
-			scene1.meshes[0].rotation.y += 0.002*(scrollActive) *scrollDir;
-			scene1.meshes[1].rotation.y += 0.002*(scrollActive)*scrollDir;
-			scene1.meshes[2].rotation.y += 0.002*(scrollActive)*scrollDir;
-			scene1.meshes[3].rotation.y += 0.002*(scrollActive)*scrollDir;
-			scene1.meshes[4].rotation.y += 0.002*(scrollActive)*scrollDir;
+			if(window.innerWidth<500){
+				scene1.meshes[0].rotation.y += 0.001*(scrollActive) *scrollDir;
+				scene1.meshes[1].rotation.y += 0.001*(scrollActive)*scrollDir;
+				scene1.meshes[2].rotation.y += 0.001*(scrollActive)*scrollDir;
+				scene1.meshes[3].rotation.y += 0.001*(scrollActive)*scrollDir;
+				scene1.meshes[4].rotation.y += 0.001*(scrollActive)*scrollDir;
+			}else{
+				scene1.meshes[0].rotation.y += 0.002*(scrollActive) *scrollDir;
+				scene1.meshes[1].rotation.y += 0.002*(scrollActive)*scrollDir;
+				scene1.meshes[2].rotation.y += 0.002*(scrollActive)*scrollDir;
+				scene1.meshes[3].rotation.y += 0.002*(scrollActive)*scrollDir;
+				scene1.meshes[4].rotation.y += 0.002*(scrollActive)*scrollDir;
+			}
+			
 		}
 		
 	}
@@ -250,11 +267,19 @@ const createScene2 = function () {
 		sceneMesh.activeCamera.alpha += Math.PI*0.7;
 	
 		//scaling
-		sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-		sceneMesh.meshes[1].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-		sceneMesh.meshes[2].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-		sceneMesh.meshes[3].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
-		sceneMesh.meshes[4].scaling = new BABYLON.Vector3(1.2, 1.2, 1.2);
+		if(window.innerWidth<500){
+			sceneMesh.meshes[0].scaling = new BABYLON.Vector3(0.95, 0.95, 0.95);
+			sceneMesh.meshes[1].scaling = new BABYLON.Vector3(0.95, 0.95, 0.95);
+			sceneMesh.meshes[2].scaling = new BABYLON.Vector3(0.95, 0.95, 0.95);
+			sceneMesh.meshes[3].scaling = new BABYLON.Vector3(0.95, 0.95, 0.95);
+			sceneMesh.meshes[4].scaling = new BABYLON.Vector3(0.95, 0.95, 0.95);
+		}else{
+			sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			sceneMesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			sceneMesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			sceneMesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+			sceneMesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		}
 	
 		//rotation
 		sceneMesh.meshes[0].rotation = new BABYLON.Vector3(-0.1, 0, -0.01);
@@ -311,11 +336,19 @@ engine2.runRenderLoop(function () {
 			scrollActive=0;
 		}
 		if (scene2.meshes.length>0) {
-			scene2.meshes[0].rotation.y -= 0.002*(scrollActive) *scrollDir;
-			scene2.meshes[1].rotation.y -= 0.002*(scrollActive)*scrollDir;
-			scene2.meshes[2].rotation.y -= 0.002*(scrollActive)*scrollDir;
-			scene2.meshes[3].rotation.y -= 0.002*(scrollActive)*scrollDir;
-			scene2.meshes[4].rotation.y -= 0.002*(scrollActive)*scrollDir;
+			if(window.innerWidth<500){
+				scene2.meshes[0].rotation.y += 0.001*(scrollActive) *scrollDir;
+				scene2.meshes[1].rotation.y += 0.001*(scrollActive)*scrollDir;
+				scene2.meshes[2].rotation.y += 0.001*(scrollActive)*scrollDir;
+				scene2.meshes[3].rotation.y += 0.001*(scrollActive)*scrollDir;
+				scene2.meshes[4].rotation.y += 0.001*(scrollActive)*scrollDir;
+			}else{
+				scene2.meshes[0].rotation.y += 0.002*(scrollActive) *scrollDir;
+				scene2.meshes[1].rotation.y += 0.002*(scrollActive)*scrollDir;
+				scene2.meshes[2].rotation.y += 0.002*(scrollActive)*scrollDir;
+				scene2.meshes[3].rotation.y += 0.002*(scrollActive)*scrollDir;
+				scene2.meshes[4].rotation.y += 0.002*(scrollActive)*scrollDir;
+			}
 		}
 		
 	}
@@ -377,8 +410,21 @@ const createScene3 = function () {
 		// The default camera looks at the back of the asset.
 		// Rotate the camera by 180 degrees to the front of the asset.
 		sceneMesh.activeCamera.alpha += Math.PI*1.1;
+		// if(window.innerWidth<500){
+		// 	sceneMesh.meshes[0].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+		// 	sceneMesh.meshes[1].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+		// 	sceneMesh.meshes[2].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+		// 	sceneMesh.meshes[3].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+		// 	sceneMesh.meshes[4].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+		// }else{
+		// 	sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		// 	sceneMesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		// 	sceneMesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		// 	sceneMesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		// 	sceneMesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+		// }
 		sceneMesh.activeCamera.position = new BABYLON.Vector3(-0.1, 20, -25);
-		console.log(sceneMesh.activeCamera);
+		console.log(sceneMesh);
 		
 	});
 	return scene;

@@ -1,5 +1,29 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
+	.model-3-loader{
+		position: absolute;
+		width: 81vw !important;
+		height: 55vh !important;
+		transform: translate(1rem, -4rem);
+	}
+	.model-2-loader {
+		position: relative;
+		width: 90vw !important;
+		height: 100vh !important;
+	}
+	.modelVision {
+		width: 70vw !important;
+		height: 50vh !important;
+	}
+	.modelVision2 {
+		width: 75vw !important;
+		height: 55vh !important;
+	}
+	.model_1 {
+		width: 75vw !important;
+		height: 45vh !important;
+		transform: translate(0rem, -24rem) !important;
+	}
   .head-section.full {
     height: 100% !important;
   }
