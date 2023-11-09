@@ -5965,7 +5965,14 @@ line-height: 150%; /* 28.5px */
 
 }
 
-.modelVision{
+.modelGames{
+	z-index: 1;
+    position: absolute;
+	width: 50vw;
+    height: 108vh;
+    left: 60%;
+    top: 5%;
+}.modelVision{
 	z-index: 1;
     transform: translate(-21vw, -28vh);
     position: absolute;
