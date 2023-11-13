@@ -7,7 +7,6 @@ const observer = new IntersectionObserver(entries => {
 		active1=true;
 		return; // if we added the class, exit the function
 	  }
-	  active1=false;
 	  // We're not intersecting, so remove the class!
 	  //bunny.classList.remove('bunny-animation');
 	});
@@ -107,7 +106,7 @@ const createScene1 = function () {
 	
 		// The default camera looks at the back of the asset.
 		// Rotate the camera by 180 degrees to the front of the asset.
-		mesh.activeCamera.alpha += Math.PI*1.8;
+		mesh.activeCamera.alpha += Math.PI*1.1;
 	
 		//scaling
 		mesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
@@ -166,11 +165,11 @@ engine1.runRenderLoop(function () {
 				
 				scrollActive=0;
 			}
-			scene1.meshes[0].rotation.z += 0.002*(scrollActive) *scrollDir;
-			scene1.meshes[1].rotation.z += 0.002*(scrollActive)*scrollDir;
-			scene1.meshes[2].rotation.z += 0.002*(scrollActive)*scrollDir;
-			scene1.meshes[3].rotation.z += 0.002*(scrollActive)*scrollDir;
-			scene1.meshes[4].rotation.z += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[0].rotation.y += 0.002*(scrollActive) *scrollDir;
+			scene1.meshes[1].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[2].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[3].rotation.y += 0.002*(scrollActive)*scrollDir;
+			scene1.meshes[4].rotation.y += 0.002*(scrollActive)*scrollDir;
 		}
 		
 	}

@@ -2,6 +2,9 @@
             /*Imports*/
 /* ################################## */
 @import url(responsive.css);
+@import url(carousel.css);
+@import url(linesLayout.css);
+@import url(models.css);
 /* ################################## */
             /*Imports*/
 /* ################################## */
@@ -1918,7 +1921,7 @@ p{
   display:grid;
   position:relative;
   overflow:hidden;
-  grid-template-columns: 50% 90%;
+  grid-template-columns: 60% 90%;
   align-items: center;
 }
 
@@ -2696,28 +2699,44 @@ html{
 }
 
 .text-adven{
-  padding-top: .5rem;
   color: #EBEBEB;
 text-align: justify;
 font-family: 'Poppins';
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 24px */
+line-height: 24px
+}
+
+.content-adventurer-are {
+  margin-top: -8%; 
+  z-index: 1004; 
+  overflow: visible;
+}
+
+.arrow-absoulutes-left {
+  position: absolute;
+    left: -4%;
+    top: -6%;
+}
+
+.arrow-absoulutes-right {
+  position: absolute;
+  bottom: -6%;
 }
 
 .side-half.one{
   bottom:-10%
 }
+
 .text-width-two{
   background: url('../img/Rectangle\ 34.svg');
   margin-right: 4rem;
   width: fit-content;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
-  backdrop-filter: blur(10px);
   justify-content: center;
   /* align-content: center; */
   padding: 50px 50px 50px 50px;
@@ -3968,7 +3987,12 @@ position: relative;
       height:7rem
   }
   .container-lg.nav-parent{
-      flex-direction:column
+      flex-direction:row;
+      padding:20px 10px 0px 10px;
+  }
+  #moonflip-text {
+    text-align: center;
+    padding-left: 0;
   }
   .logo{
       width:3.6rem
@@ -3986,7 +4010,9 @@ position: relative;
       height:44rem
   }
   .text-width-one{
-      width:27rem
+      width: 90vw;
+      margin-inline: 2.5vw;
+  }
   }
   .parent.story{
       width:96vw
@@ -4087,7 +4113,7 @@ position: relative;
       height:50rem
   }
   .text-width-one{
-      width:80%
+      width:100%
   }
   .text-width-one.sm{
       width:20rem
@@ -5941,90 +5967,6 @@ line-height: 150%; /* 28.5px */
   gap: 20px;
   flex-direction: row;
 }
-/* clases para cargar el modelo en threejs */
-.model_1{
-	position: absolute;
-    width: 40vw;
-    height: 50vh;
-    transform: translate(3rem, -3rem);
-}
-.model-1-loader{
-	z-index: -1;
-    transform: translate(-21vw, -28vh);
-    position: absolute;
-    width: 50vw;
-    height: 108vh;
-    left: 20%;
-    top: -70%;
-
-}
-.model-2-loader{
-	position: relative;
-    width: 40vw;
-    height: 100vh;
-
-}
-
-.modelGames{
-	z-index: 1;
-    position: absolute;
-	width: 50vw;
-    height: 108vh;
-    left: 60%;
-    top: 5%;
-}.modelVision{
-	z-index: 1;
-    transform: translate(-21vw, -28vh);
-    position: absolute;
-    width: 50vw;
-    height: 108vh;
-    left: 10%;
-    top: 10%;
-    
-    transform: scaleX(-1);
-}
-.modelVision2{
-	z-index: 0;
-    transform: translate(-21vw, -28vh);
-    position: absolute;
-    width: 60vw;
-    height: 105vh;
-    left: 5%;
-    top: 6%;
-    transform: scaleX(-1);
-}
-.model-3-loader{
-	position: absolute;
-    width: 27vw;
-    height: 57vh;
-
-}
-#renderCanvas {
-	width: 100%;
-	height: 100%;
-	touch-action: none;
-}
-
-/* Clases para hacer flotar el modelo */
-
-.avatar {
-  animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
-    transform: translatey(0px);
-  }
-  50% {
-    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
-    transform: translatey(-20px);
-  }
-  100% {
-    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
-    transform: translatey(0px);
-  }
-}
 
 /* Gradients */
 
@@ -6078,4 +6020,9 @@ line-height: 150%; /* 28.5px */
 }
 .gradiente-circular-gamedown.section5-1 {
   background: rgba(131, 4, 245, 0.53);
+}
+
+/* MENU NEW */
+.new-menu-bars {
+  display: none;
 }

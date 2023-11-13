@@ -1,31 +1,8 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
-	.model-3-loader{
-		position: absolute;
-		width: 81vw !important;
-		height: 55vh !important;
-		transform: translate(1rem, -4rem);
-	}
-	.model-2-loader {
-		position: relative;
-		width: 90vw !important;
-		height: 100vh !important;
-	}
-	.modelVision {
-		width: 70vw !important;
-		height: 50vh !important;
-	}
-	.modelVision2 {
-		width: 75vw !important;
-		height: 55vh !important;
-	}
-	.model_1 {
-		width: 75vw !important;
-		height: 45vh !important;
-		transform: translate(0rem, -24rem) !important;
-	}
-  .head-section.full {
-    height: 100% !important;
+	
+  .head-section.full { 
+    height: 100vh !important;
   }
 
   .img-mobile {
@@ -330,9 +307,20 @@ flex-direction: column !important;
     }
 
     .text-width-two{
-        width: 100% !important;
-        height: fit-content !important; 
-        background-image: none !important;
+      margin-top: 65px;
+      margin-bottom: 39px;
+      background: url('../img/Rectangle34-custom.svg') !important;
+      background-repeat: no-repeat !important;
+      margin-right: 4rem !important;
+      margin-left: 4rem !important;
+    }
+
+    .cartas-mobile-section {
+      grid-row-start: 1 !important;
+      grid-row-end: 2 !important;
+      grid-column-start: 1 !important;
+      grid-column-end: 3 !important;
+      margin-top: 50px !important;
     }
 
     .abs-vertical{
@@ -690,7 +678,11 @@ background-image:none !important;
     }
 
     .bg-nav-mt{
-      margin-top: 2rem !important;
+      display: none !important;
+    }
+
+    .scroll-down {
+      bottom: 3.5rem !important;
     }
 
     .back-comu{
@@ -821,6 +813,10 @@ body{
       display: none !important;
     }
 
+    .new-menu-bars {
+      display: flex !important;
+    }
+
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
@@ -828,6 +824,18 @@ body{
     .nav {
         top: 1% !important;
         height: min-content !important;
+    }
+
+    .new-menu-bars {
+      display: flex !important;
+    }
+
+    .bg-nav-mt{
+      display: none !important;
+    }
+
+    .scroll-down {
+      bottom: 3.5rem !important;
     }
 
     
@@ -1085,10 +1093,26 @@ background-image:cover !important;
     }
 
     .text-width-two{
-        width: 100% !important;
-        height: fit-content !important; 
-        background-image: none !important;
-    }
+      margin-top: 65px;
+      margin-bottom: 39px;
+      background: url('../img/Rectangle34-custom.svg') !important;
+      background-repeat: no-repeat !important;
+      width: 30rem !important;
+      margin-right: 4rem;
+      margin-left: 4rem;
+  }
+
+  .cartas-mobile-section {
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    margin-top: 50px !important;
+  }
+
+  #text-ready-adv {
+    font-size: 30px !important;
+  }
 
     .abs-vertical{
         display: none;
@@ -1280,6 +1304,18 @@ background-image:cover !important;
     .nav {
         top: 1% !important;
         height: min-content !important;
+    }
+
+    .new-menu-bars {
+      display: flex !important;
+    }
+
+    .bg-nav-mt{
+      display: none !important;
+    }
+    
+    .scroll-down {
+      bottom: 3.5rem !important;
     }
 
     .order-3{
@@ -1517,9 +1553,17 @@ background-image:cover !important;
     }
 
     .text-width-two{
-        width: 100% !important;
-        height: fit-content !important; 
-        background-image: none !important;
+      margin-top: 65px;
+      margin-bottom: 39px;
+      background: url('../img/Rectangle34-custom.svg') !important;
+      background-repeat: no-repeat !important;
+      width: 30rem !important;
+      height: 35rem !important;
+      padding: 0px 0px;
+    }
+
+    #text-ready-adv {
+      font-size: 30px !important;
     }
 
     .abs-vertical{
@@ -1809,6 +1853,21 @@ background-image:cover !important;
         height: min-content !important;
     }
 
+    .text-width-two{
+      margin-top: 65px;
+      margin-bottom: 39px;
+      background: url('../img/Rectangle34-custom.svg') !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      width: 35rem !important;
+      height: 40rem !important;
+      padding: 0px 0px;
+    }
+
+    #text-ready-adv {
+      font-size: 32px !important;
+    }
+
       
   .card-btn:hover{
     background-image: url(../img/cards-btn.png) !important;
@@ -2016,12 +2075,6 @@ background-image:cover !important;
         margin-left: 0rem !important;
         order: 1 !important;
         justify-content: center !important;
-    }
-
-    .text-width-two{
-        width: 100% !important;
-        height: fit-content !important; 
-        background-image: none !important;
     }
 
     .abs-vertical{
@@ -2298,6 +2351,10 @@ background-image:cover !important;
       gap: 30px !important;
     }
 
+    .content-adventurer-are {
+      margin-top: -%; 
+    }
+
 
 
 }
@@ -2305,6 +2362,9 @@ background-image:cover !important;
 /*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
 @media only screen and (min-width: 1282px) and (max-width: 1439px){
 
+  .content-adventurer-are {
+    margin-top: -2% !important; 
+  }
   
   .parrafo3{
     font-size: 17px !important;
@@ -3021,7 +3081,9 @@ font-size: 9px !important;
       .card-btn:nth-child(3){
         margin-left: .6rem !important;
       }
-    
+      .content-adventurer-are {
+        margin-top: -2% !important; 
+      }
     
       .card-btn:nth-child(4){
         margin-left: .6rem !important;
@@ -3173,14 +3235,23 @@ font-size: 9px !important;
       }
 
       .text-width-two{
-        margin-right: 2rem !important;
-        padding:30px 100px 30px 100px !important;
-
-        background-size:cover !important;
+        margin-right: 0rem !important;
+        padding:30px 45px 30px 72px !important;
+        background-size: 100% 100% !important;
       }
 
       .text-width-two h2, .text-width-two h2 p{
-        padding-left: 2rem !important;
+        padding-left: 0rem !important;
+      }
+
+      .text-adven {
+        font-size: 15px !important;
+        line-height: 24px !important;
+        padding-top: 0 !important;
+      }
+
+      #cmd-adventure {
+        width: 90% !important;
       }
 
 

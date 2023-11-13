@@ -1,0 +1,346 @@
+/* SECTION LINES DISCORD */
+.container-lines-cicrcle {
+  position: absolute;
+  top: 25%;
+  left: -8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.lines-discord-1 {
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.25;
+  width: 70px;
+  position: relative;
+}
+
+.container-y-lines-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -544px;
+  right: 0%;
+}
+
+.lines-discord-1-y {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 522px;
+  width: 1px;
+  position: relative;
+}
+
+.container-lines-circle-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0px;
+  right: 22px;
+}
+
+.lines-discord-2 {
+  width: 70px;
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.25;
+  position: relative;
+}
+
+.container-y-lines-circle-2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: -472px;
+  left: 0;
+}
+
+.lines-discord-2-y {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 450px;
+  width: 1px;
+  position: relative;
+}
+
+.container-lines-cicrcle-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 11px;
+  left: 22px;
+}
+
+.lines-discord-3 {
+  width: 105px;
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.25;
+}
+/* END SECTION LINES DISCORD*/
+
+/* SECTION LINES VISION */
+.container-lines-y-vision {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  right: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lines-vision-1 {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 50px;
+  width: 1px;
+  position: relative;
+}
+
+.container-lines-x-vision {
+  position: absolute;
+  bottom: 0;
+  right: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.lines-vision-2 {
+  background-color: #fff;
+  opacity: 0.25;
+  width: 580px;
+  height: 1px;
+  position: relative;
+}
+
+.container-lines-s-vision-2 {
+  position: absolute;
+  bottom: -45px;
+  left: 11px;
+}
+
+.lines-vision-3 {
+  width: 1px;
+  height: 45px;
+  background-color: #fff;
+  opacity: 0.25;
+}
+/* END SECTION LINES VISION */
+
+/*Media queries para trabajar Mobile*/
+@media screen and (max-width: 479px) {
+  .container-lines-cicrcle,
+  .container-y-lines-circle,
+  .container-lines-circle-2,
+  .container-y-lines-circle-2,
+  .container-lines-cicrcle-3,
+  .container-lines-y-vision,
+  .container-lines-x-vision,
+  .container-lines-s-vision-2 {
+    display: none;
+  }
+}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-lines-cicrcle,
+  .container-y-lines-circle,
+  .container-lines-circle-2,
+  .container-y-lines-circle-2,
+  .container-lines-cicrcle-3,
+  .container-lines-y-vision,
+  .container-lines-x-vision,
+  .container-lines-s-vision-2 {
+    display: none;
+  }
+}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container-lines-cicrcle,
+  .container-y-lines-circle,
+  .container-lines-circle-2,
+  .container-y-lines-circle-2,
+  .container-lines-cicrcle-3,
+  .container-lines-y-vision,
+  .container-lines-x-vision,
+  .container-lines-s-vision-2 {
+    display: none;
+  }
+}
+
+/*Media queries para trabajar en pantallas con viejas resoluciones*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* DISCORD */
+  .container-lines-cicrcle {
+    left: 0%;
+  }
+  .lines-discord-2 {
+    width: 120px;
+  }
+  .lines-discord-3 {
+    width: 69px;
+  }
+
+  /* VISION */
+  .container-lines-y-vision {
+    bottom: -80px;
+  }
+
+  .lines-vision-1 {
+    height: 100px;
+  }
+
+  .container-lines-x-vision {
+    bottom: -10px;
+  }
+
+  .lines-vision-2 {
+    width: 450px;
+  }
+}
+
+/*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
+@media only screen and (min-width: 1282px) and (max-width: 1439px) {
+  /* DISCORD */
+  .container-lines-cicrcle {
+    left: -3.2rem;
+  }
+  .lines-discord-2 {
+    width: 7rem;
+  }
+  .lines-discord-3 {
+    width: 9rem;
+  }
+
+  /* VISION */
+  .container-lines-x-vision {
+    bottom: -0px;
+  }
+  .container-lines-s-vision-2 {
+    bottom: -70px;
+  }
+  .lines-vision-3 {
+    height: 70px;
+  }
+}
+
+/*Media queries para trabajar en Pantallas de su mayoria laptops*/
+@media only screen and (min-width: 1442px) and (max-width: 1599px) {
+  /* DISCORD */
+  .container-lines-cicrcle {
+    left: -1rem;
+  }
+  .lines-discord-2 {
+    width: 7rem;
+  }
+  .lines-discord-3 {
+    width: 5rem;
+  }
+
+  /* VISION */
+  .container-lines-x-vision {
+    bottom: 0px;
+  }
+}
+
+/*Media queries para trabajar en pantallas pre-FULLHD*/
+@media screen and (min-width: 1602px) and (max-width: 1919px) {
+  /* DISCORD */
+  .container-lines-cicrcle {
+    left: -4rem;
+  }
+  .lines-discord-2 {
+    width: 5rem;
+  }
+  .lines-discord-3 {
+    width: 9rem;
+  }
+  .container-y-lines-circle-2 {
+    bottom: -702px;
+  }
+  .lines-discord-2-y {
+    height: 680px;
+  }
+
+  /* VISION */
+
+  .container-lines-s-vision-2 {
+    bottom: -75px;
+  }
+  .lines-vision-3 {
+    height: 75px;
+  }
+}
+
+/*Media queries para trabajar en Pantallas FULLHD y superior*/
+@media screen and (min-width: 1922px) {
+  /* DISCORD */
+  .container-lines-cicrcle {
+    left: -8rem;
+  }
+  .lines-discord-1 {
+    width: 200px;
+  }
+  .lines-discord-2 {
+    width: 10rem;
+  }
+  .lines-discord-3 {
+    width: 15.5rem;
+  }
+  .container-y-lines-circle-2 {
+    bottom: -702px;
+  }
+  .lines-discord-2-y {
+    height: 680px;
+  }
+
+  /* VISION */
+  .lines-vision-2 {
+    width: 650px;
+  }
+  .container-lines-s-vision-2 {
+    bottom: -110px;
+  }
+  .lines-vision-3 {
+    height: 110px;
+  }
+}
+
+/* HERO LOGO */
+.hero-logo-glitch {
+  z-index: 1006;
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hero-glitch-absolu {
+}
+.title-hero-glitch {
+  color: #fff;
+  text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  font-family: Azonix;
+  font-size: 83px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  opacity: 1;
+}

@@ -1,0 +1,80 @@
+.container-carousel {
+  margin: 5rem 0rem;
+}
+
+.wrapper-carousel {
+  max-width: 100%;
+  position: relative;
+}
+
+.wrapper-carousel .carousel {
+  white-space: nowrap;
+  cursor: grab;
+  font-size: 0px;
+  overflow-x: scroll;
+}
+
+.carousel img {
+  max-height: 500px;
+  object-fit: contain;
+  width: calc(100% / 2.5);
+  margin-left: 14px;
+}
+
+.carousel img:first-child {
+  margin-left: 0px;
+}
+
+/*Media queries para trabajar Mobile*/
+@media screen and (max-width: 479px) {
+  .container-carousel {
+    margin-top: 39px !important;
+    margin-bottom: 119px !important;
+    padding-left: 20px;
+  }
+  .carousel img {
+  object-fit: fill;
+    width: calc(100% / 2.5);
+    height: 117px;
+  max-height: 300px;
+
+  }
+  .head-section {
+    justify-content: start !important;
+  }
+}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-carousel {
+    margin-top: 39px !important;
+    margin-bottom: 119px !important;
+    padding-left: 20px;
+  }
+  .carousel img {
+    width: calc(100% / 2.5);
+    min-height: 300px;
+  }
+}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container-carousel {
+    margin-top: 39px !important;
+    margin-bottom: 119px !important;
+    padding-left: 20px;
+  }
+  .carousel img {
+    width: calc(100% / 2.4);
+    object-fit: fill;
+    height: 160px;
+  }
+}
+
+/*Media queries para trabajar en Pantallas de su mayoria laptops*/
+@media only screen and (min-width: 1442px) and (max-width: 1599px) {
+}
+
+/*Media queries para trabajar en pantallas con viejas resoluciones*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+}
