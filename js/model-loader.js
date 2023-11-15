@@ -37,7 +37,7 @@ const observer3 = new IntersectionObserver(entries => {
 	});
 });
   
-observer3.observe(document.querySelector('.model-3-loader'));
+// observer3.observe(document.querySelector('.model-3-loader'));
 
 document.addEventListener('scroll',()=>{
 	if (scrollAct>window.scrollY) {
@@ -355,93 +355,93 @@ engine2.runRenderLoop(function () {
 });
 
 
-const canvas3 = document.getElementById("model_3"); // Get the canvas element
-const engine3 = new BABYLON.Engine(canvas3, true); // Generate the BABYLON 3D engine
-const createScene3 = function () {
-	// Creates a basic Babylon Scene object
-	const scene = new BABYLON.Scene(engine3);
-	// Creates and positions a free camera
-	const camera = new BABYLON.FreeCamera("camera1", 
-		new BABYLON.Vector3(0, 5, -8), scene);
-	// Targets the camera to scene origin
-	camera.setTarget(BABYLON.Vector3.Zero());
-	// This attaches the camera to the canvas
-	camera.attachControl(canvas3, true);
-	/* // Creates a light, aiming 0,1,0 - to the sky
-	const light = new BABYLON.HemisphericLight("light", 
-		new BABYLON.Vector3(0, 1, 0), scene);
-	// Dim the light a small amount - 0 to 1
-	light.intensity = 0.7;
-	// Append glTF model to scene. */
-	// Creates a light, aiming 0,1,0 - to the sky
-	const light = new BABYLON.HemisphericLight("light", 
-	new BABYLON.Vector3(0, 1, 0), scene);
-	// // Dim the light a small amount - 0 to 1
-	light.intensity = 0.3;
-	// Append glTF model to scene.
+// const canvas3 = document.getElementById("model_3"); // Get the canvas element
+// const engine3 = new BABYLON.Engine(canvas3, true); // Generate the BABYLON 3D engine
+// const createScene3 = function () {
+// 	// Creates a basic Babylon Scene object
+// 	const scene = new BABYLON.Scene(engine3);
+// 	// Creates and positions a free camera
+// 	const camera = new BABYLON.FreeCamera("camera1", 
+// 		new BABYLON.Vector3(0, 5, -8), scene);
+// 	// Targets the camera to scene origin
+// 	camera.setTarget(BABYLON.Vector3.Zero());
+// 	// This attaches the camera to the canvas
+// 	camera.attachControl(canvas3, true);
+// 	/* // Creates a light, aiming 0,1,0 - to the sky
+// 	const light = new BABYLON.HemisphericLight("light", 
+// 		new BABYLON.Vector3(0, 1, 0), scene);
+// 	// Dim the light a small amount - 0 to 1
+// 	light.intensity = 0.7;
+// 	// Append glTF model to scene. */
+// 	// Creates a light, aiming 0,1,0 - to the sky
+// 	const light = new BABYLON.HemisphericLight("light", 
+// 	new BABYLON.Vector3(0, 1, 0), scene);
+// 	// // Dim the light a small amount - 0 to 1
+// 	light.intensity = 0.3;
+// 	// Append glTF model to scene.
 
-	// Creates a PointLight, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(5, 70, 25), scene);
-	// // Dim the light a small amount - 0 to 1
-	pointLight.intensity = 100;
-	pointLight.radius = 10
+// 	// Creates a PointLight, aiming 0,1,0 - to the sky
+// 	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(5, 70, 25), scene);
+// 	// // Dim the light a small amount - 0 to 1
+// 	pointLight.intensity = 100;
+// 	pointLight.radius = 10
 
-	// Change the color of the PointLight
-	pointLight.diffuse = new BABYLON.Color3(106, 94, 209);
-	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
-	// Creates a PointLight, aiming 0,1,0 - to the sky
-	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 85, 45), scene);
-	// // Dim the light a small amount - 0 to 1
-	pointLight2.intensity = 240;
-	pointLight2.radius = 10
+// 	// Change the color of the PointLight
+// 	pointLight.diffuse = new BABYLON.Color3(106, 94, 209);
+// 	//pointLight.specular = new BABYLON.Color3(87, 35, 100);
+// 	// Creates a PointLight, aiming 0,1,0 - to the sky
+// 	var pointLight2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-10, 85, 45), scene);
+// 	// // Dim the light a small amount - 0 to 1
+// 	pointLight2.intensity = 240;
+// 	pointLight2.radius = 10
 
-	// Change the color of the PointLight
-	pointLight2.diffuse = new BABYLON.Color3(10, 10, 255);
-	// Append glTF model to scene.
-	// Creates a light, aiming 0,1,0 - to the sky
-	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 1, 0), scene);
-	// // Dim the light a small amount - 0 to 1
-	pointLight.intensity = 0.7;
-	// Append glTF model to scene.
-	BABYLON.SceneLoader.Append("3D/", "model_3.glb", scene, function (sceneMesh) {
-		// Create a default arc rotate camera and light.
-		sceneMesh.createDefaultCamera(true, true, true);
+// 	// Change the color of the PointLight
+// 	pointLight2.diffuse = new BABYLON.Color3(10, 10, 255);
+// 	// Append glTF model to scene.
+// 	// Creates a light, aiming 0,1,0 - to the sky
+// 	var pointLight = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0, 1, 0), scene);
+// 	// // Dim the light a small amount - 0 to 1
+// 	pointLight.intensity = 0.7;
+// 	// Append glTF model to scene.
+// 	BABYLON.SceneLoader.Append("3D/", "model_3.glb", scene, function (sceneMesh) {
+// 		// Create a default arc rotate camera and light.
+// 		sceneMesh.createDefaultCamera(true, true, true);
 	
-		// The default camera looks at the back of the asset.
-		// Rotate the camera by 180 degrees to the front of the asset.
-		sceneMesh.activeCamera.alpha += Math.PI*1.1;
-		// if(window.innerWidth<500){
-		// 	sceneMesh.meshes[0].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
-		// 	sceneMesh.meshes[1].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
-		// 	sceneMesh.meshes[2].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
-		// 	sceneMesh.meshes[3].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
-		// 	sceneMesh.meshes[4].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
-		// }else{
-		// 	sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		// 	sceneMesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		// 	sceneMesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		// 	sceneMesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		// 	sceneMesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
-		// }
-		sceneMesh.activeCamera.position = new BABYLON.Vector3(-0.1, 20, -25);
-		console.log(sceneMesh);
+// 		// The default camera looks at the back of the asset.
+// 		// Rotate the camera by 180 degrees to the front of the asset.
+// 		sceneMesh.activeCamera.alpha += Math.PI*1.1;
+// 		// if(window.innerWidth<500){
+// 		// 	sceneMesh.meshes[0].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+// 		// 	sceneMesh.meshes[1].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+// 		// 	sceneMesh.meshes[2].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+// 		// 	sceneMesh.meshes[3].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+// 		// 	sceneMesh.meshes[4].scaling = new BABYLON.Vector3(0.75, 0.75, 0.75);
+// 		// }else{
+// 		// 	sceneMesh.meshes[0].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+// 		// 	sceneMesh.meshes[1].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+// 		// 	sceneMesh.meshes[2].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+// 		// 	sceneMesh.meshes[3].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+// 		// 	sceneMesh.meshes[4].scaling = new BABYLON.Vector3(1.15, 1.15, 1.15);
+// 		// }
+// 		sceneMesh.activeCamera.position = new BABYLON.Vector3(-0.1, 20, -25);
+// 		console.log(sceneMesh);
 		
-	});
-	return scene;
-};
-const scene3 = createScene3(); //Call the createScene function
-scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
-// Register a render loop to repeatedly render the scene
-engine3.runRenderLoop(function () {
-	if (active3) {
-		scene3.render();
-		scene3.activeCamera.alpha +=0.002*scrollDir;
-	}
+// 	});
+// 	return scene;
+// };
+// const scene3 = createScene3(); //Call the createScene function
+// scene3.clearColor = new BABYLON.Color4(0, 0, 0, 0);
+// // Register a render loop to repeatedly render the scene
+// engine3.runRenderLoop(function () {
+// 	if (active3) {
+// 		scene3.render();
+// 		scene3.activeCamera.alpha +=0.002*scrollDir;
+// 	}
 	
-});
-// Watch for browser/canvas resize events
-window.addEventListener("resize", function () {
-	engine1.resize();
-	engine2.resize();
-	engine3.resize();
-});
+// });
+// // Watch for browser/canvas resize events
+// window.addEventListener("resize", function () {
+// 	engine1.resize();
+// 	engine2.resize();
+// 	engine3.resize();
+// });

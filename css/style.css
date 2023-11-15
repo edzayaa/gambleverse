@@ -2265,6 +2265,27 @@ p{
   z-index: 1004;
   position: absolute;
 }
+.container-lines-shapes-scroll {
+  display: flex;
+  justify-content: center;
+  z-index: 1004;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.container-cards-JQK {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  z-index: 1008;
+  position: relative;
+}
+.container-cards-JQK > img {
+  position: absolute;
+  width: 255px;
+  height: 425px;
+}
 
 .nav-buttonbg3 {
   background-image: url("../img/buttonav1.svg");
@@ -2334,10 +2355,10 @@ p{
   background-position:50%;
   background-size:18rem
 }
-.hero-logo{
+.hero-logo-he{
   z-index:10;
   position:absolute;
-width: 90%;
+  width: 90%;
   color: #FFF;
   text-align: center;
   text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
@@ -2347,6 +2368,33 @@ width: 90%;
   font-weight: 400;
   line-height: 100%;
 }
+#show-1,#show-2,#show-3,
+#show-4,#show-5,#show-6,
+#show-7,#show-8,#show-9,
+#show-10,#show-11,#show-12,
+#show-13,#show-14,#show-15,
+#show-16,#show-17,#show-18,
+#show-19,#show-20,#show-21,
+#show-22,#show-23,#show-24,
+#show-25,#show-26,#show-27,
+#show-28,#show-29,#show-30,
+#show-31 {
+  opacity: 0;
+}
+
+#ocult-1,#ocult-2,#ocult-3,
+#ocult-4,#ocult-5,#ocult-6,
+#ocult-7,#ocult-8,#ocult-9,
+#ocult-10,#ocult-11,#ocult-12,
+#ocult-13,#ocult-14,#ocult-15,
+#ocult-16,#ocult-17,#ocult-18,
+#ocult-19,#ocult-20,#ocult-21,
+#ocult-22,#ocult-23,#ocult-24,
+#ocult-25,#ocult-26,#ocult-27,
+#ocult-28 {
+  opacity: 0;
+}
+
 .scroll-down {
   z-index: 10;
   position: absolute;
@@ -2367,7 +2415,14 @@ width: 90%;
   font-weight: 400;
   line-height: 100%; /* 15px */
   text-transform: uppercase;
+  height: 15px;
+  overflow-y: hidden;
 }
+
+.des-scroll-down > span {
+  letter-spacing: -0.3em;
+}
+
 .xsm-text{
   font-size:10px;
   line-height:1;
@@ -4221,19 +4276,17 @@ position: relative;
   }
 }
 
+#title-commnity-mobile {
+  display: none;
+}
+
 .section-streamers {
-
   background-image: url("../img/backgrounds/Group\ 132\ \(2\).png");
-
-
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
   height: 100vh;
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: start;
@@ -4325,7 +4378,7 @@ position: relative;
 }
 
 
-.hero-logo{
+.hero-logo-he{
   z-index: 1005;
 }
 

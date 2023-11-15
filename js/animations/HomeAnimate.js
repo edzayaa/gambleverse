@@ -6,7 +6,8 @@ const allCirclesLinesHome = [
     "#circle-line-thre",
     "#circle-line-four",
     "#circle-line-five",
-    "#circle-line-six"
+    "#circle-line-six",
+    "#circle-line-seven"
 ]
 
 const linesStoreCarts = [

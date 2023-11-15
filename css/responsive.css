@@ -1,6 +1,51 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
-	
+.container-joinDiscord{
+  margin-bottom: 100px !important;
+}
+.container-streamersS{
+  padding-top: 200px;
+}
+
+  .section-streamers, .qlqwa {
+    background-size: cover !important;
+    margin-top: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+  #title-commnity-mobile{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: -95%;
+  }
+  .des-scroll-down > span {
+    letter-spacing: 0em !important;
+    font-size: 12px !important;
+}
+
+.des-scroll-down{
+  display: flex;
+}
+  #title-commnity {
+    display: none;
+  }
+  .container-cards-JQK {
+    display: none !important;
+  }
+  .cartas-mobile-section {
+    display: flex !important;
+  }
+	.hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
   .head-section.full { 
     height: 100vh !important;
   }
@@ -373,11 +418,20 @@ flex-direction: column !important;
     .container-lg.nav-parent {
         justify-content: none !important;
     }
-    .hero-logo {
+    .hero-logo-he {
         font-size: 40px !important;
     }
+    .container-lines-shapes-scroll > svg{
+      height: 500px !important;
+      width: 500px !important;
+      scale: 2
+    }
+    .container-lines-shapes-scroll {
+      position: relative;
+      top: 110%;
+      align-items: center !important;
+  }
 
-    
 
     .px-2{
       padding: 0% !important;
@@ -821,6 +875,43 @@ body{
 
 /*Media queries para trabajar Tablets como las Surfaces*/
 @media  screen and (min-width: 480px) and (max-width: 767px){
+  .container-joinDiscord{
+    margin-bottom: 120px !important;
+  }
+  .container-streamersS{
+    padding-top: 180px;
+  }
+  .container-lines-shapes-scroll {
+    position: relative !important;
+    height: 500px!important;
+    align-items: center !important;
+}
+.container-lines-shapes-scroll > svg {
+  height: 100% !important;
+  width: 100% !important;
+  scale: 2;
+}
+
+  #title-commnity-mobile{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+  }
+  #title-commnity {
+    display: none;
+  }
+  .container-cards-JQK {
+    display: none !important;
+  }
+  .hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
     .nav {
         top: 1% !important;
         height: min-content !important;
@@ -1102,12 +1193,21 @@ background-image:cover !important;
       margin-left: 4rem;
   }
 
-  .cartas-mobile-section {
+    .cartas-mobile-section {
     grid-row-start: 1 !important;
     grid-row-end: 2 !important;
     grid-column-start: 1 !important;
     grid-column-end: 3 !important;
     margin-top: 50px !important;
+    display: grid !important;
+  }
+  .cartas-mobile-section > img {
+    height: 90%;
+    width: 90%;
+  }
+  
+  ._2-col-grid.frontier {
+    margin-top: 20%;
   }
 
   #text-ready-adv {
@@ -1164,7 +1264,7 @@ background-image:cover !important;
     .container-lg.nav-parent {
         justify-content: none !important;
     }
-    .hero-logo {
+    .hero-logo-he {
         font-size: 50px !important;
     }
     .footer {
@@ -1198,8 +1298,16 @@ background-image:cover !important;
         flex-direction: column;
         align-items: center;
     }
+    .des-scroll-down > span {
+      letter-spacing: 0rem !important;
+      font-size: 12px !important;
+    }
     .section-streamers, .qlqwa {
         background-size: cover !important;
+        margin-top: 100px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
     .dasdas {
         flex-direction: column !important; 
@@ -1301,6 +1409,12 @@ background-image:cover !important;
 
 /*Media queries para trabajar en tablets com Ipads*/
 @media  screen and (min-width: 768px) and (max-width: 1023px){
+  .hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
     .nav {
         top: 1% !important;
         height: min-content !important;
@@ -1616,7 +1730,7 @@ background-image:cover !important;
     .container-lg.nav-parent {
         justify-content: none !important;
     }
-    .hero-logo {
+    .hero-logo-he {
         font-size: 50px !important;
     }
     .footer {
@@ -2129,7 +2243,7 @@ background-image:cover !important;
     .container-lg.nav-parent {
         justify-content: none !important;
     }
-    .hero-logo {
+    .hero-logo-he {
         font-size: 50px !important;
     }
     .footer {

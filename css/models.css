@@ -5,13 +5,13 @@
     height: 100vh !important;
     width: 90vw !important;
     left: 0;
-    top: -70%;
+    top: -50%;
 }
 
 
 .model-2-loader{
 	position: relative;
-    width: 90vw;
+    width: 80vw;
     height: 100vh;
 }
 
@@ -73,7 +73,7 @@
 /*Media queries para trabajar Mobile*/
 @media screen and (max-width: 479px) {
 	.model-1-loader{
-        top: -30%;
+        top: 0%;
     }
 
     .model-3-loader{
