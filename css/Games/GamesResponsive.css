@@ -76,286 +76,333 @@
 
 /*Media queries para trabajar en tablets com Ipads*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .bg-games {
-        background-size: cover !important;
-      }
-      .mobilepx {
-        margin-inline: 40px !important;
-      }
-      .paintball-img {
-        width: 70% !important;
-      }
-      .mobil-adap {
-        display: flex !important;
-        flex-direction: column-reverse !important;
-        justify-content: center !important;
-        align-items: center !important;
-      }
-      .class-mostgames {
-        padding: 0 !important;
-      }
-      #contain-Slider {
-        width: 100% !important;
-        padding: 0 !important;
-        padding-top: 2rem !important;
-      }
-      .card-slider-games {
-        flex-direction: row !important;
-        width: 100% !important;
-      }
-      .card-games {
-        width: 98% !important;
-        margin: 0 !important;
-      }
-      .card-games:nth-child(4) {
-        display: none;
-      }
-      .pt-32 {
-        margin: 0 !important;
-      }
-      .mt-mb {
-        margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-      .mt-mb > p {
-        text-align: left;
-        width: 100%;
-      }
-      .mt-mb > h1 {
-        text-align: left;
-        width: 100%;
-      }
-      .container-title {
-        margin: 0 !important;
-      }
-      .head-section.full {
-        height: 100% !important;
-        align-items: center !important;
-      }
-      .head-section.full {
-        height: 100% !important;
-      }
-      .head-section.full > .mt-nega {
-        margin: 0 !important;
-      }
-      .mt-nega {
-        margin: 0 !important;
-      }
-      .sombra {
-        height: 100% !important;
-      }
-      .gallery-game {
-        position: relative !important;
-        width: 100% !important;
-      }
-      .gallery-game > img {
-        width: calc(100% / 4) !important;
-        height: 100% !important;
-        object-fit: contain;
-      }
-      .gallery-game img:last-child {
-        display: block !important;
-      }
-      .flex-G2 {
-        flex-direction: column-reverse !important;
-      }
-      .flex-G {
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
-      }
-      .indenet {
-        font-size: 16px !important;
-      }
+  .bg-games {
+    background-size: cover !important;
+  }
+  .mobilepx {
+    margin-inline: 40px !important;
+  }
+  .paintball-img {
+    width: 70% !important;
+  }
+  .mobil-adap {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .class-mostgames {
+    padding: 0 !important;
+  }
+  #contain-Slider {
+    width: 100% !important;
+    padding: 0 !important;
+    padding-top: 2rem !important;
+  }
+  .card-slider-games {
+    flex-direction: row !important;
+    width: 100% !important;
+  }
+  .card-games {
+    width: 98% !important;
+    margin: 0 !important;
+  }
+  .card-games:nth-child(4) {
+    display: none;
+  }
+  .pt-32 {
+    margin: 0 !important;
+  }
+  .mt-mb {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mt-mb > p {
+    text-align: left;
+    width: 100%;
+  }
+  .mt-mb > h1 {
+    text-align: left;
+    width: 100%;
+  }
+  .container-title {
+    margin: 0 !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+    align-items: center !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+  }
+  .head-section.full > .mt-nega {
+    margin: 0 !important;
+  }
+  .mt-nega {
+    margin: 0 !important;
+  }
+  .sombra {
+    height: 100% !important;
+  }
+  .gallery-game {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .gallery-game > img {
+    width: calc(100% / 4) !important;
+    height: 100% !important;
+    object-fit: contain;
+  }
+  .gallery-game img:last-child {
+    display: block !important;
+  }
+  .flex-G2 {
+    flex-direction: column-reverse !important;
+  }
+  .flex-G {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .indenet {
+    font-size: 16px !important;
+  }
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .bg-games {
-        background-size: cover !important;
-      }
-      .mobilepx {
-        margin-inline: 40px !important;
-      }
-      .paintball-img {
-        width: 70% !important;
-      }
-      .mobil-adap {
-        display: flex !important;
-        flex-direction: column-reverse !important;
-      }
-      .class-mostgames {
-        padding: 0 !important;
-      }
-      #contain-Slider {
-        width: 100% !important;
-        padding: 0 !important;
-        padding-top: 2rem !important;
-      }
-      .card-slider-games {
-        flex-direction: row !important;
-        width: 100% !important;
-      }
-      .card-games {
-        width: 98% !important;
-        margin: 0 !important;
-      }
-      .card-games:nth-child(4) {
-        display: none;
-      }
-      .pt-32 {
-        margin: 0 !important;
-      }
-      .mt-mb {
-        margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-      .mt-mb > p {
-        text-align: left;
-        width: 100%;
-      }
-      .mt-mb > h1 {
-        text-align: left;
-        width: 100%;
-      }
-      .container-title {
-        padding: 0 !important;
-      }
-      .head-section.full {
-        height: 100% !important;
-        align-items: center !important;
-      }
-      .head-section.full {
-        height: 100% !important;
-      }
-      .head-section.full > .mt-nega {
-        margin: 0 !important;
-      }
-      .mt-nega {
-        margin: 0 !important;
-      }
-      .sombra {
-        height: 100% !important;
-      }
-      .gallery-game {
-        position: relative !important;
-        width: 100% !important;
-      }
-      .gallery-game > img {
-        width: calc(100% / 4) !important;
-        height: 100% !important;
-        object-fit: contain;
-      }
-      .gallery-game img:last-child {
-        display: block !important;
-      }
-      .flex-G2 {
-        flex-direction: column-reverse !important;
-      }
-      .flex-G {
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
-      }
-      .indenet {
-        font-size: 16px !important;
-      }
+  .bg-games {
+    background-size: cover !important;
+  }
+  .mobilepx {
+    margin-inline: 40px !important;
+  }
+  .paintball-img {
+    width: 70% !important;
+  }
+  .mobil-adap {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .class-mostgames {
+    padding: 0 !important;
+  }
+  #contain-Slider {
+    width: 100% !important;
+    padding: 0 !important;
+    padding-top: 2rem !important;
+  }
+  .card-slider-games {
+    flex-direction: row !important;
+    width: 100% !important;
+  }
+  .card-games {
+    width: 98% !important;
+    margin: 0 !important;
+  }
+  .card-games:nth-child(4) {
+    display: none;
+  }
+  .pt-32 {
+    margin: 0 !important;
+  }
+  .mt-mb {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mt-mb > p {
+    text-align: left;
+    width: 100%;
+  }
+  .mt-mb > h1 {
+    text-align: left;
+    width: 100%;
+  }
+  .container-title {
+    padding: 0 !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+    align-items: center !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+  }
+  .head-section.full > .mt-nega {
+    margin: 0 !important;
+  }
+  .mt-nega {
+    margin: 0 !important;
+  }
+  .sombra {
+    height: 100% !important;
+  }
+  .gallery-game {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .gallery-game > img {
+    width: calc(100% / 4) !important;
+    height: 100% !important;
+    object-fit: contain;
+  }
+  .gallery-game img:last-child {
+    display: block !important;
+  }
+  .flex-G2 {
+    flex-direction: column-reverse !important;
+  }
+  .flex-G {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .indenet {
+    font-size: 16px !important;
+  }
 }
 
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
 @media only screen and (min-width: 1442px) and (max-width: 1599px) {
-    .container-md {
-        margin: 0 !important;
-    }
-    .flex-G {
-        margin: 0 !important;
-        padding: 1rem 0 !important;
-    }
-    .flex-G2 {
-        margin: 0 !important;
-        padding: 1rem 0 !important;
-
-    }
-    .gradiente-circular-gamedown {
-        width: 100% !important;
-        right: 0 !important;
-    }
-    .head-section.full {
-        height: 100% !important;
-        justify-content: center;
-        align-items: center;
-        padding: 5rem 0px 0px 0px !important;
-      }
-      .sombra2 {
-        height: 100% !important;
-      }
-      .container-title {
-        margin: 0 !important;
-    }
-    .footer {
-        margin-top: 5rem;
-    }
+  .container-md {
+    margin: 0 !important;
+  }
+  .flex-G {
+    margin: 0 !important;
+    padding: 1rem 0 !important;
+  }
+  .flex-G2 {
+    margin: 0 !important;
+    padding: 1rem 0 !important;
+  }
+  .gradiente-circular-gamedown {
+    width: 100% !important;
+    right: 0 !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0px 0px 0px !important;
+  }
+  .sombra2 {
+    height: 100% !important;
+  }
+  .container-title {
+    margin: 0 !important;
+    padding: 5rem 0 0 0 !important;
+  }
+  .footer {
+    margin-top: 5rem;
+  }
 }
 
 /*Media queries para trabajar en pantallas con viejas resoluciones*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .container-md {
-        margin: 0 !important;
-    }
-    .flex-G {
-        margin: 0 !important;
-        padding: 1rem 0 !important;
-    }
-    .flex-G2 {
-        margin: 0 !important;
-        padding: 1rem 0 !important;
-
-    }
-    .gradiente-circular-gamedown {
-        width: 100% !important;
-        right: 0 !important;
-    }
-    .head-section.full {
-        height: 100% !important;
-        justify-content: center !important;
-        align-items: center !important;
-        padding: 8rem 0px 0px 0px !important;
-      }
-      .sombra2 {
-        height: 100% !important;
-      }
-      .container-title {
-        margin: 0 !important;
-    }
-    .footer {
-        margin-top: 5rem;
-    }
-    .fle{
-        align-items: flex-start;
-    }
-    .class-mostgames{
-        width: 50% !important;
-    }
-    .sombra {
-        height: 100% !important;
-    }
-    .contain-Slider {
-        padding: 0 !important;
-    }
+  .container-md {
+    margin: 0 !important;
+  }
+  .flex-G {
+    margin: 0 !important;
+    padding: 1rem 0 !important;
+  }
+  .flex-G2 {
+    margin: 0 !important;
+    padding: 1rem 0 !important;
+  }
+  .gradiente-circular-gamedown {
+    width: 100% !important;
+    right: 0 !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 8rem 0px 0px 0px !important;
+  }
+  .sombra2 {
+    height: 100% !important;
+  }
+  .container-title {
+    margin: 0 !important;
+  }
+  .footer {
+    margin-top: 5rem;
+  }
+  .fle {
+    align-items: flex-start;
+  }
+  .class-mostgames {
+    width: 50% !important;
+  }
+  .sombra {
+    height: 100% !important;
+  }
+  .contain-Slider {
+    padding: 0 !important;
+  }
 }
 
+@media screen and (min-width: 1602px) and (max-width: 1919px) {
+  .head-section.full {
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .bggame1 {
+    height: 100% !important;  
+    background-size: contain;
+  }
+  .sombra2{
+    height: 100% !important;
+    background: linear-gradient(0deg, rgba(2,0,10,1) 0%, rgba(1,0,18,0) 10%, #03010A 95%) !important;
+  }
+  .sombra{
+    height: 100% !important;
+  }
+  .container-title {
+    margin: 0 !important;
+  }
+  .gradiente-circular-gamedown {
+    width: 100% !important;
+    right: 0 !important;
+  }
+  .mobil-adap {
+    padding: 5rem 0px !important;
+  }
+}
 /*Media queries para trabajar en Pantallas FULLHD y superior*/
-@media  screen and (min-width: 1922px){
-    .mobil-adap {
-        justify-content: center;
-    }
-    .class-mostgames {
-        width: 30% !important;
-    }
+@media screen and (min-width: 1922px) {
+  .head-section.full {
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .bggame1 {
+    height: 100% !important;  
+    background-size: contain;
+  }
+  .sombra2{
+    height: 100% !important;
+    background: linear-gradient(0deg, rgba(2,0,10,1) 0%, rgba(1,0,18,0) 10%, #03010A 95%) !important;
+  }
+  .sombra{
+    height: 100% !important;
+  }
+  .container-title {
+    margin: 0 !important;
+  }
+  .gradiente-circular-gamedown {
+    width: 100% !important;
+    right: 0 !important;
+  }
+  .mobil-adap {
+    padding: 5rem 0px !important;
+  }
 }
