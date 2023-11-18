@@ -338,7 +338,7 @@ export const animationScaleElement = (elemento) => {
 
 export const animationSectionEntry = (e) => {
   gsap
-    .timeline({ defaults: { duration: 1, ease: "slow" } })
+    .timeline({ defaults: { duration: 1, ease: "back.inOut(1)", } })
     .to(".video-html5 ", {
       opacity: 0,
     })
@@ -394,7 +394,6 @@ tl_lines_two.to("#line-ui-two", {
   ease: "slow(0.1,0.1,false)",
 });
 
-const animationCards = () => {};
 gsap.set("#CardJ", {
   zIndex: "2",
 });
@@ -403,13 +402,14 @@ const tl = gsap.timeline({
     trigger: ".container-cards-JQK",
     start: "top 60%",
     end: "bottom 90%",
-    scrub: 1,
+    scrub: true,
   },
 });
 tl.to("#CardJ", {
   x: "-90px",
   y: "-90px",
   rotate: "-10deg",
+  ease: "back.inOut(1)",
 });
 
 gsap.set("#CardK", {
@@ -420,13 +420,14 @@ const tl2 = gsap.timeline({
     trigger: ".container-cards-JQK",
     start: "top 60%",
     end: "bottom 90%",
-    scrub: 1,
+    scrub: true,
   },
 });
 tl2.to("#CardK", {
   x: "14px",
   y: "-42px",
   rotate: "23deg",
+  ease: "back.inOut(1)",
 });
 
 const tl3 = gsap.timeline({
@@ -434,13 +435,14 @@ const tl3 = gsap.timeline({
     trigger: ".container-cards-JQK",
     start: "top 60%",
     end: "bottom 90%",
-    scrub: 1,
+    scrub: true,
   },
 });
 tl3.to("#CardQ", {
   x: "66px",
   y: "102px",
   rotate: "50deg",
+  ease: "back.inOut(1)",
 });
 
 // ANIMATION FOOTER

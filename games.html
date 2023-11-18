@@ -120,7 +120,7 @@
 		<nav class="nav">
 			<div class="container-lg nav-parent">
 				<div class="nav-col">
-					<a aria-label="Home" data-w-id="a34d7e2a-6311-e67e-5390-cdddda6d14a4" href="/" aria-current="page" class="logo w-inline-block w--current">
+					<a aria-label="Home" href="/" aria-current="page">
 						<img src="img/logo.png" loading="lazy" alt="Fates Icon" class="icon-logo" />
 					</a>
 					<div class="menu-desktop">
@@ -160,6 +160,9 @@
 							</div>
 						</a>
 					</div>
+				</div>
+				<div class="nav-col new-menu-bars">
+					<img src="img/bars-icon-mobile.png" alt="bars-icon" width="48px" height="26px">
 				</div>
 				<div class="nav-col bg-nav-mt">
 					<a href="#" class="nav-button w-inline-block" style="gap: 5px;">
@@ -224,7 +227,7 @@
 					<div class="container-lg mobilepx">
 						<img class="paintball-img" src="img/logopaintball 2.svg" />
 						<h2 class="font-title py">Space shooter style game!</h2>
-						<a  href="#"><img class="bg-nav"  src="img/btn-soon.svg" /></a>
+							<a  href="#" ><img class="bg-nav" id="btn-soon" src="img/btn-soon.svg" /></a>
 					</div>
 					<svg class="abs" xmlns="http://www.w3.org/2000/svg" width="146" height="39" viewBox="0 0 146 39" fill="none">
 						<g filter="url(#filter0_b_1921_3046)">
@@ -290,7 +293,7 @@
 			<section class="head-section full h-min mt-nega">
 				<div class="container-lg">
 					<div class="mobil-adap" style="display: flex;align-items: start;">
-						<div id="w-node-a3887fc8-d4e2-9041-0e29-a9841f299f30-d1ac47f4" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent" style="display: flex;flex-direction: column;justify-content: center;width: 60%; ">
+						<div id="contain-Slider" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent" style="display: flex;flex-direction: column;justify-content: center;width: 60%; ">
 							<div class="container-lg">
 								<h1 data-w-id="e28c22c9-d6b4-2176-1b3a-3a913f88f896" class="title-games pt-323">
 									<span style="opacity: 0; " class="span-text one">Most played games</span>
@@ -370,7 +373,7 @@
 									<hr>
 									<div class="spacer-small"></div>
 									<div class="footer-games">
-										<a href="#" class="nav-button nav-buttonbg3">
+										<a href="#" class="nav-button nav-buttonbg3" >
 											<div class="div-hide intro show">
 												<div class="button-txt font-dif">Play </div>
 												<div class="button-txt-ap font-dif">Play</div>
@@ -409,7 +412,7 @@
 					<div class="flex-G">
 						<div>		
 							<div id="w-node-a3887fc8-d4e2-9041-0e29-a9841f299f30-d1ac47f4" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent game-product">
-								<img class="game-product-img" src="img/Rectangle 37-moon.svg">
+								<img id="MoonflipImg" class="game-product-img" src="img/Rectangle 37-moon.svg">
 								<h1 data-w-id="e28c22c9-d6b4-2176-1b3a-3a913f88f896">
 									<span style="opacity: 0; " class="span-text one">Moonflip</span>
 								</h1>
@@ -427,8 +430,8 @@
 								</a>
 							</div>
 						</div>
-						<div>
-								<img src="img/image 42.svg" style="width: 375px;">
+						<div class="mt-mb">
+								<img id="Moonflip" src="img/image 42.svg" style="width: 375px;">
 							<br>
 							<br>
 							<p data-w-id="f52563eb-c34d-f899-054c-46e8374553d4" style="opacity:0;" class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
@@ -440,10 +443,10 @@
 							<p data-w-id="f52563eb-c34d-f899-054c-46e8374553d4" style="opacity:0;" class="parrafo3">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
 							<br>
 							<div class="gallery-game">
-								<img src="img/Group 28-2.svg">
-								<img src="img/Group 29-1.png">
-								<img src="img/Group 30-1.png">
-								<img src="img/Group 31-2.png">
+								<img id="img-gall-1" src="img/Group 28-2.svg">
+								<img id="img-gall-2" src="img/Group 29-1.png">
+								<img id="img-gall-3" src="img/Group 30-1.png">
+								<img id="img-gall-4" src="img/Group 31-2.png">
 							</div>
 							<br>
 							<p data-w-id="f52563eb-c34d-f899-054c-46e8374553d4" style="opacity:0;" class="parrafo3">
@@ -459,8 +462,8 @@
 				<div class="sombra2"></div>
 				<div class="container-md">
 					<div class="flex-G2">
-						<div>
-							<img src="img/image 43.png" style="width: 375px;">
+						<div class="mt-mb">
+							<img id="Element" src="img/image 43.png" style="width: 375px;">
 							<br>
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
@@ -470,17 +473,17 @@
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
 							<br>
 							<div class="gallery-game">
-								<img src="img/Group 28-2.svg">
-								<img src="img/Group 29-1.png">
-								<img src="img/Group 30-1.png">
-								<img src="img/Group 31-2.png">
+								<img id="img-elem-1" src="img/Group 28-2.svg">
+								<img id="img-elem-2" src="img/Group 29-1.png">
+								<img id="img-elem-3" src="img/Group 30-1.png">
+								<img id="img-elem-4" src="img/Group 31-2.png">
 							</div>
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
 						</div>
 						<div class="order-3">		
 							<div id="w-node-a3887fc8-d4e2-9041-0e29-a9841f299f30-d1ac47f4" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent game-product">
-							<img class="game-product-img" src="img/gamelement.png">
+							<img id="ElementImg" class="game-product-img" src="img/gamelement.png">
 							<h1>Element</h1>
 							<br>
 							<div class="spacer-small"></div>
@@ -509,7 +512,7 @@
 					<div class="flex-G">
 						<div>		
 							<div id="w-node-a3887fc8-d4e2-9041-0e29-a9841f299f30-d1ac47f4" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent game-product">
-							<img class="game-product-img" src="img/Rectangle 38-Nebula.svg">
+							<img id="NebulaImg" class="game-product-img" src="img/Rectangle 38-Nebula.svg">
 							<h1>Nebula</h1>
 							<div class="spacer-small"></div>
 							<div class="" style="display: flex;gap: 20px;">
@@ -526,8 +529,8 @@
 							</a>
 							</div>
 						</div>
-						<div>
-							<img src="img/image 60.png" style="width: 375px;">
+						<div class="mt-mb">
+							<img id="Nebula" src="img/image 60.png" style="width: 375px; padding-bottom: 20px;">
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
 							<br>
@@ -536,10 +539,10 @@
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
 							<br>
 							<div class="gallery-game">
-								<img src="img/Group 28-2.svg">
-								<img src="img/Group 29-1.png">
-								<img src="img/Group 30-1.png">
-								<img src="img/Group 31-2.png">
+								<img id="img-neb-1" src="img/Group 28-2.svg">
+								<img id="img-neb-2" src="img/Group 29-1.png">
+								<img id="img-neb-3" src="img/Group 30-1.png">
+								<img id="img-neb-4" src="img/Group 31-2.png">
 							</div>
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
@@ -553,8 +556,8 @@
 				<div class="sombra2"></div>
 				<div class="container-md">
 					<div class="flex-G2">
-						<div>
-							<img src="img/image 45.svg" style="width: 375px;">
+						<div class="mt-mb">
+							<img id="Poker" src="img/image 45.svg" style="width: 375px;">
 							<br>
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
@@ -564,17 +567,17 @@
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
 							<br>
 							<div class="gallery-game">
-								<img src="img/Group 28-2.svg">
-								<img src="img/Group 29-1.png">
-								<img src="img/Group 30-1.png">
-								<img src="img/Group 31-2.png">
+								<img id="img-pok-1" src="img/Group 28-2.svg">
+								<img id="img-pok-2" src="img/Group 29-1.png">
+								<img id="img-pok-3" src="img/Group 30-1.png">
+								<img id="img-pok-4" src="img/Group 31-2.png">
 							</div>
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
 						</div>
 						<div class="order-3">		
 							<div id="w-node-a3887fc8-d4e2-9041-0e29-a9841f299f30-d1ac47f4" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent game-product">
-							<img class="game-product-img" src="img/Rectangle 37-PokerSpace.svg">
+							<img id="PokerImg" class="game-product-img" src="img/Rectangle 37-PokerSpace.svg">
 							<h1>Poker</h1>
 							<br>
 							<div class="spacer-small"></div>
@@ -603,7 +606,7 @@
 					<div class="flex-G">
 						<div>		
 							<div id="w-node-a3887fc8-d4e2-9041-0e29-a9841f299f30-d1ac47f4" data-w-id="a3887fc8-d4e2-9041-0e29-a9841f299f30" class="parent game-product">
-							<img class="game-product-img" src="img/Rectangle 38-space.png">
+							<img id="SpaceCraftImg" class="game-product-img" src="img/Rectangle 38-space.png">
 							<h1>SpaceCraft</h1>
 							<div class="spacer-small"></div>
 							<div class="" style="display: flex;gap: 20px;">
@@ -620,8 +623,8 @@
 							</a>
 							</div>
 						</div>
-						<div>
-							<img src="img/image 50.png" style="width: 375px;">
+						<div class="mt-mb">
+							<img id="SpaceCraft" src="img/image 50.png" style="width: 375px; padding-bottom: 20px;">
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
 							<br>
@@ -630,10 +633,10 @@
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
 							<br>
 							<div class="gallery-game">
-								<img src="img/Group 28-2.svg">
-								<img src="img/Group 29-1.png">
-								<img src="img/Group 30-1.png">
-								<img src="img/Group 31-2.png">
+								<img id="img-spc-1" src="img/Group 28-2.svg">
+								<img id="img-spc-2" src="img/Group 29-1.png">
+								<img id="img-spc-3" src="img/Group 30-1.png">
+								<img id="img-spc-4" src="img/Group 31-2.png">
 							</div>
 							<br>
 							<p class="parrafo3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and <br> scrambled it to make a type specimen book.</p>
@@ -908,6 +911,12 @@
 				        handleLazyLoad();
 				
 		</script>
+		<!-- GSAP -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+		<script src="js/animations/GamesAnimate.js" type="module"></script>
+
 		<script src="https://player.vimeo.com/api/player.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes-umd.min.js"></script>
 	</body>

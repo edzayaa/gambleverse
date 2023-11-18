@@ -1,7 +1,7 @@
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
   #img-visions-all {
-    content: url("../img/Rectangle\ 34.png");
+    content: url("../img/Group 136.svg");
   }
 .container-joinDiscord{
   margin-bottom: 100px !important;
@@ -879,7 +879,7 @@ body{
 /*Media queries para trabajar Tablets como las Surfaces*/
 @media  screen and (min-width: 480px) and (max-width: 767px){
   #img-visions-all {
-    content: url("../img/Rectangle\ 34.png");
+    content: url("../img/Group 136.svg");
   }
   .container-joinDiscord{
     margin-bottom: 120px !important;
@@ -1416,7 +1416,7 @@ background-image:cover !important;
 /*Media queries para trabajar en tablets com Ipads*/
 @media  screen and (min-width: 768px) and (max-width: 1023px){
   #img-visions-all {
-    content: url("../img/Rectangle\ 34.png");
+    content: url("../img/Group 136.svg");
   }
   .hero-logo-he {
     width: 90% !important;
@@ -1474,7 +1474,7 @@ background-image:cover !important;
   }
 
   .parrafo3{
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   .flex-G{
@@ -3880,7 +3880,7 @@ font-size: 9px !important;
         }
   
         .parrafo3{
-          font-size: 21px !important;
+          font-size: 16px !important;
         }
       
         .flex-G{
@@ -4129,7 +4129,7 @@ font-size: 9px !important;
       }
 
       .parrafo3{
-        font-size: 21px !important;
+        font-size: 16px !important;
       }
 
       .font-38{

@@ -5,6 +5,7 @@
 @import url(carousel.css);
 @import url(linesLayout.css);
 @import url(models.css);
+@import url(Games/GamesResponsive.css);
 /* ################################## */
             /*Imports*/
 /* ################################## */
@@ -5158,9 +5159,10 @@ line-height: 128.5%; /* 17.99px */
 .card-slider-games {
   display: flex;
   flex-direction: row;
-    gap: 7%;
-    align-items: center;
-
+  gap: 5%;
+  align-items: center;
+  margin-right: 2rem;
+  position: relative;
 }
 
 .pt-323{
@@ -5305,6 +5307,9 @@ img{
 
 .gallery-game {
   display: flex;
+  position: relative;
+  min-height: 120px;
+  overflow: hidden;
 }
 
 .gradiente-circular-community{
