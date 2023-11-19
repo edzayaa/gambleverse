@@ -1,0 +1,283 @@
+/*Media queries para trabajar Mobile*/
+@media screen and (max-width: 479px) {
+  .span-text.one.title {
+    font-size: 43px !important;
+    width: 100% !important;
+  }
+  .bg-store {
+    background-size: cover !important;
+  }
+  .parrafo {
+    text-align: left !important;
+    font-size: 12.5px !important;
+  }
+  .container-skills-hearts {
+    flex-direction: column-reverse !important;
+  }
+  .skills-hearts {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .heart-padding {
+    padding-top: 25% !important;
+  }
+  .span-text.one.subtitle {
+    font-size: 28px !important;
+    width: 90% !important;
+    margin-top: 2rem;
+  }
+  .cards-btns {
+    grid-template-columns: repeat(4, 1fr) !important;
+    overflow-x: scroll;
+  }
+  .card-btn {
+    width: 270px !important;
+    height: 221px !important;
+  }
+  .cards-btns::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slick-heading {
+    margin-top: 5rem;
+  }
+
+  .slider-responsive {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr)!important;
+    overflow: scroll;
+    scroll-snap-type: mandatory;
+    scroll-snap-align: center;
+  }
+  .slider-responsive::-webkit-scrollbar {
+    display: none;
+  }
+  .merchandising-filters {
+    flex-direction: row !important;
+  }
+  .merchandising-filters > .slick-heading {
+    margin-top: 0 !important;
+  }
+  .filters-merchandising {
+    overflow-x: scroll;
+    margin-left: 2rem !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+  .filters-merchandising::-webkit-scrollbar {
+    display: none;
+  }
+  .slider-responsive2.first{
+    display: none !important;
+  }
+  .merchandising {
+    height: 100% !important;
+  }
+  .bottom-slash {
+    margin-right: 15% !important;
+  }
+}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .span-text.one.title {
+        font-size: 43px !important;
+        width: 100% !important;
+      }
+      .bg-store {
+        background-size: cover !important;
+      }
+      .parrafo {
+        text-align: left !important;
+        font-size: 12.5px !important;
+      }
+      .container-skills-hearts {
+        flex-direction: column-reverse !important;
+      }
+      .skills-hearts {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .heart-padding {
+        padding-top: 25% !important;
+      }
+      .span-text.one.subtitle {
+        font-size: 28px !important;
+        width: 90% !important;
+        margin-top: 2rem;
+      }
+      .cards-btns {
+        grid-template-columns: repeat(4, 1fr) !important;
+        overflow-x: scroll;
+      }
+      .card-btn {
+        width: 270px !important;
+        height: 221px !important;
+      }
+      .cards-btns::-webkit-scrollbar {
+        display: none;
+      }
+    
+      .slick-heading {
+        margin-top: 5rem;
+      }
+    
+      .slider-responsive {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr)!important;
+        overflow: scroll;
+        scroll-snap-type: mandatory;
+        scroll-snap-align: center;
+      }
+      .slider-responsive::-webkit-scrollbar {
+        display: none;
+      }
+      .merchandising-filters {
+        flex-direction: row !important;
+      }
+      .merchandising-filters > .slick-heading {
+        margin-top: 0 !important;
+      }
+      .filters-merchandising {
+        overflow-x: scroll;
+        margin-left: 2rem !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+      }
+      .filters-merchandising::-webkit-scrollbar {
+        display: none;
+      }
+      .slider-responsive2.first{
+        display: none !important;
+      }
+      .merchandising {
+        height: 100% !important;
+      }
+      .bottom-slash {
+        margin-right: 15% !important;
+      }
+}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .span-text.one.title {
+        font-size: 43px !important;
+        width: 100% !important;
+      }
+      .bg-store {
+        background-size: cover !important;
+      }
+      .parrafo {
+        text-align: left !important;
+        font-size: 12.5px !important;
+      }
+      .container-skills-hearts {
+        flex-direction: column-reverse !important;
+      }
+      .skills-hearts {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .heart-padding {
+        padding-top: 25% !important;
+      }
+      .span-text.one.subtitle {
+        font-size: 28px !important;
+        width: 90% !important;
+        margin-top: 2rem;
+      }
+      .cards-btns {
+        grid-template-columns: repeat(4, 1fr) !important;
+        overflow-x: scroll;
+      }
+      .card-btn {
+        width: 270px !important;
+        height: 221px !important;
+      }
+      .cards-btns::-webkit-scrollbar {
+        display: none;
+      }
+    
+      .slick-heading {
+        margin-top: 5rem;
+      }
+    
+      .slider-responsive {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr)!important;
+        overflow: scroll;
+        scroll-snap-type: mandatory;
+        scroll-snap-align: center;
+      }
+      .slider-responsive::-webkit-scrollbar {
+        display: none;
+      }
+      .merchandising-filters {
+        flex-direction: row !important;
+      }
+      .merchandising-filters > .slick-heading {
+        margin-top: 0 !important;
+      }
+      .filters-merchandising {
+        overflow-x: scroll;
+        margin-left: 2rem !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+      }
+      .filters-merchandising::-webkit-scrollbar {
+        display: none;
+      }
+      .slider-responsive2.first{
+        display: none !important;
+      }
+      .merchandising {
+        height: 100% !important;
+      }
+      .bottom-slash {
+        margin-right: 15% !important;
+      }
+    
+}
+
+/*Media queries para trabajar en Pantallas de su mayoria laptops*/
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .skills-hearts > img {
+    width: calc(100% / 5) !important;
+  }
+  .nojoda-slick {
+    margin: 1.5rem 0px !important;
+  }
+  .banners2 {
+    margin-top: 1rem;
+  }
+  .merchandising {
+    height: 100% !important;
+    padding: 50px 0px !important;
+  }
+}
+
+/*Media queries para trabajar en pantallas con viejas resoluciones*/
+@media screen and (min-width: 1024px) and (max-width: 1425px) {
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .merchandising {
+    height: 100% !important;
+    padding: 40px 0px !important;
+  }
+  .slider-responsive2 > .card-buy {
+    width: calc(95% / 6) !important;
+    height: max-content !important;
+    margin-left: 0.5rem;
+  }
+
+  .slider-responsive2 > .card-buy > .div-buy {
+    margin-top: 3rem !important;
+  }
+}
+/*Media queries para trabajar en Pantallas FULLHD y superior*/
+@media screen and (min-width: 1922px) {
+}
