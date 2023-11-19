@@ -3219,12 +3219,6 @@ font-size: 9px !important;
         height: 180px !important;
       }
 
-    
-
-      .img-vision{
-        margin-left: 10rem !important;
-      }
-
       .parrafo3{
         font-size: 18px !important;
       }
@@ -3516,11 +3510,6 @@ font-size: 9px !important;
   .parrafo3{
     font-size: 18px !important;
   }
-
-  .img-vision{
-    margin-left: 10rem !important;
-  }
-
 
   .pt-323{
     margin-left: 2rem !important;
@@ -4043,12 +4032,6 @@ font-size: 9px !important;
           .img-visions{
             width: 500px !important; 
           }
-
-          .img-vision{
-            width: 100% !important;
-            margin-left: 15rem !important;
-          }
-
           .padding-moon{
             padding-right: 15rem !important;
           }
@@ -4085,12 +4068,6 @@ font-size: 9px !important;
 @media  screen and (min-width: 1602px) and (max-width: 1919px){
     .slider-in{
         margin-left: 5rem !important;
-      }
-
-      
-      .img-vision{
-        width: 100% !important;
-        margin-left: 15rem !important;
       }
 
       .card-discord img{
@@ -4353,13 +4330,6 @@ font-size: 9px !important;
   
   .card-heart7, .card-heart13{
     margin-right: -2.6rem !important;
-  }
-  
-  
-  .img-vision{
-    width: 100% !important;
-    height: 100% !important;
-    margin-top: 5%;
   }
 
 .mrtop{
@@ -4632,13 +4602,6 @@ font-size: 9px !important;
           margin-right: -2.6rem !important;
         }
         
-        
-
-        .img-vision{
-          width: 100% !important;
-          height: 100% !important;
-        }
-
         .container-lg{
           width: 90% !important;
         }

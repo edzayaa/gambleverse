@@ -363,8 +363,6 @@
   display: flex;
 }
 
-.hero-glitch-absolu {
-}
 .title-hero-glitch {
   color: #fff;
   text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
@@ -374,4 +372,239 @@
   font-weight: 400;
   line-height: 100%;
   opacity: 1;
+}
+
+/* SECTION LINES VISION  */
+
+.container-lines-circles-vision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
+
+.lines-vision-1 {
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.25;
+  width: 12rem;
+  position: relative;
+}
+
+.container-y-lines-circle-vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -13rem;
+  right: 11px;
+}
+
+.lines-vision-1-y {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 13rem;
+  width: 1px;
+  position: relative;
+}
+
+.container-lines-circles-vision-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -5rem;
+  left: 5%;
+}
+
+.lines-vision-2 {
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.25;
+  height: 4rem;
+  width: 1px;
+  position: relative;
+}
+
+.container-y-lines-circle-vision-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 6px;
+  right: -8rem;
+}
+.lines-vision-2-y {
+  background-color: #fff;
+  opacity: 0.25;
+  width: 8rem;
+  height: 1px;
+  position: relative;
+}
+
+.container-y-lines-circle-vision-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -4.5rem;
+  right: -11px;
+}
+
+.lines-vision-3 {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 4rem;
+  width: 1px;
+  position: relative;
+}
+
+.container-lines-circles-vision-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -5rem;
+  right: 25%;
+}
+
+.container-lines-circles-vision-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0.5rem;
+  right: -12rem;
+}
+
+.lines-vision-4 {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 4rem;
+  width: 1px;
+  position: relative;
+}
+
+.container-y-lines-circle-vision-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -0.5rem;
+  right: -22px;
+}
+
+.lines-vision-4-y {
+  background-color: #fff;
+  opacity: 0.25;
+  width: 12rem;
+  height: 1px;
+  position: relative;
+}
+
+.container-lines-circles-vision-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  top: -4rem;
+  right: 5rem;
+}
+
+.lines-vision-5 {
+  background-color: #fff;
+  opacity: 0.25;
+  height: 4rem;
+  width: 1px;
+  position: relative;
+}
+
+.container-y-lines-circle-vision-five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -4rem;
+  right: -22px;
+}
+
+.lines-vision-5-y {
+  background-color: #fff;
+  opacity: 0.25;
+  width: 15rem;
+  height: 1px;
+  position: relative;
+}
+
+.container-lines-circles-vision-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  top: -1rem;
+  right: -15.6rem;
+}
+
+/*Media queries para trabajar Mobile*/
+@media screen and (max-width: 479px) {
+  .container-lines-circles-vision,
+    .container-y-lines-circle-vision,
+    .container-lines-circles-vision-2,
+    .container-y-lines-circle-vision-two,
+    .container-y-lines-circle-vision-three,
+    .container-lines-circles-vision-3,
+    .container-lines-circles-vision-4,
+    .container-y-lines-circle-vision-four,
+    .container-lines-circles-vision-5,
+    .container-y-lines-circle-vision-five,
+    .container-lines-circles-vision-6 {
+    display: none;
+  }
+}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-lines-circles-vision,
+    .container-y-lines-circle-vision,
+    .container-lines-circles-vision-2,
+    .container-y-lines-circle-vision-two,
+    .container-y-lines-circle-vision-three,
+    .container-lines-circles-vision-3,
+    .container-lines-circles-vision-4,
+    .container-y-lines-circle-vision-four,
+    .container-lines-circles-vision-5,
+    .container-y-lines-circle-vision-five,
+    .container-lines-circles-vision-6 {
+    display: none;
+  }
+}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container-lines-circles-vision,
+    .container-y-lines-circle-vision,
+    .container-lines-circles-vision-2,
+    .container-y-lines-circle-vision-two,
+    .container-y-lines-circle-vision-three,
+    .container-lines-circles-vision-3,
+    .container-lines-circles-vision-4,
+    .container-y-lines-circle-vision-four,
+    .container-lines-circles-vision-5,
+    .container-y-lines-circle-vision-five,
+    .container-lines-circles-vision-6 {
+    display: none;
+  }
 }

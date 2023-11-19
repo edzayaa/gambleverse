@@ -1,0 +1,212 @@
+/*Media queries para trabajar Mobile*/
+@media screen and (max-width: 479px) {
+  .vision-background {
+    padding-top: 15.5rem !important;
+  }
+  .ov-fsM {
+    font-size: 48px !important;
+  }
+  .modelo-alto {
+    display: none !important;
+  }
+  .kwonTitle,
+  .ourVTitle {
+    display: none !important;
+  }
+  .modelImg-vision {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -18%;
+    right: -6%;
+  }
+  .parent.card {
+    padding: 45px !important;
+  }
+
+  .render-float1,
+  .render-float2,
+  .render-float3 {
+    display: block !important;
+  }
+
+  .render-float1 {
+    top: 0 !important;
+    left: 45% !important;
+    scale: 0.4 !important;
+  }
+  .render-float2 {
+    top: 25% !important;
+    left: 45% !important;
+    scale: 0.7 !important;
+  }
+  .render-float3 {
+    top: 20% !important;
+    left: 0% !important;
+    scale: 0.4 !important;
+  }
+  .modelVision2 {
+    left: 20% !important;
+    top: 0 !important;
+  }
+}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .vision-background {
+    padding-top: 35rem !important;
+  }
+  .ov-fsM {
+    font-size: 48px !important;
+  }
+  .modelo-alto {
+    display: none !important;
+  }
+  .kwonTitle,
+  .ourVTitle {
+    display: none !important;
+  }
+  .modelImg-vision {
+    display: block;
+    position: absolute;
+    width: 80%;
+    top: -35%;
+    right: -6%;
+  }
+  .parent.card {
+    padding: 45px !important;
+  }
+
+  .render-float1,
+  .render-float2,
+  .render-float3 {
+    display: block !important;
+  }
+
+  .render-float1 {
+    top: 0 !important;
+    left: 45% !important;
+    scale: 0.4 !important;
+  }
+  .render-float2 {
+    top: 25% !important;
+    left: 45% !important;
+    scale: 0.7 !important;
+  }
+  .render-float3 {
+    top: 20% !important;
+    left: 0% !important;
+    scale: 0.4 !important;
+  }
+  .modelVision2 {
+    left: 20% !important;
+    top: 0 !important;
+  }
+  .fsInf {
+    font-size: 64px !important;
+  }
+}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .vision-background {
+    padding-top: 25rem !important;
+  }
+  .ov-fsM {
+    font-size: 48px !important;
+  }
+  .modelo-alto {
+    display: none !important;
+  }
+  .kwonTitle,
+  .ourVTitle {
+    display: none !important;
+  }
+  .modelImg-vision {
+    display: block;
+    position: absolute;
+    width: 90%;
+    top: -22%;
+    right: -6%;
+  }
+  .parent.card {
+    padding: 45px !important;
+  }
+
+  .render-float1,
+  .render-float2,
+  .render-float3 {
+    display: block !important;
+  }
+
+  .render-float1 {
+    top: 0 !important;
+    left: 45% !important;
+    scale: 0.4 !important;
+  }
+  .render-float2 {
+    top: 25% !important;
+    left: 45% !important;
+    scale: 0.7 !important;
+  }
+  .render-float3 {
+    top: 20% !important;
+    left: 0% !important;
+    scale: 0.4 !important;
+  }
+  .modelVision2 {
+    left: 20% !important;
+    top: 0 !important;
+  }
+}
+
+/*Media queries para trabajar en Pantallas de su mayoria laptops*/
+@media only screen and (min-width: 1442px) and (max-width: 1599px) {
+    .circle-gradient-vision-page {
+        right: 0% !important;
+      }
+      .modelVision {
+        width: 90% !important;
+        height: 100% !important;
+      }
+      .fsInf {
+        font-size: 64px !important;
+      }
+}
+
+/*Media queries para trabajar en pantallas con viejas resoluciones*/
+@media screen and (min-width: 1024px) and (max-width: 1425px) {
+    .circle-gradient-vision-page {
+        right: 0% !important;
+      }
+      .modelVision {
+        width: 90% !important;
+        height: 100% !important;
+      }
+      .fsInf {
+        font-size: 64px !important;
+      }
+}
+
+@media screen and (min-width: 1602px) and (max-width: 1919px) {
+    .circle-gradient-vision-page {
+        right: 0% !important;
+      }
+      .modelVision {
+        width: 90% !important;
+        height: 100% !important;
+      }
+      .fsInf {
+        font-size: 64px !important;
+      }
+}
+/*Media queries para trabajar en Pantallas FULLHD y superior*/
+@media screen and (min-width: 1922px) {
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .modelVision {
+    width: 90% !important;
+    height: 100% !important;
+  }
+}

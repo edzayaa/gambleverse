@@ -1,0 +1,67 @@
+.img-vision {
+  object-fit: contain;
+}
+
+.pvertical-vision {
+  padding: 2rem 0rem;
+}
+
+#vision-show-1,
+#vision-show-2,
+#vision-show-3,
+#vision-show-4,
+#vision-show-5,
+#vision-show-6,
+#vision-show-7,
+#vision-show-8,
+#vision-show-9,
+#vision-show-10,
+#vision-show-11,
+#vision-show-12,
+#vision-show-13,
+#vision-show-14,
+#vision-show-15,
+#vision-show-16,
+#vision-show-17,
+#vision-show-18,
+#vision-show-19,
+#vision-show-20,
+#vision-show-21,
+#vision-show-22 {
+  opacity: 0;
+}
+
+#vision-ocult-1,
+#vision-ocult-2,
+#vision-ocult-3,
+#vision-ocult-4,
+#vision-ocult-5,
+#vision-ocult-6,
+#vision-ocult-7,
+#vision-ocult-8,
+#vision-ocult-9,
+#vision-ocult-10,
+#vision-ocult-11,
+#vision-ocult-12,
+#vision-ocult-13,
+#vision-ocult-14,
+#vision-ocult-15,
+#vision-ocult-16,
+#vision-ocult-17,
+#vision-ocult-18,
+#vision-ocult-19,
+#vision-ocult-20,
+#vision-ocult-21,
+#vision-ocult-22,
+#vision-ocult-23,
+#vision-ocult-24,
+#vision-ocult-25,
+#vision-ocult-26,
+#vision-ocult-27,
+#vision-ocult-28 {
+  opacity: 0;
+}
+
+.modelImg-vision {
+    display: none;
+  }
