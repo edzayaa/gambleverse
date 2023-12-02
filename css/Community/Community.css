@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Azonix";
+  src: url("../Azonix.otf");
+}
+
+
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+.text-alt-title {
+    font-family: Azonix;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.text-title {
+    font-family: Azonix;
+    font-size: 83px;
+}
+
+.parrafo {
+    font-size: 13px !important;
+    width: 80% !important;
+    text-align: left !important;
+}
