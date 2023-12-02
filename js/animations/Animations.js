@@ -409,7 +409,6 @@ tl.to("#CardJ", {
   x: "-90px",
   y: "-90px",
   rotate: "-10deg",
-  ease: "back.inOut(1)",
 });
 
 gsap.set("#CardK", {
@@ -427,7 +426,7 @@ tl2.to("#CardK", {
   x: "14px",
   y: "-42px",
   rotate: "23deg",
-  ease: "back.inOut(1)",
+
 });
 
 const tl3 = gsap.timeline({
@@ -442,7 +441,7 @@ tl3.to("#CardQ", {
   x: "66px",
   y: "102px",
   rotate: "50deg",
-  ease: "back.inOut(1)",
+
 });
 
 // ANIMATION FOOTER
