@@ -376,7 +376,7 @@ const tl_lines = gsap.timeline({
 });
 
 tl_lines.to("#line-ui", {
-  transform: "matrix(1,0,0,1, 1, 320)",
+  transform: "matrix(1,0,0,1, -0.5, 320)",
   ease: "slow(0.1,0.1,false)",
 });
 

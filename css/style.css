@@ -1250,6 +1250,9 @@ textarea.w-input,textarea.w-select{
   display:inline-block;
   position:relative
 }
+.redes-icon-link:hover {
+  scale: 1.2;
+}
 .w-dropdown-btn,.w-dropdown-toggle,.w-dropdown-link{
   vertical-align:top;
   color:#222;
