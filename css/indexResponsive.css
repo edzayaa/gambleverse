@@ -1,7 +1,106 @@
 .gradiente-circular-space1 {
-    right: 0% !important;
+  right: 0% !important;
 }
 
 .gradiente-circular-visit2 {
-    right: 0% !important;
+  right: 0% !important;
+}
+
+@media screen and (max-width: 479px) {
+  .container-lines-shapes-scroll > svg {
+    scale: 1.6;
+  }
+  .container-lines-shapes-scroll {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    overflow: hidden;
+    height: 1000px;
+    /* position: relative;
+        top: 110%;
+        align-items: center !important; */
+  }
+  .sombra5 {
+    height: 100%;
+  }
+  .heading-medium2 > span {
+    font-size: 43px !important;
+  }
+  #moonflip-text > span {
+    font-size: 55px !important;
+    margin-top: 50px !important;
+  }
+
+  .visitOur {
+    display: flex;
+    gap: 2px !important;
+  }
+  .visitOur > span {
+    font-size: 26px !important;
+  }
+  .text-Store {
+    font-size: 48px !important;
+  }
+  #title-commnity-mobile > span {
+    font-size: 48px !important;
+  }
+
+  .btn-Discord {
+    width: 70% !important;
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+    z-index: 1008;
+  }
+  .container-mobile {
+    margin: 0 !important;
+  }
+  .mt-mobile {
+    margin-top: 2rem !important;
+  }
+  .container-redes {
+    grid-row-start: 1 !important;
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .section-mobile {
+    background-color: black !important;
+    background-image: none;
+  }
+  .text-steamers-mobile > span {
+    width: 100% !important;
+    font-size: 39px !important;
+  }
+  .img-visions {
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .text-visions-mobile > span {
+    font-size: 26px !important;
+  }
+  .text-visions-mobile {
+    margin: 0 !important;
+  }
+  .textLg-vision-mobile > span {
+    font-size: 48px !important;
+  }
+  .ct-card-mobile {
+    margin-left: 10% !important;
+  }
+  .ct-mob-ast {
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .qlqwa {
+    background: url(../img/bgDowloand.png) no-repeat;
+    background-size: cover !important;
+    background-size: 95% 100% !important;
+    margin-left: 5%;
+  }
+  .ct-mobile-dowloand {
+    width: 75% !important;
+  }
+  .text-dowloand {
+    font-size: 14px !important;
+  }
 }

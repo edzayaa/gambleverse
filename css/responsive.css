@@ -3,9 +3,7 @@
   #img-visions-all {
     content: url("../img/Group 136.svg");
   }
-.container-joinDiscord{
-  margin-bottom: 100px !important;
-}
+
 .container-streamersS{
   padding-top: 200px;
 }
@@ -424,18 +422,6 @@ flex-direction: column !important;
     .hero-logo-he {
         font-size: 40px !important;
     }
-    .container-lines-shapes-scroll > svg{
-      height: 500px !important;
-      width: 500px !important;
-      scale: 2
-    }
-    .container-lines-shapes-scroll {
-      position: relative;
-      top: 110%;
-      align-items: center !important;
-  }
-
-
     .px-2{
       padding: 0% !important;
     }

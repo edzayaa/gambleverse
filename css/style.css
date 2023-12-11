@@ -5,6 +5,7 @@
 @import url(carousel.css);
 @import url(linesLayout.css);
 @import url(models.css);
+@import url(indexResponsive.css);
 /* ################################## */
             /*Imports*/
 /* ################################## */
@@ -3383,14 +3384,13 @@ position: relative;
 
 .gradiente-circular-vision2{
   position: absolute;
-  width: 100%;
-  height: 400px;
+  width: 572px;
+  height: 572px;
   z-index: 1002;
   right: 0%;
   bottom: 0%;
   border-radius: 572px;
-  background: #C316A2;
-
+  background: #cb19ab;
   filter: blur(300px);
 }
 
@@ -3402,7 +3402,7 @@ position: relative;
   right: -10%;
   bottom: -5%;
   border-radius: 572px;
-  background: #C316A2;
+  background: #981580ed;
   filter: blur(300px);
 }
 
@@ -4308,7 +4308,7 @@ position: relative;
 
 .sombra{
   width: 100vw;
-  background: linear-gradient(180deg, rgba(2,0,4,0) 1%, rgba(0,0,12,1) 99%);
+  background: linear-gradient(180deg, rgba(53, 32, 98, 0.00) 26.04%, #0C0C0C 95.83%);
   height: 100vh;
   top: 0%;
   z-index: 1001;
@@ -4317,8 +4317,8 @@ position: relative;
 
 .sombra2{
   width: 100vw;
-  background: linear-gradient(180deg, rgba(2,0,10,1) 0%, rgba(1,0,18,0) 10%, #03010A 95%);
-  height: 100vh;
+  background: linear-gradient(180deg, rgba(53, 32, 98, 0.00) 26.04%, #0C0C0C 95.83%);
+  height: 102vh;
   top: 0%;
   z-index: 1001;
   position: absolute;
@@ -4326,7 +4326,7 @@ position: relative;
 
 .sombra5{
   width: 100vw;
-  background: radial-gradient(circle, rgba(0,0,0,0.5564600840336135) 0%, #03010A 100%);
+  background: radial-gradient(circle, rgba(0,0,0,0.5564600840336135) 10%, #03010A 100%);
   height: 100vh;
   top: 0%;
   z-index: 1001;
@@ -4354,6 +4354,15 @@ position: relative;
 .sombra3{
   width: 100vw;
   background: linear-gradient(180deg, #03010A 20%, rgba(1,0,18,0) 50%, rgba(0, 0, 10, 0) 100%);
+  height: 100vh;
+  top: 0%;
+  z-index: 1001;
+  position: absolute;
+}
+
+.sombra3-new{
+  width: 100vw;
+  background: radial-gradient(circle, rgba(0,0,0,0.5564600840336135) 0%, #03010A 100%);
   height: 100vh;
   top: 0%;
   z-index: 1001;

@@ -28,16 +28,15 @@
 /*Media queries para trabajar Mobile*/
 @media screen and (max-width: 479px) {
   .container-carousel {
-    margin-top: 39px !important;
-    margin-bottom: 119px !important;
+    margin-top: 0 !important;
+    margin-bottom: 80px !important;
     padding-left: 20px;
   }
   .carousel img {
-  object-fit: fill;
-    width: calc(100% / 2.5);
+  object-fit: contain;
+    width: calc(100% / 2).4;
     height: 117px;
   max-height: 300px;
-
   }
   .head-section {
     justify-content: start !important;

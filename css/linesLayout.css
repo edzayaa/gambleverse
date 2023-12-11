@@ -2,7 +2,7 @@
 .container-lines-cicrcle {
   position: absolute;
   top: 25%;
-  left: -8%;
+  left: -13%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +107,7 @@
 }
 
 .lines-discord-3 {
-  width: 105px;
+  width: 200px;
   height: 1px;
   background-color: #fff;
   opacity: 0.25;
@@ -117,7 +117,7 @@
 /* SECTION LINES VISION */
 .container-lines-y-vision-i {
   position: absolute;
-  bottom: -70px;
+  bottom: -50px;
   left: 50%;
   right: 50%;
   display: flex;
@@ -129,7 +129,7 @@
 .lines-vision-i-1 {
   background-color: #fff;
   opacity: 0.25;
-  height: 50px;
+  height: 30px;
   width: 1px;
   position: relative;
 }
@@ -154,13 +154,13 @@
 
 .container-lines-s-vision-i-2 {
   position: absolute;
-  bottom: -45px;
+  bottom: -20px;
   left: 11px;
 }
 
 .lines-vision-i-3 {
   width: 1px;
-  height: 45px;
+  height: 20px;
   background-color: #fff;
   opacity: 0.25;
 }
