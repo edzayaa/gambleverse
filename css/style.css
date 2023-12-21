@@ -2892,9 +2892,13 @@ left: 55%;
 }
 
 .abs-vertical{
+  display: flex;
   position: absolute;
   right: 0%;
-  z-index: 1001;
+  z-index: 1006;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .z-ind{
@@ -5401,6 +5405,9 @@ filter: blur(300px);
   position: absolute;
   bottom: 8%;
   right: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .font-title{
@@ -6093,4 +6100,28 @@ line-height: 150%; /* 28.5px */
 /* MENU NEW */
 .new-menu-bars {
   display: none;
+}
+
+.btn-Discord {
+  position: absolute;
+  bottom: 10%;
+  width: 40%;
+}
+
+.margin-indicatorSliders {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.margin-indicatorSliders-y {
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.abs-games-comming {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

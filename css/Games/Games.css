@@ -1,0 +1,8 @@
+.sombra1Games {
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(53, 32, 98, 0.00) 26.04%, #0C0C0C 95.83%);
+    height: 102vh;
+    top: 0%;
+    z-index: 1001;
+    position: absolute;
+}

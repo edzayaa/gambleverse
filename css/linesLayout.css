@@ -293,13 +293,14 @@
 @media screen and (min-width: 1602px) and (max-width: 1919px) {
   /* DISCORD */
   .container-lines-cicrcle {
-    left: -4rem;
+    left: -3rem;
   }
+
   .lines-discord-2 {
     width: 5rem;
   }
   .lines-discord-3 {
-    width: 9rem;
+    width: 7rem;
   }
   .container-y-lines-circle-2 {
     bottom: -702px;
