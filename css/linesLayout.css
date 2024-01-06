@@ -224,7 +224,14 @@
     width: 120px;
   }
   .lines-discord-3 {
-    width: 69px;
+    width: 50px;
+  }
+
+  .lines-discord-2-y {
+    height: 540px;
+  }
+  .container-y-lines-circle-2 {
+    bottom: -562px;
   }
 
   /* VISION */
@@ -233,7 +240,7 @@
   }
 
   .lines-vision-i-1 {
-    height: 100px;
+    height: 60px;
   }
 
   .container-lines-x-vision-i {
@@ -562,16 +569,16 @@
 /*Media queries para trabajar Mobile*/
 @media screen and (max-width: 479px) {
   .container-lines-circles-vision,
-    .container-y-lines-circle-vision,
-    .container-lines-circles-vision-2,
-    .container-y-lines-circle-vision-two,
-    .container-y-lines-circle-vision-three,
-    .container-lines-circles-vision-3,
-    .container-lines-circles-vision-4,
-    .container-y-lines-circle-vision-four,
-    .container-lines-circles-vision-5,
-    .container-y-lines-circle-vision-five,
-    .container-lines-circles-vision-6 {
+  .container-y-lines-circle-vision,
+  .container-lines-circles-vision-2,
+  .container-y-lines-circle-vision-two,
+  .container-y-lines-circle-vision-three,
+  .container-lines-circles-vision-3,
+  .container-lines-circles-vision-4,
+  .container-y-lines-circle-vision-four,
+  .container-lines-circles-vision-5,
+  .container-y-lines-circle-vision-five,
+  .container-lines-circles-vision-6 {
     display: none;
   }
 }
@@ -579,16 +586,16 @@
 /*Media queries para trabajar en tablets com Ipads*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container-lines-circles-vision,
-    .container-y-lines-circle-vision,
-    .container-lines-circles-vision-2,
-    .container-y-lines-circle-vision-two,
-    .container-y-lines-circle-vision-three,
-    .container-lines-circles-vision-3,
-    .container-lines-circles-vision-4,
-    .container-y-lines-circle-vision-four,
-    .container-lines-circles-vision-5,
-    .container-y-lines-circle-vision-five,
-    .container-lines-circles-vision-6 {
+  .container-y-lines-circle-vision,
+  .container-lines-circles-vision-2,
+  .container-y-lines-circle-vision-two,
+  .container-y-lines-circle-vision-three,
+  .container-lines-circles-vision-3,
+  .container-lines-circles-vision-4,
+  .container-y-lines-circle-vision-four,
+  .container-lines-circles-vision-5,
+  .container-y-lines-circle-vision-five,
+  .container-lines-circles-vision-6 {
     display: none;
   }
 }
@@ -596,16 +603,50 @@
 /*Media queries para trabajar Tablets como las Surfaces*/
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container-lines-circles-vision,
-    .container-y-lines-circle-vision,
-    .container-lines-circles-vision-2,
-    .container-y-lines-circle-vision-two,
-    .container-y-lines-circle-vision-three,
-    .container-lines-circles-vision-3,
-    .container-lines-circles-vision-4,
-    .container-y-lines-circle-vision-four,
-    .container-lines-circles-vision-5,
-    .container-y-lines-circle-vision-five,
-    .container-lines-circles-vision-6 {
+  .container-y-lines-circle-vision,
+  .container-lines-circles-vision-2,
+  .container-y-lines-circle-vision-two,
+  .container-y-lines-circle-vision-three,
+  .container-lines-circles-vision-3,
+  .container-lines-circles-vision-4,
+  .container-y-lines-circle-vision-four,
+  .container-lines-circles-vision-5,
+  .container-y-lines-circle-vision-five,
+  .container-lines-circles-vision-6 {
     display: none;
+  }
+}
+
+/*Media queries para trabajar en Pantallas 4K y superior*/
+@media screen and (min-width: 2560px) {
+  .container-lines-cicrcle {
+    left: -10.8rem;
+  }
+  .lines-discord-1 {
+    width: 280px;
+  }
+  .lines-discord-2 {
+    width: 6.5rem;
+  }
+  .lines-discord-3 {
+    width: 14.5rem;
+  }
+  .lines-vision-i-1 {
+    height: 70px;
+  }
+  .container-lines-y-vision-i {
+    bottom: -92px;
+  }
+  .lines-1-y {
+    height: 68px;
+  }
+  .lines-vision-i-2 {
+    width: 850px;
+  }
+  .container-lines-s-vision-i-2 {
+    bottom: -173px;
+  }
+  .lines-vision-i-3 {
+    height: 180px;
   }
 }

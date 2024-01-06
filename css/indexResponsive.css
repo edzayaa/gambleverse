@@ -10,6 +10,1222 @@
   .container-lines-shapes-scroll > svg {
     scale: 1.6;
   }
+  .sombra {
+    width: 100vw;
+    height: 101vh;
+  }
+  .container-lines-shapes-scroll {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    overflow: hidden;
+    height: 1000px;
+  }
+  .sombra5 {
+    height: 100%;
+  }
+  .heading-medium2 > span {
+    font-size: 43px !important;
+  }
+  #moonflip-text > span {
+    font-size: 55px !important;
+    margin-top: 50px !important;
+  }
+
+  .visitOur {
+    display: flex;
+    gap: 2px !important;
+  }
+  .visitOur > span {
+    font-size: 26px !important;
+  }
+  .text-Store {
+    font-size: 48px !important;
+  }
+  #title-commnity-mobile > span {
+    font-size: 48px !important;
+  }
+
+  .btn-Discord {
+    width: 70% !important;
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+    z-index: 1008;
+  }
+  .container-mobile {
+    margin: 0 !important;
+  }
+  .mt-mobile {
+    margin-top: 2rem !important;
+  }
+  .mb-mobile {
+    margin-top: 2rem !important;
+  }
+  .container-redes {
+    grid-row-start: 1 !important;
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .section-mobile {
+    background-color: black !important;
+    background-image: none;
+  }
+  .text-steamers-mobile > span {
+    width: 100% !important;
+    font-size: 39px !important;
+  }
+  .img-visions {
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .text-visions-mobile > span {
+    font-size: 26px !important;
+  }
+  .text-visions-mobile {
+    margin: 0 !important;
+  }
+  .textLg-vision-mobile > span {
+    font-size: 48px !important;
+  }
+  .ct-card-mobile {
+    margin-left: 10% !important;
+  }
+  .ct-mob-ast {
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .qlqwa {
+    background: url(../img/bgDowloand.png) no-repeat;
+    background-size: cover !important;
+    background-size: 95% 100% !important;
+    margin-left: 5%;
+  }
+  .ct-mobile-dowloand {
+    width: 75% !important;
+  }
+  .text-dowloand {
+    font-size: 14px !important;
+  }
+  .text-amazingGames > span {
+    font-size: 36px !important;
+  }
+  #container-sliderHome {
+    display: none;
+  }
+  .section-streamers {
+    background-size: cover !important;
+    height: 50vh !important;
+    margin-bottom: 20vh;
+  }
+  #vision-OurContainer {
+    margin-top: 5vh;
+  }
+  #img-visions-all {
+    width: 80vw;
+  }
+  #astronauta-a {
+    grid-row-start: 1;
+    height: 50vh;
+    background-size: cover !important;
+  }
+  #head-section-vision {
+    background-image: url("../img/astronauta-mb.png") !important;
+    background-position: 100% 10%;
+    background-size: 100% 31% !important;
+  }
+  .gradiente-circular-vision2 {
+    top: 0 !important;
+    left: 0 !important;
+    height: 200px !important;
+    filter: blur(200px);
+  }
+  .gradiente-circular-vision {
+    height: 0px !important;
+  }
+  .wherego-mb {
+    margin-top: -25% !important;
+  }
+  .pt-mb {
+    padding-top: 50px;
+  }
+}
+
+/*Media queries para trabajar en tablets com Ipads*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .frontier2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .des-scroll-down > span {
+    letter-spacing: 0rem !important;
+    font-size: 16px !important;
+  }
+  .justify-100-tb {
+    width: 100vw !important;
+  }
+  .justify-80-tb {
+    width: 80vw !important;
+  }
+  .visitOur > span {
+    width: 15% !important;
+  }
+  .content-adventurer-are {
+    margin-top: 50px;
+  }
+  .center-tb {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+  .container-streamersS {
+    padding-top: 200px;
+  }
+  .section-streamers,
+  .qlqwa {
+    background-size: cover !important;
+    margin-top: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #title-commnity-mobile {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: -95%;
+  }
+
+  .des-scroll-down {
+    display: flex;
+  }
+  #title-commnity {
+    display: none;
+  }
+  .container-cards-JQK {
+    display: none !important;
+  }
+  .cartas-mobile-section {
+    display: flex !important;
+  }
+  .hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
+  .head-section.full {
+    height: 100vh !important;
+  }
+
+  .img-mobile {
+    height: 80%;
+    margin-top: 20%;
+  }
+
+  .mobil-adap {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .details-card-streamer h1 {
+    font-size: 10vw !important;
+  }
+
+  .paintball-img {
+    width: 90vw !important;
+    height: auto;
+  }
+
+  .card-discord {
+    justify-content: center !important;
+  }
+
+  .slider-responsive {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .card-heart {
+    margin-left: 0rem !important;
+  }
+
+  .flex-G {
+    justify-items: center !important;
+  }
+
+  .flex-G2 {
+    justify-items: center !important;
+  }
+
+  .discount {
+    padding: 5px !important;
+    right: 1rem !important;
+    top: 1rem !important;
+  }
+
+  .discount h1 {
+    font-size: 11px !important;
+  }
+
+  .flex-G {
+    margin-left: 0rem !important;
+    gap: 6% !important;
+  }
+
+  .flex-G2 {
+    margin-left: 0rem !important;
+  }
+  .gallery-game {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container-title {
+    margin-left: 0px !important;
+  }
+
+  .title-parrafo2 {
+    font-size: 30px !important;
+  }
+
+  .parrafo3 {
+    font-size: 18px !important;
+  }
+
+  .flex-G {
+    grid-template-columns: 100% !important;
+    flex-direction: column !important;
+  }
+
+  .flex-G2 {
+    grid-template-columns: 100% !important;
+    flex-direction: column !important;
+  }
+
+  .game-product {
+    width: 300px !important;
+  }
+
+  .nav-buttonbg3 {
+    padding: 5px !important;
+  }
+
+  .mobilepx {
+    padding: 0rem 0.2rem 0rem 0.5rem;
+  }
+
+  .bg-games {
+    background-size: cover !important;
+  }
+
+  .details-card-streamer p {
+    font-size: 6vw !important;
+  }
+
+  .azonix {
+    font-size: 21px !important;
+  }
+
+  .abs-card-btn {
+    display: none !important;
+  }
+
+  .card-img-streamer {
+    justify-content: center !important;
+  }
+
+  .card-img-streamer img {
+    min-width: 200px !important;
+    height: auto !important;
+    max-width: 250px !important;
+  }
+
+  .btn-parent {
+    margin-top: 0.4rem;
+    height: 65px !important;
+  }
+
+  .no-mobile {
+    display: none !important;
+  }
+
+  .margin-top {
+    height: fit-content !important;
+    padding-bottom: 0rem !important;
+  }
+
+  .card-discord img {
+    min-width: 200px !important;
+    height: auto !important;
+    max-width: 250px !important;
+  }
+
+  .card-buy {
+    width: 320px !important;
+    height: 400px !important;
+  }
+
+  .h-full {
+    height: 100vh !important;
+  }
+
+  .bg-store {
+    background-size: 100% 100% !important;
+    background-position: center !important;
+  }
+
+  .nojoda-slick {
+    margin-bottom: 4rem;
+  }
+
+  .bottom-slash {
+    margin-top: 15% !important;
+  }
+
+  .div-buy2 {
+    width: 90% !important;
+  }
+
+  .div-buy-p {
+    font-size: 12px !important;
+  }
+
+  .div-buy2 p {
+    font-size: 13px !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .a61,
+  .a62,
+  .a63,
+  .a64,
+  .a65 {
+    display: none !important;
+  }
+  .merchandising-filter {
+    padding: 2px 4px !important;
+  }
+
+  .filters-merchandising {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .slider-responsive2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .btn-icon {
+    width: 2.5rem !important;
+  }
+
+  .section-skills-hearts {
+    height: fit-content !important;
+  }
+
+  .slick-heading {
+    text-align: center !important;
+  }
+
+  .card-heart5,
+  .card-heart6,
+  .card-heart7,
+  .card-heart8,
+  .card-heart9,
+  .card-heart10,
+  .card-heart11,
+  .card-heart12,
+  .card-heart13 {
+    display: none !important;
+  }
+
+  .card-heart,
+  .card-heart2,
+  .card-heart3,
+  .card-heart4,
+  .card-heart5,
+  .card-heart6,
+  .card-heart7,
+  .card-heart8,
+  .card-heart9,
+  .card-heart10,
+  .card-heart11,
+  .card-heart12,
+  .card-heart13,
+  .card-heart22 {
+    width: 235px !important;
+    height: 360px !important;
+    background-size: 100% 100% !important;
+  }
+
+  .skills-hearts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .cards-btns {
+    display: grid !important;
+    justify-items: center !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .slider-responsive {
+    justify-items: center !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .card-btn {
+    flex-direction: column !important;
+    width: 160px !important;
+    height: 200px !important;
+  }
+
+  .container-skills-hearts {
+    flex-direction: column !important;
+  }
+
+  .nav {
+    top: 1% !important;
+    height: min-content !important;
+  }
+
+  .heading-lg {
+    padding-top: 1.5rem !important;
+  }
+
+  .render-float1,
+  .render-float,
+  .render-float2,
+  .render-float3 {
+    display: none !important;
+  }
+
+  .span-text {
+    font-size: 20px !important;
+    line-height: 100% !important;
+    width: 79%;
+  }
+
+  .img-visions {
+    width: fit-content !important;
+    z-index: 1005;
+  }
+
+  .redes-lis {
+    z-index: 1005 !important;
+  }
+
+  .grid-parent3 {
+    grid-template-columns: 100% !important;
+  }
+
+  .absolute-image {
+    z-index: -999;
+    margin-left: 0rem !important;
+    order: 1 !important;
+    justify-content: center !important;
+  }
+
+  .text-width-two {
+    margin-top: 65px;
+    margin-bottom: 39px;
+    background: url("../img/Rectangle34-custom.svg") !important;
+    background-repeat: no-repeat !important;
+    margin-right: 4rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .cartas-mobile-section {
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important;
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    margin-top: 50px !important;
+  }
+
+  .abs-vertical {
+    display: none;
+  }
+
+  .px-left {
+    text-align: center !important;
+    padding-left: 0rem !important;
+  }
+
+  .no-pt {
+    padding-top: 0rem !important;
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+
+  .slider-in {
+    margin-left: 0rem !important;
+  }
+
+  .line-y3 {
+    display: none;
+  }
+
+  .padding-moon {
+    padding-right: 0rem !important;
+  }
+
+  .z-ind {
+    margin: 0rem 1rem !important;
+  }
+
+  .head-section {
+    background-size: cover !important;
+  }
+
+  .sombra2 {
+    height: 100% !important;
+  }
+
+  .logo {
+    width: 100% !important;
+  }
+  .menu-desktop {
+    display: none !important;
+  }
+  .container-lg.nav-parent {
+    justify-content: none !important;
+  }
+  .hero-logo-he {
+    font-size: 40px !important;
+  }
+  .px-2 {
+    padding: 0% !important;
+  }
+
+  .parent.card4 {
+    padding: 55px !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .grid2 {
+    grid-template-columns: 100% !important;
+  }
+
+  .no-pb {
+    padding-top: 0 !important;
+  }
+
+  .mobile2 {
+    padding-top: 0.5rem;
+  }
+
+  .mobile {
+    display: none !important;
+  }
+
+  .sombra6 {
+    height: min-content !important;
+  }
+
+  .h-min {
+    height: fit-content !important;
+    padding-bottom: 6rem !important;
+  }
+
+  .modelo-alto {
+    margin-top: 3rem !important;
+    width: 320px !important;
+    height: auto !important;
+  }
+
+  .left2 {
+    margin-left: 5%;
+  }
+
+  .parrafo {
+    font-size: 14px !important;
+  }
+
+  .spacer-medium2 {
+    height: 5vh;
+    width: 100vw;
+    background-color: aqua;
+  }
+
+  .spacer-small2 {
+    height: 3rem !important;
+  }
+
+  .footer {
+    height: 100% !important;
+    background-size: cover !important;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer-column {
+    align-items: center !important;
+  }
+
+  .circle-1,
+  .circle-2,
+  .circle-3,
+  .line1,
+  .line2,
+  .line3,
+  .line4,
+  .line5,
+  .line-8,
+  .line-6,
+  .line-7,
+  .m-negative,
+  .line-y2 {
+    display: none;
+  }
+
+  .fle {
+    display: flex !important;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .fle-img {
+    width: 250px !important;
+  }
+
+  .footer-parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dasdas {
+    flex-direction: column !important;
+  }
+  .parent {
+    padding-top: 2rem !important;
+  }
+
+  .footer-nojoda {
+    justify-content: center;
+  }
+
+  .social-footer {
+    justify-content: center;
+  }
+
+  .container-lg.none {
+    width: 100% !important;
+  }
+  .qlqwa {
+    width: 100% !important;
+    margin-bottom: 3rem;
+    background-size: cover !important;
+  }
+  .line-11,
+  .line-14,
+  .line-12,
+  .line-13,
+  .line-15,
+  .line-19,
+  .line-20,
+  .line-21,
+  .line-22,
+  .line-23 {
+    display: none;
+  }
+
+  .my-3 {
+    margin-top: 0rem !important;
+  }
+
+  .parent.card {
+    padding: 20px !important;
+  }
+
+  .circle-gradient-vision-page,
+  .circle-gradient-vision-page1 {
+    display: none;
+  }
+
+  .heading-lg {
+    font-size: 35px !important;
+  }
+  .grid-parent {
+    flex-direction: column !important;
+  }
+
+  .render-float1,
+  .render-float,
+  .render-float2,
+  .render-float3 {
+    display: none !important;
+  }
+
+  .grid {
+    grid-template-columns: 100% !important;
+  }
+
+  .marico {
+    flex-direction: column !important;
+  }
+
+  body {
+    overflow: visible;
+  }
+
+  .container-lg {
+    width: 90% !important;
+  }
+
+  .grid-comunity {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .apply-section {
+    flex-direction: column !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-items: center !important;
+  }
+
+  .rectangle-40 {
+    padding-top: 0.5rem !important;
+    height: 95% !important;
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .details-card-streamer h1,
+  p {
+    margin-bottom: 0.4rem !important;
+  }
+
+  .rows {
+    flex-direction: row !important;
+  }
+
+  .rwd-table th,
+  .rwd-table td {
+    margin-top: 0.3rem !important;
+    margin-left: 0.3rem !important;
+  }
+
+  .img-profile {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .title-threads {
+    text-align: center !important;
+  }
+
+  .popular-threads {
+    flex-direction: column !important;
+  }
+
+  .btn-threads {
+    width: 180px !important;
+  }
+
+  .details-card-streamer {
+    text-align: center !important;
+  }
+
+  .rows2 {
+    flex-direction: column !important;
+  }
+
+  .last-flex {
+    display: none !important;
+  }
+
+  .Genre p {
+    font-size: 13px !important;
+  }
+
+  tbody {
+    display: grid !important;
+  }
+
+  tr {
+    display: grid !important;
+    grid-template-columns: 10% 70% 20% !important;
+  }
+
+  .rwd-table td:before {
+    display: none !important;
+  }
+
+  .rwd-table th {
+    display: block !important;
+  }
+
+  .top-2 {
+    margin-top: 2rem !important;
+  }
+
+  .indenet {
+    padding: 0rem 1.5rem !important;
+  }
+
+  .gradiente-circular-community4 {
+    top: 0 !important;
+  }
+
+  .card-img-streamer {
+    margin-top: 1rem !important;
+  }
+
+  .card-streamer {
+    width: fit-content !important;
+    height: fit-content !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0.8rem !important;
+    margin: 0rem 0.5rem !important;
+    background-image: none !important;
+  }
+
+  .last-flex2 {
+    display: none !important;
+  }
+
+  .flex-center {
+    min-height: 3rem !important;
+    align-items: end !important;
+  }
+
+  .flex5-p {
+    font-size: 12px !important;
+    padding: 0rem 0.3rem !important;
+  }
+
+  .wincards {
+    height: 370px !important;
+    width: 330px !important;
+  }
+
+  .bg-nav-mt {
+    display: none !important;
+  }
+
+  .scroll-down {
+    bottom: 3.5rem !important;
+  }
+
+  .back-comu {
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .img-profile2,
+  .img-profile3 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .rectangle-view {
+    width: 95% !important;
+    margin-top: 56% !important;
+    display: none !important;
+  }
+
+  .rectangle-view p {
+    font-size: 0.8rem !important;
+  }
+
+  .img-profile4 {
+    width: 39px !important;
+    height: 39px !important;
+  }
+
+  .wincards h1 {
+    font-size: 20px !important;
+  }
+
+  .rwd-table {
+    min-width: 270px !important;
+  }
+
+  .text-size {
+    margin-left: 0.01rem !important;
+  }
+
+  .imagen-div2,
+  .imagen-div {
+    grid-template-columns: 40% 20% 20% 20% !important;
+  }
+
+  .flex2 {
+  }
+
+  .comu-circle {
+    display: none !important;
+  }
+
+  .section-comunity {
+    display: none !important;
+    height: fit-content;
+    flex-direction: column !important;
+    column-gap: 0% !important;
+    padding: 0rem 0.8rem !important;
+  }
+
+  .h-min {
+    height: fit-content !important;
+  }
+
+  .flex5-p2 {
+    font-size: 10px !important;
+    padding: 0rem 0.3rem !important;
+  }
+
+  .card-slider-games {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center !important;
+  }
+
+  .mb-my {
+    margin-top: 2rem !important;
+  }
+
+  .p2 {
+    padding: 0rem 0.8rem;
+  }
+
+  .merchandising-filters {
+    flex-direction: column !important;
+  }
+
+  body {
+    overflow: hidden !important;
+  }
+
+  .abs {
+    width: 60px !important;
+    bottom: 10% !important;
+    display: none !important;
+    right: 36.5% !important;
+  }
+
+  .card-games {
+    width: 279px !important;
+  }
+
+  .class-mostgames {
+    width: 90% !important;
+  }
+
+  .grid22 {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .discount {
+    right: 3rem !important;
+    top: 3rem !important;
+  }
+
+  .card-slider-games svg {
+    display: none;
+  }
+
+  .gallery-game img:last-child {
+    display: none !important;
+  }
+
+  .new-menu-bars {
+    display: flex !important;
+  }
+
+  .model-2-loader {
+    display: none;
+  }
+
+  .container-lines-shapes-scroll {
+    scale: 1.1;
+  }
+  .sombra {
+    height: 101vh;
+  }
+
+  .container-lines-shapes-scroll > svg {
+    scale: 1.6;
+  }
+  .sombra {
+    width: 100vw;
+    height: 101vh;
+  }
+  .container-lines-shapes-scroll {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    overflow: hidden;
+    height: 1000px;
+  }
+  .sombra5 {
+    height: 100%;
+  }
+  .heading-medium2 > span {
+    font-size: 43px !important;
+  }
+  #moonflip-text > span {
+    font-size: 55px !important;
+    margin-top: 50px !important;
+  }
+
+  .visitOur {
+    display: flex;
+    gap: 2px !important;
+  }
+  .visitOur > span {
+    font-size: 26px !important;
+  }
+  .text-Store {
+    font-size: 48px !important;
+  }
+  #title-commnity-mobile > span {
+    font-size: 48px !important;
+  }
+
+  .btn-Discord {
+    width: 70% !important;
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+    z-index: 1008;
+  }
+  .container-mobile {
+    margin: 0 !important;
+  }
+  .mt-mobile {
+    margin-top: 2rem !important;
+  }
+  .mb-mobile {
+    margin-top: 2rem !important;
+  }
+  .container-redes {
+    grid-row-start: 1 !important;
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .section-mobile {
+    background-color: black !important;
+    background-image: none;
+  }
+  .text-steamers-mobile > span {
+    width: 100% !important;
+    font-size: 39px !important;
+  }
+  .img-visions {
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .text-visions-mobile > span {
+    font-size: 26px !important;
+  }
+  .text-visions-mobile {
+    margin: 0 !important;
+  }
+  .textLg-vision-mobile > span {
+    font-size: 48px !important;
+  }
+  .ct-card-mobile {
+    margin-left: 10% !important;
+  }
+  .ct-mob-ast {
+    margin-left: 5vw;
+    width: 90vw !important;
+  }
+  .qlqwa {
+    background: url(../img/bgDowloand.png) no-repeat;
+    background-size: cover !important;
+    background-size: 95% 100% !important;
+    margin-left: 5%;
+  }
+  .ct-mobile-dowloand {
+    width: 75% !important;
+  }
+  .text-dowloand {
+    font-size: 14px !important;
+  }
+  .text-amazingGames > span {
+    font-size: 36px !important;
+    margin-left: -180px;
+  }
+  #container-sliderHome {
+    display: none;
+  }
+  .section-streamers {
+    background-size: cover !important;
+    height: 50vh !important;
+    margin-bottom: 20vh;
+  }
+  #vision-OurContainer {
+    margin-top: 5vh;
+  }
+  #img-visions-all {
+    width: 80vw;
+  }
+  #astronauta-a {
+    grid-row-start: 1;
+    height: 50vh;
+    background-size: cover !important;
+  }
+  #head-section-vision {
+    background-image: url("../img/astronauta-mb.png") !important;
+    background-position: 100% 10%;
+    background-size: 100% 31% !important;
+  }
+  .gradiente-circular-vision2 {
+    top: 0 !important;
+    left: 0 !important;
+    height: 200px !important;
+    filter: blur(200px);
+  }
+  .gradiente-circular-vision {
+    height: 0px !important;
+  }
+  .wherego-mb {
+    margin-top: -15% !important;
+  }
+  .pt-mb {
+    padding-top: 50px;
+  }
+
+  .container-joinDiscord {
+    margin-bottom: 0px !important;
+  }
+}
+
+/*Media queries para trabajar Tablets como las Surfaces*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .model-2-loader {
+    display: none;
+  }
+
+  .container-lines-shapes-scroll {
+    scale: 1.5;
+  }
+  .sombra {
+    height: 101vh;
+  }
+  .sombra {
+    width: 100vw;
+    height: 101vh;
+  }
   .container-lines-shapes-scroll {
     position: absolute;
     top: -10%;
@@ -58,6 +1274,9 @@
   .mt-mobile {
     margin-top: 2rem !important;
   }
+  .mb-mobile {
+    margin-top: 2rem !important;
+  }
   .container-redes {
     grid-row-start: 1 !important;
     margin-left: 5vw;
@@ -103,7 +1322,271 @@
   .text-dowloand {
     font-size: 14px !important;
   }
-  .text-amazingGames > span{
+  .text-amazingGames > span {
     font-size: 36px !important;
+  }
+  #container-sliderHome {
+    display: none;
+  }
+  .section-streamers {
+    background-size: cover !important;
+    height: 50vh !important;
+    margin-bottom: 20vh;
+  }
+  #vision-OurContainer {
+    margin-top: 5vh;
+  }
+  #img-visions-all {
+    width: 80vw;
+  }
+  #astronauta-a {
+    grid-row-start: 1;
+    height: 50vh;
+    background-size: cover !important;
+  }
+  #head-section-vision {
+    background-image: url("../img/astronauta-mb.png") !important;
+    background-position: 100% 10%;
+    background-size: 100% 31% !important;
+  }
+  .gradiente-circular-vision2 {
+    top: 0 !important;
+    left: 0 !important;
+    height: 200px !important;
+    filter: blur(200px);
+  }
+  .gradiente-circular-vision {
+    height: 0px !important;
+  }
+  .wherego-mb {
+    margin-top: -15% !important;
+  }
+  .pt-mb {
+    padding-top: 50px;
+  }
+
+  .container-joinDiscord {
+    margin-bottom: 0px !important;
+  }
+}
+
+/*Media queries para trabajar en pantallas con viejas resoluciones*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .model-2-loader {
+    display: none;
+  }
+  .hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
+  .des-scroll-down > span {
+    font-size: 23px !important;
+  }
+  .sombra {
+    height: 101vh;
+  }
+  .text-amazingGames {
+    text-align: left;
+    margin-left: 4%;
+  }
+  .content-adventurer-are {
+    margin-top: 20px;
+  }
+  #title-commnity > span {
+    font-size: 80px !important;
+  }
+  #title-commnity {
+    bottom: -15px !important;
+  }
+  .container-lines-shapes-scroll {
+    top: -28% !important;
+  }
+  .container-joinDiscord {
+    justify-content: center !important;
+  }
+  .ml-laptop {
+    margin-left: 25% !important;
+  }
+  .text-steamers-mobile > span {
+    font-size: 60px !important;
+  }
+  .img-visions {
+    width: 80% !important;
+  }
+  .pt-mb {
+    padding-top: 50px;
+  }
+  .wherego-mb {
+    margin-top: 77px !important;
+  }
+}
+
+/*Media queries para trabajar Pantallas de escritorio tablet con la resolucion promedio de HD*/
+@media only screen and (min-width: 1282px) and (max-width: 1439px) {
+  .model-2-loader {
+    display: none;
+  }
+  .hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
+  .des-scroll-down > span {
+    font-size: 23px !important;
+  }
+  .sombra {
+    height: 101vh;
+  }
+  .text-amazingGames {
+    text-align: left;
+    margin-left: 4%;
+  }
+  .content-adventurer-are {
+    margin-top: 20px;
+  }
+  #title-commnity > span {
+    font-size: 80px !important;
+  }
+  #title-commnity {
+    bottom: -15px !important;
+  }
+  .container-lines-shapes-scroll {
+    top: -28% !important;
+  }
+  .container-joinDiscord {
+    justify-content: center !important;
+  }
+  .ml-laptop {
+    margin-left: 25% !important;
+  }
+  .text-steamers-mobile > span {
+    font-size: 60px !important;
+  }
+  .img-visions {
+    width: 80% !important;
+  }
+  .pt-mb {
+    padding-top: 50px;
+  }
+  .wherego-mb {
+    margin-top: 77px !important;
+  }
+}
+
+/*Media queries para trabajar Laptops L size*/
+@media only screen and (min-width: 1440px){
+  .model-2-loader {
+    display: none;
+  }
+  .hero-logo-he {
+    width: 90% !important;
+  }
+  .hero-logo-he > svg {
+    width: 100% !important;
+  }
+  .des-scroll-down > span {
+    font-size: 23px !important;
+  }
+  .sombra {
+    height: 101vh;
+  }
+  .text-amazingGames {
+    text-align: left;
+    margin-left: 4%;
+  }
+  .content-adventurer-are {
+    margin-top: 20px;
+  }
+  #title-commnity > span {
+    font-size: 80px !important;
+  }
+  #title-commnity {
+    bottom: -15px !important;
+  }
+  .container-lines-shapes-scroll {
+    top: -28% !important;
+  }
+  .container-joinDiscord {
+    justify-content: center !important;
+  }
+  .ml-laptop {
+    margin-left: 25% !important;
+  }
+  .text-steamers-mobile > span {
+    font-size: 60px !important;
+  }
+  .img-visions {
+    width: 80% !important;
+  }
+  .pt-mb {
+    padding-top: 50px;
+  }
+  .wherego-mb {
+    margin-top: 77px !important;
+  }
+}
+
+/*Media queries para trabajar en Pantallas FULLHD y superior*/
+@media screen and (min-width: 1922px) {
+  .section-ourAmazingbg {
+    background-size: cover !important;
+  }
+  .text-amazingGames {
+    margin-left: 2.5% !important;
+  }
+  .cmd-adventure {
+    padding: 10px;
+  }
+  .ml-4k {
+    margin-left: -10%;
+  }
+  .container-lines-shapes-scroll {
+    top: 0.8% !important;
+  }
+  .text-steamers-mobile > span {
+    font-size: 100px !important;
+  }
+  .text-steamers-mobile{
+    margin-top: 70px !important;
+  }
+  #title-commnity > span {
+    font-size: 100px !important;
+  }
+  #title-commnity {
+    bottom: -15px !important;
+  }
+}
+
+/*Media queries para trabajar en Pantallas 4K y superior*/
+@media screen and (min-width: 2560px) {
+  .section-ourAmazingbg {
+    background-size: cover !important;
+  }
+  .text-amazingGames {
+    margin-left: 2.5% !important;
+  }
+  .cmd-adventure {
+    padding: 10px;
+  }
+  .ml-4k {
+    margin-left: -10%;
+  }
+  .container-lines-shapes-scroll {
+    top: 0.8% !important;
+  }
+  .text-steamers-mobile > span {
+    font-size: 100px !important;
+  }
+  .text-steamers-mobile{
+    margin-top: 70px !important;
+  }
+  #title-commnity > span {
+    font-size: 100px !important;
+  }
+  #title-commnity {
+    bottom: -15px !important;
   }
 }
