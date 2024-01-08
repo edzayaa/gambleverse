@@ -1,8 +1,250 @@
 .sombra1Games {
-    width: 100vw;
-    background: linear-gradient(180deg, rgba(53, 32, 98, 0.00) 26.04%, #0C0C0C 95.83%);
-    height: 102vh;
-    top: 0%;
-    z-index: 1001;
-    position: absolute;
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    rgba(53, 32, 98, 0) 26.04%,
+    #0c0c0c 95.83%
+  );
+  height: 102vh;
+  top: 0%;
+  z-index: 1001;
+  position: absolute;
+}
+
+.bg-games-one {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../img/bg-games-one.jpeg"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: color-dodge;
+  transform: scaleX(-1);
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+}
+
+.world-bg-one {
+  position: absolute;
+  background: url("../../img/wordl-bg-game-one.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 848px;
+  right: 0;
+  bottom: 0;
+}
+
+.gradient-circular-moonflip1 {
+  border-radius: 487px;
+  background: var(
+    --gradient4,
+    linear-gradient(
+      90deg,
+      rgba(137, 95, 227, 0.81) -3.1%,
+      rgba(117, 232, 252, 0.69) 100.31%
+    )
+  );
+  filter: blur(300px);
+  width: 476.744px;
+  height: 487px;
+  position: absolute;
+  top: 25%;
+  flex-shrink: 0;
+}
+
+.gradient-circular-moonflip2 {
+  border-radius: 572px;
+  background: rgba(137, 95, 227, 0.48);
+  filter: blur(300px);
+  flex-shrink: 0;
+  width: 558.806px;
+  height: 572px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.bg-all {
+  background: #0c0c0c;
+}
+
+.bg-games-two {
+  background: url("../../img/bg-games-two.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: color-dodge;
+  width: 1515px;
+  height: 987px;
+  top: 0;
+  flex-shrink: 0;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.world-bg-two {
+  position: absolute;
+  background: url("../../img/bg-world-two.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 713.573px;
+  height: 713.573px;
+  flex-shrink: 0;
+  background-blend-mode: screen;
+  left: 0;
+}
+
+.gradient-circular-element1 {
+  border-radius: 487px;
+  background: linear-gradient(218deg, #485688 15.9%, #221921 83.55%);
+  filter: blur(300px);
+  width: 476.744px;
+  height: 487px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 25%;
+  z-index: 2;
+  left: 0;
+}
+
+.gradient-circular-element2 {
+  border-radius: 572px;
+  background: #c9984c;
+  filter: blur(300px);
+  width: 558.806px;
+  height: 572px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  z-index: 2;
+}
+
+.bg-games-three {
+  background: url("../../img/bg-games-three.png");
+  width: 1924px;
+  height: 90vh;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  opacity: 0.6;
+}
+
+.bg-world-3 {
+  background: url("/img/bg-world-three.png");
+  width: 977px;
+  height: 977px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: -10%;
+  background-blend-mode: screen;
+}
+
+.gradient-circular-nebula1 {
+  border-radius: 487px;
+  background: #ff9dda;
+  filter: blur(300px);
+  filter: blur(300px);
+  width: 476.744px;
+  height: 487px;
+  position: absolute;
+  top: 25%;
+  flex-shrink: 0;
+}
+
+.gradient-circular-nebula2 {
+  border-radius: 572px;
+  background: #927499;
+  filter: blur(300px);
+  flex-shrink: 0;
+  width: 558.806px;
+  height: 572px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.bg-games-four {
+  background: url("../../img/bg-games-four.png");
+  width: 1515px;
+  height: 987px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  opacity: 0.6;
+}
+.gradient-circular-poker1 {
+  border-radius: 487px;
+  background: linear-gradient(218deg, #485688 15.9%, #221921 83.55%);
+  filter: blur(300px);
+  width: 476.744px;
+  height: 487px;
+  position: absolute;
+  top: 25%;
+}
+.gradient-circular-poker2 {
+  border-radius: 572px;
+  background: #c94c4c;
+  filter: blur(300px);
+  width: 558.806px;
+  height: 572px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.bg-games-five {
+  background: url("../../img/bg-games-five.png");
+  width: 100%;
+  height: 100vh;
+  flex-shrink: 0;
+  background-size: 100% 65%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  opacity: 0.6;
+}
+.gradient-circular-starcraft1 {
+  border-radius: 487px;
+  background: #032E62;
+  filter: blur(300px);
+  width: 476.744px;
+  height: 487px;
+  position: absolute;
+  top: 25%;
+}
+.gradient-circular-starcraft2 {
+  border-radius: 564px;
+  background: rgba(131, 4, 245, 0.53);
+  filter: blur(300px);
+  width: 558.806px;
+  height: 572px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.bg-dragon-starcraft {
+  background: url("/img/bg-dragon-starcraft.png");
+  width: 967px;
+  height: 827px;
+  flex-shrink: 0;
+  background-size: 967px 827px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: -5%;
+  background-blend-mode: screen;
 }

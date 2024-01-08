@@ -1830,10 +1830,6 @@ textarea.w-input,textarea.w-select{
   display:grid
 }
 
-.modelo-alto{
-  margin-top: -7rem;
-}
-
 .grid{
   grid-template-columns: 45% 55%;
   display:grid;
@@ -3307,32 +3303,7 @@ position: relative;
   filter: blur(75px);
 }
 
-.circle-gradient-vision-page{
 
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  z-index: 1004;
-  right: -10%;
-  bottom: -10%;
-  border-radius: 1159px;
-  background: rgba(137, 95, 227, 0.10);
-  
-  filter: blur(100px);
-}
-
-.circle-gradient-vision-page2{
-
-  position: absolute;
-  width: 100%;
-  height: 400px;
-  z-index: 1005;
-  left: -20%;
-  bottom:   20%;
-  border-radius: 1159px;
-  background: rgba(117, 232, 252, 0.10);
-  filter: blur(100px);
-}
 
 .gradiente-circular-vision{
   position: absolute;

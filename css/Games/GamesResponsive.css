@@ -269,7 +269,7 @@
 }
 
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
-@media only screen and (min-width: 1442px) and (max-width: 1599px) {
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
   .container-md {
     margin: 0 !important;
   }
@@ -350,11 +350,11 @@
 }
 
 @media screen and (min-width: 1602px) and (max-width: 1919px) {
-  .head-section.full {
+  /* .head-section.full {
     height: 100% !important;
     justify-content: center !important;
     align-items: center !important;
-  }
+  } */
   .bggame1 {
     height: 100% !important;  
     background-size: contain;
@@ -404,5 +404,36 @@
   }
   .mobil-adap {
     padding: 5rem 0px !important;
+  }
+  .container-md {
+    margin: 0 !important;
+  }
+  .flex-G {
+    margin: 0 !important;
+    padding: 1rem 0 !important;
+  }
+  .flex-G2 {
+    margin: 0 !important;
+    padding: 1rem 0 !important;
+  }
+  .gradiente-circular-gamedown {
+    width: 100% !important;
+    right: 0 !important;
+  }
+  .head-section.full {
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0px 0px 0px !important;
+  }
+  .sombra2 {
+    height: 100% !important;
+  }
+  .container-title {
+    margin: 0 !important;
+    padding: 5rem 0 0 0 !important;
+  }
+  .footer {
+    margin-top: 5rem;
   }
 }

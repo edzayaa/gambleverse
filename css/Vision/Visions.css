@@ -1,3 +1,15 @@
+.bg-all {
+  background: #0c0c0c;
+}
+
+.bg-hero-vision {
+  background: url("/img/bg-hero-vision.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .img-vision {
   object-fit: contain;
 }
@@ -63,5 +75,51 @@
 }
 
 .modelImg-vision {
-    display: none;
-  }
+  display: none;
+}
+
+.bg-bt-vision {
+  background: url("/img/bg-bt-vision.png");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  top: 10%;
+}
+
+.bg-world-vision {
+  background: url("/img/bg-world-vision.png");
+  width: 755px;
+  height: 755px;
+  flex-shrink: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 755px 755px;
+  left: 0;
+}
+
+.circle-gradient-vision-page {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: 1004;
+  right: -10%;
+  bottom: -10%;
+  border-radius: 1159px;
+  background: rgba(137, 95, 227, 0.1);
+
+  filter: blur(100px);
+}
+
+.circle-gradient-vision-page2 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: 1005;
+  left: -20%;
+  bottom: 20%;
+  border-radius: 1159px;
+  background: rgba(117, 232, 252, 0.1);
+  filter: blur(100px);
+}

@@ -15,6 +15,10 @@
   z-index: -1;
 }
 
+.modelo-alto{
+  margin-top: -40%;
+}
+
 .modelVision {
   z-index: 1;
   transform: translate(-21vw, -28vh);

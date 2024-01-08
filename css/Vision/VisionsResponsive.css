@@ -16,9 +16,24 @@
   .modelImg-vision {
     display: block;
     position: absolute;
-    width: 100%;
+    width: 80%;
     top: -18%;
     right: -6%;
+  }
+  .bg-world-vision {
+    width: 478.311px;
+    height: 478.311px;
+    flex-shrink: 0;
+    background-size: contain;
+  }
+  .frontier {
+    margin: 400px 0px;
+  }
+  .bg-bt-vision {
+    width: 430px;
+    height: 910px;
+    flex-shrink: 0;
+    background-size: 430px 910px;
   }
   .parent.card {
     padding: 45px !important;
@@ -162,43 +177,57 @@
 
 /*Media queries para trabajar en Pantallas de su mayoria laptops*/
 @media only screen and (min-width: 1442px) and (max-width: 1599px) {
-    .circle-gradient-vision-page {
-        right: 0% !important;
-      }
-      .modelVision {
-        width: 90% !important;
-        height: 100% !important;
-      }
-      .fsInf {
-        font-size: 64px !important;
-      }
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .modelVision {
+    width: 90% !important;
+    height: 100% !important;
+  }
+  .fsInf {
+    font-size: 64px !important;
+  }
 }
 
 /*Media queries para trabajar en pantallas con viejas resoluciones*/
 @media screen and (min-width: 1024px) and (max-width: 1425px) {
-    .circle-gradient-vision-page {
-        right: 0% !important;
-      }
-      .modelVision {
-        width: 90% !important;
-        height: 100% !important;
-      }
-      .fsInf {
-        font-size: 64px !important;
-      }
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .modelVision {
+    width: 90% !important;
+    height: 100% !important;
+  }
+  .fsInf {
+    font-size: 64px !important;
+  }
+}
+
+/*Media queries para trabajar en Pantallas de su mayoria laptops*/
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .modelVision {
+    width: 90% !important;
+    height: 100% !important;
+  }
+  .fsInf {
+    font-size: 64px !important;
+  }
 }
 
 @media screen and (min-width: 1602px) and (max-width: 1919px) {
-    .circle-gradient-vision-page {
-        right: 0% !important;
-      }
-      .modelVision {
-        width: 90% !important;
-        height: 100% !important;
-      }
-      .fsInf {
-        font-size: 64px !important;
-      }
+  .circle-gradient-vision-page {
+    right: 0% !important;
+  }
+  .modelVision {
+    width: 90% !important;
+    height: 100% !important;
+  }
+  .fsInf {
+    font-size: 64px !important;
+  }
 }
 /*Media queries para trabajar en Pantallas FULLHD y superior*/
 @media screen and (min-width: 1922px) {
